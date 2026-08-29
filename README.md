@@ -48,6 +48,19 @@ instructor/    Instructor's manual (not part of the open release)
 
 Each chapter follows the same structure: **Learning Objectives → Opening Scenario → Core Concepts → CareLink in Action → Common Pitfalls → Guided Lab → Summary & Key Terms → Exercises + Running Project Task**.
 
+## Adopting This Book
+
+Chapters are released weekly while being taught — you are welcome to pilot them in your own course (non-commercial, CC BY-NC-SA). If you do, **please register your adoption**: a public record of real classroom use is the strongest evidence an open textbook can have, and it directly supports the planned print edition.
+
+👉 [Register / 登记](https://github.com/klausren/oose-textbook/issues/new?template=textbook-adoption.md) — a one-minute issue with a ready-made template.
+
+**Known adoptions**
+
+| Institution | Course | Term | Chapters Used |
+|---|---|---|---|
+| Dalian Neusoft University of Information | Software Engineering I (bilingual, international class) | 2026–2027–1 | Ch. 1–3 (piloted alongside the course) |
+| *Yours?* | | | |
+
 ## License & Citation
 
 Open edition released under **CC BY-NC-SA 4.0** — free to read, use in courses, and remix non-commercially with attribution and share-alike.
