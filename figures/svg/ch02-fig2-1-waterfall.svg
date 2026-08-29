@@ -3,37 +3,49 @@
     <marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/>
     </marker>
+    <marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9CA3AF"/>
+    </marker>
   </defs>
   <rect x="0" y="0" width="760" height="430" fill="#FFFFFF"/>
 
-  <!-- cascade boxes -->
+  <!-- vertically stacked phase boxes -->
   <g>
-    <rect x="42" y="28" width="180" height="58" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
-    <text x="132" y="52" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Communication</text>
-    <text x="132" y="72" text-anchor="middle" font-size="13" fill="#6B7280">requirements</text>
+    <rect x="340" y="20" width="220" height="54" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="450" y="43" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Communication</text>
+    <text x="450" y="63" text-anchor="middle" font-size="13" fill="#6B7280">requirements</text>
 
-    <rect x="174" y="106" width="180" height="58" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
-    <text x="264" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Planning</text>
-    <text x="264" y="150" text-anchor="middle" font-size="13" fill="#6B7280">project plan</text>
+    <rect x="340" y="104" width="220" height="54" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="450" y="127" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Planning</text>
+    <text x="450" y="147" text-anchor="middle" font-size="13" fill="#6B7280">project plan</text>
 
-    <rect x="306" y="184" width="180" height="58" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
-    <text x="396" y="208" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Modeling</text>
-    <text x="396" y="228" text-anchor="middle" font-size="13" fill="#6B7280">analysis &amp; design</text>
+    <rect x="340" y="188" width="220" height="54" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="450" y="211" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Modeling</text>
+    <text x="450" y="231" text-anchor="middle" font-size="13" fill="#6B7280">analysis &amp; design</text>
 
-    <rect x="438" y="262" width="180" height="58" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
-    <text x="528" y="286" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Construction</text>
-    <text x="528" y="306" text-anchor="middle" font-size="13" fill="#6B7280">code &amp; test</text>
+    <rect x="340" y="272" width="220" height="54" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="450" y="295" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Construction</text>
+    <text x="450" y="315" text-anchor="middle" font-size="13" fill="#6B7280">code &amp; test</text>
 
-    <rect x="570" y="340" width="180" height="58" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
-    <text x="660" y="364" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Deployment</text>
-    <text x="660" y="384" text-anchor="middle" font-size="13" fill="#6B7280">delivery &amp; support</text>
+    <rect x="340" y="356" width="220" height="54" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="450" y="379" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Deployment</text>
+    <text x="450" y="399" text-anchor="middle" font-size="13" fill="#6B7280">delivery &amp; support</text>
   </g>
 
-  <!-- arrows on top of boxes so arrowheads remain visible -->
+  <!-- solid downward flow arrows (drawn after boxes, on top) -->
   <g stroke="#2563EB" stroke-width="2.5" fill="none">
-    <path d="M 222,57 H 266 V 106" marker-end="url(#arrB)"/>
-    <path d="M 354,135 H 398 V 184" marker-end="url(#arrB)"/>
-    <path d="M 486,213 H 530 V 262" marker-end="url(#arrB)"/>
-    <path d="M 618,291 H 662 V 340" marker-end="url(#arrB)"/>
+    <path d="M 450,74 V 104" marker-end="url(#arrB)"/>
+    <path d="M 450,158 V 188" marker-end="url(#arrB)"/>
+    <path d="M 450,242 V 272" marker-end="url(#arrB)"/>
+    <path d="M 450,326 V 356" marker-end="url(#arrB)"/>
   </g>
+
+  <!-- dashed feedback loops on the left, pointing back up into the previous phase -->
+  <g stroke="#9CA3AF" stroke-width="2" fill="none" stroke-dasharray="5,4">
+    <path d="M 340,131 H 310 V 47 H 340" marker-end="url(#arrG)"/>
+    <path d="M 340,215 H 310 V 131 H 340" marker-end="url(#arrG)"/>
+    <path d="M 340,299 H 310 V 215 H 340" marker-end="url(#arrG)"/>
+    <path d="M 340,383 H 310 V 299 H 340" marker-end="url(#arrG)"/>
+  </g>
+  <text x="284" y="228" text-anchor="middle" font-size="13" font-style="italic" fill="#6B7280" transform="rotate(-90 284 228)">feedback</text>
 </svg>
