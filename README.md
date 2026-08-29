@@ -7,7 +7,10 @@
 
 An open, project-driven English textbook on object-oriented software engineering, spanning a complete software lifecycle — from requirements elicitation to delivery and evolution — through **one original running case: CareLink**, a community elder-care platform.
 
-**Designed for a 64-hour, two-semester course** (Software Engineering I + II), with companion slide decks released weekly at [software-engineering-course](https://github.com/klausren/software-engineering-course).
+**Designed for a 64-hour, two-semester course** (Software Engineering I + II).
+
+> 🎓 **Companion course 配套课程**：This book is written alongside a bilingual open course; weekly lecture slides (W01–W16, SafeHome running case) are released in parallel at **[klausren/software-engineering-course](https://github.com/klausren/software-engineering-course)**.
+> 本教材与双语开源课程同步编写，每周课件（W01–W16，SafeHome 案例）在课程仓库同步发布。
 
 ## Why This Book
 
