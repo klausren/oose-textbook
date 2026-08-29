@@ -11,6 +11,8 @@ An open, project-driven English textbook on object-oriented software engineering
 
 > 🎓 **Companion course 配套课程**：This book is written alongside a bilingual open course; weekly lecture slides (W01–W16, SafeHome running case) are released in parallel at **[klausren/software-engineering-course](https://github.com/klausren/software-engineering-course)**.
 > 本教材与双语开源课程同步编写，每周课件（W01–W16，SafeHome 案例）在课程仓库同步发布。
+>
+> *By design 教学设计*：this book teaches with the original **CareLink** case, while the course's student teams build **SafeHome** — readers learn each technique from one case and apply it to another, which prevents copy-paste and trains real modeling transfer. 教材用原创案例 CareLink 讲解，课程学生团队做 SafeHome 项目——学一个案例、练另一个案例，防止照抄，训练真正的迁移能力。
 
 ## Why This Book
 
