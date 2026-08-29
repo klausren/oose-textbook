@@ -2,7 +2,7 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Language](https://img.shields.io/badge/language-English-blue)]()
-[![Chapters](https://img.shields.io/badge/chapters%20drafted-1%2F20-orange)]()
+[![Chapters](https://img.shields.io/badge/chapters%20drafted-3%2F20-orange)]()
 [![Status](https://img.shields.io/badge/status-writing%20in%20progress-yellow)]()
 
 An open, project-driven English textbook on object-oriented software engineering, spanning a complete software lifecycle — from requirements elicitation to delivery and evolution — through **one original running case: CareLink**, a community elder-care platform.
@@ -12,7 +12,7 @@ An open, project-driven English textbook on object-oriented software engineering
 ## Why This Book
 
 - **One case, full lifecycle.** CareLink is introduced in Chapter 1 and grows with every chapter — the same requirements, models, designs, tests, and plans you read about are the ones you build.
-- **Right-sized for teaching.** ~420 pages, 20 chapters, one chapter per teaching week — not an 800-page reference.
+- **Right-sized for teaching.** ~380 pages, 20 chapters, one chapter per teaching week — not an 800-page reference.
 - **Written for non-native readers.** Short sentences, consistent terminology, and a bilingual glossary of 150+ core terms.
 - **Classroom-proven.** Every chapter is written while the material is being taught, tested on real students, and revised from their feedback.
 
@@ -23,8 +23,8 @@ An open, project-driven English textbook on object-oriented software engineering
 | Ch | Title | Status |
 |---|---|---|
 | 1 | Software and Software Engineering | ✅ draft |
-| 2 | Software Process and Process Models | 🚧 planned |
-| 3 | Agile Development and Scrum | 🚧 planned |
+| 2 | Software Process Models | ✅ draft |
+| 3 | Agile Development and Scrum | ✅ draft |
 
 ### Part II — Requirements Engineering (Ch 4–10) · Part III — Design (Ch 11–14) · Part IV — Implementation and Quality (Ch 15–17) · Part V — Management and Evolution (Ch 18–20)
 

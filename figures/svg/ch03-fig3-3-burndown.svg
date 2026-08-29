@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Arial">
+  <defs>
+    <marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="360" fill="#FFFFFF"/>
+
+  <!-- gridlines -->
+  <g stroke="#E5E7EB" stroke-width="1.2">
+    <line x1="90" y1="60" x2="710" y2="60"/>
+    <line x1="90" y1="122.5" x2="710" y2="122.5"/>
+    <line x1="90" y1="185" x2="710" y2="185"/>
+    <line x1="90" y1="247.5" x2="710" y2="247.5"/>
+  </g>
+
+  <!-- axes -->
+  <g stroke="#1F2937" stroke-width="2.5" fill="none">
+    <line x1="90" y1="300" x2="90" y2="40" marker-end="url(#arrG)"/>
+    <line x1="90" y1="300" x2="725" y2="300" marker-end="url(#arrG)"/>
+  </g>
+
+  <!-- y tick labels: 40 -> 0 -->
+  <g font-size="13" fill="#6B7280" text-anchor="end">
+    <text x="80" y="65">40</text>
+    <text x="80" y="127.5">30</text>
+    <text x="80" y="190">20</text>
+    <text x="80" y="252.5">10</text>
+    <text x="80" y="305">0</text>
+  </g>
+  <!-- x tick labels: days 1..10 -->
+  <g font-size="13" fill="#6B7280" text-anchor="middle">
+    <text x="100" y="322">1</text><text x="167" y="322">2</text><text x="233" y="322">3</text><text x="300" y="322">4</text><text x="367" y="322">5</text>
+    <text x="433" y="322">6</text><text x="500" y="322">7</text><text x="567" y="322">8</text><text x="633" y="322">9</text><text x="700" y="322">10</text>
+  </g>
+
+  <!-- axis titles -->
+  <text x="405" y="348" text-anchor="middle" font-size="14" fill="#1F2937">sprint days</text>
+  <text x="36" y="175" text-anchor="middle" font-size="14" fill="#1F2937" transform="rotate(-90 36 175)">remaining work (story points)</text>
+
+  <!-- ideal line -->
+  <line x1="100" y1="60" x2="700" y2="300" stroke="#6B7280" stroke-width="2.5" stroke-dasharray="10 7"/>
+
+  <!-- actual line -->
+  <polyline points="100,60 167,90 233,120 300,120 367,120 433,155 500,193 567,240 633,275 700,300"
+            fill="none" stroke="#2563EB" stroke-width="3.5"/>
+  <!-- actual data points -->
+  <g fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5">
+    <circle cx="100" cy="60" r="5"/><circle cx="167" cy="90" r="5"/><circle cx="233" cy="120" r="5"/>
+    <circle cx="300" cy="120" r="5"/><circle cx="367" cy="120" r="5"/><circle cx="433" cy="155" r="5"/>
+    <circle cx="500" cy="193" r="5"/><circle cx="567" cy="240" r="5"/><circle cx="633" cy="275" r="5"/>
+    <circle cx="700" cy="300" r="5"/>
+  </g>
+
+  <!-- legend (top right, clear of curves) -->
+  <g font-size="14" fill="#1F2937">
+    <line x1="590" y1="65" x2="632" y2="65" stroke="#6B7280" stroke-width="2.5" stroke-dasharray="10 7"/>
+    <text x="640" y="70">ideal</text>
+    <line x1="590" y1="90" x2="632" y2="90" stroke="#2563EB" stroke-width="3.5"/>
+    <text x="640" y="95">actual</text>
+  </g>
+
+  <!-- flat-stretch annotation -->
+  <line x1="350" y1="112" x2="420" y2="76" stroke="#DC2626" stroke-width="1.5"/>
+  <g font-size="13" fill="#DC2626">
+    <text x="426" y="70">flat stretch &#8212;</text>
+    <text x="426" y="88">work stuck in &#8220;Doing&#8221;</text>
+  </g>
+</svg>

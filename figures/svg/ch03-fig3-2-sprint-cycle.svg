@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Arial">
+  <defs>
+    <marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="440" fill="#FFFFFF"/>
+
+  <!-- clockwise cycle arrows (long, box-edge to box-edge) -->
+  <g stroke="#2563EB" stroke-width="3" fill="none">
+    <path d="M 480,64 L 610,186" marker-end="url(#arrB)"/>
+    <path d="M 600,244 L 470,362" marker-end="url(#arrB)"/>
+    <path d="M 280,391 L 170,244" marker-end="url(#arrB)"/>
+    <path d="M 160,186 L 280,60" marker-end="url(#arrB)"/>
+  </g>
+
+  <!-- center circle: the sprint container -->
+  <circle cx="380" cy="215" r="56" fill="#FEF3C7" stroke="#D97706" stroke-width="3"/>
+  <text x="380" y="210" text-anchor="middle" font-size="17" font-weight="bold" fill="#1F2937">The Sprint</text>
+  <text x="380" y="230" text-anchor="middle" font-size="12.5" fill="#6B7280">1&#8211;4 week timebox</text>
+
+  <!-- four event boxes -->
+  <g>
+    <rect x="280" y="20" width="200" height="58" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="380" y="44" text-anchor="middle" font-size="17" font-weight="bold" fill="#1F2937">Sprint Planning</text>
+    <text x="380" y="64" text-anchor="middle" font-size="12" fill="#6B7280">why &#183; what &#183; how (&#8804; 8 h)</text>
+  </g>
+  <g>
+    <rect x="505" y="186" width="190" height="58" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="600" y="210" text-anchor="middle" font-size="17" font-weight="bold" fill="#1F2937">Daily Scrum</text>
+    <text x="600" y="230" text-anchor="middle" font-size="12" fill="#6B7280">15 min &#183; every working day</text>
+  </g>
+  <g>
+    <rect x="280" y="362" width="200" height="58" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="380" y="386" text-anchor="middle" font-size="17" font-weight="bold" fill="#1F2937">Sprint Review</text>
+    <text x="380" y="406" text-anchor="middle" font-size="12" fill="#6B7280">demo the Increment (&#8804; 4 h)</text>
+  </g>
+  <g>
+    <rect x="65" y="186" width="190" height="58" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="160" y="210" text-anchor="middle" font-size="17" font-weight="bold" fill="#1F2937">Retrospective</text>
+    <text x="160" y="230" text-anchor="middle" font-size="12" fill="#6B7280">improve the team (&#8804; 3 h)</text>
+  </g>
+</svg>

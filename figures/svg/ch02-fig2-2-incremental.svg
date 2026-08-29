@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 350" font-family="Arial">
+  <defs>
+    <marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="350" fill="#FFFFFF"/>
+
+  <!-- process boxes first (background) -->
+  <g fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5">
+    <!-- lane 1: y=39 -->
+    <rect x="178" y="39" width="84" height="60" rx="8"/><rect x="292" y="39" width="84" height="60" rx="8"/><rect x="406" y="39" width="84" height="60" rx="8"/><rect x="520" y="39" width="84" height="60" rx="8"/><rect x="634" y="39" width="84" height="60" rx="8"/>
+    <!-- lane 2: y=144 -->
+    <rect x="178" y="144" width="84" height="60" rx="8"/><rect x="292" y="144" width="84" height="60" rx="8"/><rect x="406" y="144" width="84" height="60" rx="8"/><rect x="520" y="144" width="84" height="60" rx="8"/><rect x="634" y="144" width="84" height="60" rx="8"/>
+    <!-- lane 3: y=249 -->
+    <rect x="178" y="249" width="84" height="60" rx="8"/><rect x="292" y="249" width="84" height="60" rx="8"/><rect x="406" y="249" width="84" height="60" rx="8"/><rect x="520" y="249" width="84" height="60" rx="8"/><rect x="634" y="249" width="84" height="60" rx="8"/>
+  </g>
+
+  <!-- flow arrows inside each lane (gap 30px) -->
+  <g stroke="#2563EB" stroke-width="2.5" fill="none">
+    <g>
+      <path d="M 262,69 H 292" marker-end="url(#arrB)"/><path d="M 376,69 H 406" marker-end="url(#arrB)"/><path d="M 490,69 H 520" marker-end="url(#arrB)"/><path d="M 604,69 H 634" marker-end="url(#arrB)"/>
+    </g>
+    <g>
+      <path d="M 262,174 H 292" marker-end="url(#arrB)"/><path d="M 376,174 H 406" marker-end="url(#arrB)"/><path d="M 490,174 H 520" marker-end="url(#arrB)"/><path d="M 604,174 H 634" marker-end="url(#arrB)"/>
+    </g>
+    <g>
+      <path d="M 262,279 H 292" marker-end="url(#arrB)"/><path d="M 376,279 H 406" marker-end="url(#arrB)"/><path d="M 490,279 H 520" marker-end="url(#arrB)"/><path d="M 604,279 H 634" marker-end="url(#arrB)"/>
+    </g>
+  </g>
+
+  <!-- increment label boxes -->
+  <g>
+    <rect x="22" y="39" width="132" height="60" rx="10" fill="#CCFBF1" stroke="#0D9488" stroke-width="2.5"/>
+    <text x="88" y="63" text-anchor="middle" font-size="16" font-weight="bold" fill="#1F2937">Increment 1</text>
+    <text x="88" y="83" text-anchor="middle" font-size="12.5" fill="#6B7280">core features</text>
+  </g>
+  <g>
+    <rect x="22" y="144" width="132" height="60" rx="10" fill="#CCFBF1" stroke="#0D9488" stroke-width="2.5"/>
+    <text x="88" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#1F2937">Increment 2</text>
+    <text x="88" y="188" text-anchor="middle" font-size="12.5" fill="#6B7280">+ more features</text>
+  </g>
+  <g>
+    <rect x="22" y="249" width="132" height="60" rx="10" fill="#CCFBF1" stroke="#0D9488" stroke-width="2.5"/>
+    <text x="88" y="273" text-anchor="middle" font-size="16" font-weight="bold" fill="#1F2937">Increment 3</text>
+    <text x="88" y="293" text-anchor="middle" font-size="12.5" fill="#6B7280">full product</text>
+  </g>
+
+  <!-- process box labels (on top of boxes) -->
+  <g font-size="15" font-weight="bold" fill="#1F2937" text-anchor="middle">
+    <text x="220" y="64">Comm</text><text x="334" y="64">Plan</text><text x="448" y="64">Model</text><text x="562" y="64">Build</text><text x="676" y="64">Deploy</text>
+    <text x="220" y="169">Comm</text><text x="334" y="169">Plan</text><text x="448" y="169">Model</text><text x="562" y="169">Build</text><text x="676" y="169">Deploy</text>
+    <text x="220" y="274">Comm</text><text x="334" y="274">Plan</text><text x="448" y="274">Model</text><text x="562" y="274">Build</text><text x="676" y="274">Deploy</text>
+  </g>
+  <g font-size="12" fill="#6B7280" text-anchor="middle">
+    <text x="220" y="84">talk</text><text x="334" y="84">estimate</text><text x="448" y="84">design</text><text x="562" y="84">code &amp; test</text><text x="676" y="84">deliver</text>
+    <text x="220" y="189">talk</text><text x="334" y="189">estimate</text><text x="448" y="189">design</text><text x="562" y="189">code &amp; test</text><text x="676" y="189">deliver</text>
+    <text x="220" y="294">talk</text><text x="334" y="294">estimate</text><text x="448" y="294">design</text><text x="562" y="294">code &amp; test</text><text x="676" y="294">deliver</text>
+  </g>
+
+  <!-- working-software notes under each lane -->
+  <g font-size="13" font-style="italic" fill="#0D9488" text-anchor="middle">
+    <text x="448" y="116">ships working software: core monitoring</text>
+    <text x="448" y="221">ships working software: + alerts</text>
+    <text x="448" y="326">ships working software: full product</text>
+  </g>
+</svg>

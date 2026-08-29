@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Arial">
+  <rect x="0" y="0" width="760" height="400" fill="#FFFFFF"/>
+
+  <!-- four value rows: h=64, pitch 92 -->
+  <!-- row 1 -->
+  <g>
+    <rect x="28" y="30" width="298" height="64" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="177" y="69" text-anchor="middle" font-size="17.5" font-weight="bold" fill="#1F2937">Individuals &amp; interactions</text>
+    <text x="380" y="69" text-anchor="middle" font-size="15" font-style="italic" fill="#6B7280">over</text>
+    <rect x="434" y="30" width="298" height="64" rx="10" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="2"/>
+    <text x="583" y="69" text-anchor="middle" font-size="16" fill="#6B7280">Processes &amp; tools</text>
+  </g>
+  <!-- row 2 -->
+  <g>
+    <rect x="28" y="122" width="298" height="64" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="177" y="161" text-anchor="middle" font-size="17.5" font-weight="bold" fill="#1F2937">Working software</text>
+    <text x="380" y="161" text-anchor="middle" font-size="15" font-style="italic" fill="#6B7280">over</text>
+    <rect x="434" y="122" width="298" height="64" rx="10" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="2"/>
+    <text x="583" y="161" text-anchor="middle" font-size="16" fill="#6B7280">Comprehensive documentation</text>
+  </g>
+  <!-- row 3 -->
+  <g>
+    <rect x="28" y="214" width="298" height="64" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="177" y="253" text-anchor="middle" font-size="17.5" font-weight="bold" fill="#1F2937">Customer collaboration</text>
+    <text x="380" y="253" text-anchor="middle" font-size="15" font-style="italic" fill="#6B7280">over</text>
+    <rect x="434" y="214" width="298" height="64" rx="10" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="2"/>
+    <text x="583" y="253" text-anchor="middle" font-size="16" fill="#6B7280">Contract negotiation</text>
+  </g>
+  <!-- row 4 -->
+  <g>
+    <rect x="28" y="306" width="298" height="64" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="177" y="345" text-anchor="middle" font-size="17.5" font-weight="bold" fill="#1F2937">Responding to change</text>
+    <text x="380" y="345" text-anchor="middle" font-size="15" font-style="italic" fill="#6B7280">over</text>
+    <rect x="434" y="306" width="298" height="64" rx="10" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="2"/>
+    <text x="583" y="345" text-anchor="middle" font-size="16" fill="#6B7280">Following a plan</text>
+  </g>
+</svg>
