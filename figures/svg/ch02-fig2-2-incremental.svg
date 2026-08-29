@@ -16,19 +16,6 @@
     <rect x="178" y="249" width="84" height="60" rx="8"/><rect x="292" y="249" width="84" height="60" rx="8"/><rect x="406" y="249" width="84" height="60" rx="8"/><rect x="520" y="249" width="84" height="60" rx="8"/><rect x="634" y="249" width="84" height="60" rx="8"/>
   </g>
 
-  <!-- flow arrows inside each lane (gap 30px) -->
-  <g stroke="#2563EB" stroke-width="2.5" fill="none">
-    <g>
-      <path d="M 262,69 H 292" marker-end="url(#arrB)"/><path d="M 376,69 H 406" marker-end="url(#arrB)"/><path d="M 490,69 H 520" marker-end="url(#arrB)"/><path d="M 604,69 H 634" marker-end="url(#arrB)"/>
-    </g>
-    <g>
-      <path d="M 262,174 H 292" marker-end="url(#arrB)"/><path d="M 376,174 H 406" marker-end="url(#arrB)"/><path d="M 490,174 H 520" marker-end="url(#arrB)"/><path d="M 604,174 H 634" marker-end="url(#arrB)"/>
-    </g>
-    <g>
-      <path d="M 262,279 H 292" marker-end="url(#arrB)"/><path d="M 376,279 H 406" marker-end="url(#arrB)"/><path d="M 490,279 H 520" marker-end="url(#arrB)"/><path d="M 604,279 H 634" marker-end="url(#arrB)"/>
-    </g>
-  </g>
-
   <!-- increment label boxes -->
   <g>
     <rect x="22" y="39" width="132" height="60" rx="10" fill="#CCFBF1" stroke="#0D9488" stroke-width="2.5"/>
@@ -63,5 +50,12 @@
     <text x="448" y="116">ships working software: core monitoring</text>
     <text x="448" y="221">ships working software: + alerts</text>
     <text x="448" y="326">ships working software: full product</text>
+  </g>
+
+  <!-- flow arrows drawn on top so heads are not clipped by boxes -->
+  <g stroke="#2563EB" stroke-width="2.5" fill="none">
+    <path d="M 262,69 H 292" marker-end="url(#arrB)"/><path d="M 376,69 H 406" marker-end="url(#arrB)"/><path d="M 490,69 H 520" marker-end="url(#arrB)"/><path d="M 604,69 H 634" marker-end="url(#arrB)"/>
+    <path d="M 262,174 H 292" marker-end="url(#arrB)"/><path d="M 376,174 H 406" marker-end="url(#arrB)"/><path d="M 490,174 H 520" marker-end="url(#arrB)"/><path d="M 604,174 H 634" marker-end="url(#arrB)"/>
+    <path d="M 262,279 H 292" marker-end="url(#arrB)"/><path d="M 376,279 H 406" marker-end="url(#arrB)"/><path d="M 490,279 H 520" marker-end="url(#arrB)"/><path d="M 604,279 H 634" marker-end="url(#arrB)"/>
   </g>
 </svg>

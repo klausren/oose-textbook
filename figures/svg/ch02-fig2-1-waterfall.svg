@@ -6,15 +6,7 @@
   </defs>
   <rect x="0" y="0" width="760" height="430" fill="#FFFFFF"/>
 
-  <!-- cascade boxes: step x=132, y=78; box 180x58 -->
-  <!-- arrows first (behind boxes) -->
-  <g stroke="#2563EB" stroke-width="2.5" fill="none">
-    <path d="M 222,57 H 266 V 106" marker-end="url(#arrB)"/>
-    <path d="M 354,135 H 398 V 184" marker-end="url(#arrB)"/>
-    <path d="M 486,213 H 530 V 262" marker-end="url(#arrB)"/>
-    <path d="M 618,291 H 662 V 340" marker-end="url(#arrB)"/>
-  </g>
-
+  <!-- cascade boxes -->
   <g>
     <rect x="42" y="28" width="180" height="58" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
     <text x="132" y="52" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Communication</text>
@@ -35,5 +27,13 @@
     <rect x="570" y="340" width="180" height="58" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
     <text x="660" y="364" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Deployment</text>
     <text x="660" y="384" text-anchor="middle" font-size="13" fill="#6B7280">delivery &amp; support</text>
+  </g>
+
+  <!-- arrows on top of boxes so arrowheads remain visible -->
+  <g stroke="#2563EB" stroke-width="2.5" fill="none">
+    <path d="M 222,57 H 266 V 106" marker-end="url(#arrB)"/>
+    <path d="M 354,135 H 398 V 184" marker-end="url(#arrB)"/>
+    <path d="M 486,213 H 530 V 262" marker-end="url(#arrB)"/>
+    <path d="M 618,291 H 662 V 340" marker-end="url(#arrB)"/>
   </g>
 </svg>
