@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 424" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
+  <rect x="0" y="0" width="760" height="424" fill="#FFFFFF"/>
+<rect x="45" y="118" width="146" height="112" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
+  <text x="57" y="104" text-anchor="start" font-size="10.5" fill="#2563EB" font-weight="bold" font-style="normal">HUMAN</text>
+  <text x="118" y="140" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">You bring the</text>
+  <text x="118" y="157" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">evidence</text>
+  <text x="118" y="188" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">a system description, a</text>
+<text x="118" y="204" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">changelog and the</text>
+<text x="118" y="220" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">artefacts themselves</text>
+  <rect x="215" y="118" width="146" height="112" rx="10" fill="#EDE7F6" stroke="#6D3FA8" stroke-width="2.2"/>
+  <text x="227" y="104" text-anchor="start" font-size="10.5" fill="#6D3FA8" font-weight="bold" font-style="normal">AI</text>
+  <text x="288" y="140" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">AI drafts a</text>
+  <text x="288" y="157" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">classification</text>
+  <text x="288" y="188" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">category labels,</text>
+<text x="288" y="204" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">maintenance kinds,</text>
+<text x="288" y="220" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">[ASSUMPTION] flags</text>
+  <rect x="385" y="118" width="146" height="112" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="2.2"/>
+  <text x="397" y="104" text-anchor="start" font-size="10.5" fill="#D97706" font-weight="bold" font-style="normal">CHECK</text>
+  <text x="458" y="140" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">You verify every</text>
+  <text x="458" y="157" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">claim</text>
+  <text x="458" y="188" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">each label must name the</text>
+<text x="458" y="204" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">artefact it came from</text>
+  <rect x="555" y="118" width="146" height="112" rx="10" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2.2"/>
+  <text x="567" y="104" text-anchor="start" font-size="10.5" fill="#2E7D46" font-weight="bold" font-style="normal">ARTEFACT</text>
+  <text x="628" y="140" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">A classification</text>
+  <text x="628" y="157" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">you can defend</text>
+  <text x="628" y="188" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">claim, evidence and a</text>
+<text x="628" y="204" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">weakest-claim line</text>
+  <line x1="191" y1="174" x2="211" y2="174" stroke="#1F2937" stroke-width="2.5" marker-end="url(#arrK)"/>
+  <line x1="361" y1="174" x2="381" y2="174" stroke="#1F2937" stroke-width="2.5" marker-end="url(#arrK)"/>
+  <line x1="531" y1="174" x2="551" y2="174" stroke="#1F2937" stroke-width="2.5" marker-end="url(#arrK)"/>
+  <path d="M 458,116 L 458,78 L 288,78 L 288,112" fill="none" stroke="#6D3FA8" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrV)"/>
+  <text x="373" y="70" text-anchor="middle" font-size="11.5" fill="#6D3FA8" font-weight="normal" font-style="italic">no artefact behind the claim, no claim</text>
+  <path d="M 458,230 L 458,268" fill="none" stroke="#DC2626" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arrR)"/>
+  <rect x="340" y="272" width="236" height="56" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <text x="458" y="294" text-anchor="middle" font-size="11" fill="#DC2626" font-weight="normal" font-style="normal">70% of failures come from worn</text>
+<text x="458" y="309" text-anchor="middle" font-size="11" fill="#DC2626" font-weight="normal" font-style="normal">storage media — a statistic that</text>
+<text x="458" y="324" text-anchor="middle" font-size="11" fill="#DC2626" font-weight="normal" font-style="normal">does not exist</text>
+  <text x="380" y="372" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="normal">Fluent and unverifiable is the failure mode. For every claim, ask where you would go to</text>
+<text x="380" y="390" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="normal">check it.</text></svg>

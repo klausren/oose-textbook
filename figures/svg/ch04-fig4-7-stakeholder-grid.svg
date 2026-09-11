@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker></defs>
+  <rect x="0" y="0" width="760" height="560" fill="#FFFFFF"/>
+<rect x="120" y="60" width="300.0" height="200.0" rx="10" fill="#F5F6F7" stroke="#C9D4E2" stroke-width="2"/>
+  <rect x="420.0" y="60" width="300.0" height="200.0" rx="10" fill="#DBEAFE" stroke="#C9D4E2" stroke-width="2"/>
+  <rect x="120" y="260.0" width="300.0" height="200.0" rx="10" fill="#FAFAFA" stroke="#C9D4E2" stroke-width="2"/>
+  <rect x="420.0" y="260.0" width="300.0" height="200.0" rx="10" fill="#CCFBF1" stroke="#C9D4E2" stroke-width="2"/>
+  <text x="140" y="244" text-anchor="start" font-size="14" fill="#6B7280" font-weight="bold" font-style="normal">Consult</text>
+  <text x="700" y="236" text-anchor="end" font-size="14" fill="#2563EB" font-weight="bold" font-style="normal">Interview first,</text>
+  <text x="700" y="254" text-anchor="end" font-size="14" fill="#2563EB" font-weight="bold" font-style="normal">involve in reviews</text>
+  <text x="140" y="444" text-anchor="start" font-size="14" fill="#6B7280" font-weight="bold" font-style="normal">Inform</text>
+  <text x="700" y="430" text-anchor="end" font-size="14" fill="#0D9488" font-weight="bold" font-style="normal">Interview —</text>
+  <text x="700" y="448" text-anchor="end" font-size="14" fill="#0D9488" font-weight="bold" font-style="normal">the quiet quadrant</text>
+  <line x1="120" y1="494" x2="720" y2="494" stroke="#1F2937" stroke-width="2.5" marker-end="url(#arrK)"/>
+  <line x1="86" y1="460" x2="86" y2="60" stroke="#1F2937" stroke-width="2.5" marker-end="url(#arrK)"/>
+  <text x="420.0" y="526" text-anchor="middle" font-size="14" fill="#1F2937" font-weight="bold" font-style="normal">Interest  →</text>
+  <text x="58" y="260.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937" transform="rotate(-90 58 260.0)">Influence</text>
+  <circle cx="640" cy="105" r="7" fill="#2563EB"/>
+  <text x="626" y="110" text-anchor="end" font-size="13" fill="#2563EB" font-weight="bold" font-style="normal">Wei (son, customer)</text>
+  <circle cx="620" cy="165" r="7" fill="#2563EB"/>
+  <text x="606" y="170" text-anchor="end" font-size="13" fill="#2563EB" font-weight="bold" font-style="normal">Care-centre manager</text>
+  <circle cx="230" cy="140" r="7" fill="#D97706"/>
+  <text x="246" y="145" text-anchor="start" font-size="13" fill="#D97706" font-weight="bold" font-style="normal">Health authority</text>
+  <circle cx="545" cy="300" r="7" fill="#0D9488"/>
+  <text x="561" y="305" text-anchor="start" font-size="13" fill="#0D9488" font-weight="bold" font-style="normal">Night-shift supervisor</text>
+  <circle cx="452" cy="322" r="7" fill="#0D9488"/>
+  <text x="468" y="327" text-anchor="start" font-size="13" fill="#0D9488" font-weight="bold" font-style="normal">Grandma Lin</text>
+  <circle cx="632" cy="398" r="7" fill="#0D9488"/>
+  <text x="616" y="403" text-anchor="end" font-size="13" fill="#0D9488" font-weight="bold" font-style="normal">Visiting nurse</text>
+  <circle cx="230" cy="390" r="7" fill="#6B7280"/>
+  <text x="246" y="395" text-anchor="start" font-size="13" fill="#6B7280" font-weight="bold" font-style="normal">Neighbour with the key</text></svg>

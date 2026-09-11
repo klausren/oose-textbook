@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 462" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
+  <rect x="0" y="0" width="760" height="462" fill="#FFFFFF"/>
+<rect x="30" y="40" width="700" height="44" rx="8" fill="#F5F6F7" stroke="#C9D4E2" stroke-width="2"/>
+  <text x="42" y="68" text-anchor="start" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Model</text>
+  <text x="160" y="68" text-anchor="start" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Choose it when</text>
+  <text x="392" y="68" text-anchor="start" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Its real cost</text>
+  <text x="612" y="68" text-anchor="start" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">For CareLink</text>
+  <rect x="30" y="86" width="700" height="64" rx="6" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.5"/>
+  <text x="42" y="123" text-anchor="start" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Waterfall</text>
+  <text x="160" y="114.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">requirements are stable and</text>
+<text x="160" y="128.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">fixed by contract</text>
+  <text x="392" y="114.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">feedback arrives at the</text>
+<text x="392" y="128.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">end, when it is dearest</text>
+  <text x="608" y="114.78" text-anchor="start" font-size="10.5" fill="#DC2626" font-weight="normal" font-style="normal">no feedback before</text>
+<text x="608" y="128.78" text-anchor="start" font-size="10.5" fill="#DC2626" font-weight="normal" font-style="normal">week 16</text>
+  <rect x="30" y="152" width="700" height="64" rx="6" fill="#FAFAFA" stroke="#C9D4E2" stroke-width="1.5"/>
+  <text x="42" y="189" text-anchor="start" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">V model</text>
+  <text x="160" y="180.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">test discipline must start at</text>
+<text x="160" y="194.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">requirements time</text>
+  <text x="392" y="180.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">still a single pass, so</text>
+<text x="392" y="194.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">late change stays expensive</text>
+  <text x="608" y="180.78" text-anchor="start" font-size="10.5" fill="#DC2626" font-weight="normal" font-style="normal">the same rigidity</text>
+<text x="608" y="194.78" text-anchor="start" font-size="10.5" fill="#DC2626" font-weight="normal" font-style="normal">remains</text>
+  <rect x="30" y="218" width="700" height="64" rx="6" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.5"/>
+  <text x="42" y="255" text-anchor="start" font-size="12.5" fill="#2563EB" font-weight="bold" font-style="normal">Incremental</text>
+  <text x="160" y="246.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">the whole is known and delivery</text>
+<text x="160" y="260.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">can be sliced</text>
+  <text x="392" y="246.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">each increment needs its</text>
+<text x="392" y="260.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">own plan and demo</text>
+  <text x="608" y="253.78" text-anchor="start" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="normal">the chosen backbone</text>
+  <rect x="30" y="284" width="700" height="64" rx="6" fill="#FAFAFA" stroke="#C9D4E2" stroke-width="1.5"/>
+  <text x="42" y="321" text-anchor="start" font-size="12.5" fill="#2563EB" font-weight="bold" font-style="normal">Prototyping</text>
+  <text x="160" y="312.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">the requirements are vague or</text>
+<text x="160" y="326.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">contested</text>
+  <text x="392" y="312.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">a week-old mock-up gets</text>
+<text x="392" y="326.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">pressure to ship</text>
+  <text x="608" y="312.78" text-anchor="start" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="normal">a short loop inside</text>
+<text x="608" y="326.78" text-anchor="start" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="normal">increment 1</text>
+  <rect x="30" y="350" width="700" height="64" rx="6" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.5"/>
+  <text x="42" y="387" text-anchor="start" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Spiral</text>
+  <text x="160" y="378.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">large, high-risk work with a</text>
+<text x="160" y="392.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">disciplined team</text>
+  <text x="392" y="378.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">quarterly risk reviews cost</text>
+<text x="392" y="392.78" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">more than they save</text>
+  <text x="608" y="378.78" text-anchor="start" font-size="10.5" fill="#DC2626" font-weight="normal" font-style="normal">ceremony unmatched</text>
+<text x="608" y="392.78" text-anchor="start" font-size="10.5" fill="#DC2626" font-weight="normal" font-style="normal">to risk</text>
+  <text x="380" y="438" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="italic">The right model is the one whose costs this project can actually afford.</text></svg>

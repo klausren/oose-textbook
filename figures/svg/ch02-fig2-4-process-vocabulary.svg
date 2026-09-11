@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 462" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
+  <rect x="0" y="0" width="760" height="462" fill="#FFFFFF"/>
+<rect x="50" y="40" width="660" height="380" rx="14" fill="#FAFAFA" stroke="#C9D4E2" stroke-width="2"/>
+  <text x="380" y="74" text-anchor="middle" font-size="16" fill="#1F2937" font-weight="bold" font-style="normal">Process model</text>
+  <text x="380" y="96" text-anchor="middle" font-size="12" fill="#6B7280" font-weight="normal" font-style="normal">the ordered arrangement of the five activities for one project</text>
+  <text x="380" y="118" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="normal" font-style="normal">waterfall  ·  V model  ·  incremental  ·  prototyping  ·  spiral  ·  agile</text>
+  <rect x="80" y="134" width="600" height="270" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="380" y="162" text-anchor="middle" font-size="14" fill="#2563EB" font-weight="bold" font-style="normal">Framework activity</text>
+  <text x="380" y="182" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">communication  ·  planning  ·  modeling  ·  construction  ·  deployment</text>
+  <rect x="108" y="198" width="544" height="190" rx="10" fill="#FFFFFF" stroke="#0D9488" stroke-width="2"/>
+  <text x="380" y="226" text-anchor="middle" font-size="12.5" fill="#0D9488" font-weight="bold" font-style="normal">Process frame — one activity, described precisely</text>
+  <rect x="128" y="230" width="130" height="32" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="1.6"/>
+  <text x="193" y="252" text-anchor="middle" font-size="11.5" fill="#0D9488" font-weight="bold" font-style="normal">Entry criteria</text>
+  <text x="272" y="252" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">what must be true before the work starts</text>
+  <rect x="128" y="268" width="130" height="32" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="1.6"/>
+  <text x="193" y="290" text-anchor="middle" font-size="11.5" fill="#0D9488" font-weight="bold" font-style="normal">Task set</text>
+  <text x="272" y="290" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">the work itself, scaled small or large to fit</text>
+  <rect x="128" y="306" width="130" height="32" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="1.6"/>
+  <text x="193" y="328" text-anchor="middle" font-size="11.5" fill="#0D9488" font-weight="bold" font-style="normal">Milestones</text>
+  <text x="272" y="328" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">measurable checkpoints along the way</text>
+  <rect x="128" y="344" width="130" height="32" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="1.6"/>
+  <text x="193" y="366" text-anchor="middle" font-size="11.5" fill="#0D9488" font-weight="bold" font-style="normal">Exit criteria</text>
+  <text x="272" y="366" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">what must be true to call the activity done</text>
+  <text x="380" y="442" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="italic">"Are we done with design?" is really the question "have we met the exit criteria?"</text></svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 386" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker></defs>
+  <rect x="0" y="0" width="760" height="386" fill="#FFFFFF"/>
+<rect x="30" y="118" width="140" height="96" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+  <text x="100" y="38" text-anchor="middle" font-size="12" fill="#2563EB" font-weight="bold" font-style="normal">Human</text>
+  <text x="100" y="152" text-anchor="middle" font-size="14" fill="#1F2937" font-weight="bold" font-style="normal">Interview</text>
+  <text x="100" y="173" text-anchor="middle" font-size="14" fill="#1F2937" font-weight="bold" font-style="normal">transcript</text>
+  <text x="100" y="200" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="normal" font-style="italic">human record</text>
+  <rect x="220" y="118" width="140" height="96" rx="12" fill="#EDE7F6" stroke="#6D3FA8" stroke-width="2.5"/>
+  <text x="290" y="38" text-anchor="middle" font-size="12" fill="#6D3FA8" font-weight="bold" font-style="normal">AI</text>
+  <text x="290" y="152" text-anchor="middle" font-size="14" fill="#1F2937" font-weight="bold" font-style="normal">AI extracts</text>
+  <text x="290" y="173" text-anchor="middle" font-size="14" fill="#1F2937" font-weight="bold" font-style="normal">candidates</text>
+  <text x="290" y="200" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="normal" font-style="italic">14 returned</text>
+  <rect x="410" y="118" width="140" height="96" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+  <text x="480" y="38" text-anchor="middle" font-size="12" fill="#2563EB" font-weight="bold" font-style="normal">Human</text>
+  <text x="480" y="152" text-anchor="middle" font-size="14" fill="#1F2937" font-weight="bold" font-style="normal">Human verifies</text>
+  <text x="480" y="173" text-anchor="middle" font-size="14" fill="#1F2937" font-weight="bold" font-style="normal">against quotes</text>
+  <text x="480" y="200" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="normal" font-style="italic">5 checks</text>
+  <rect x="600" y="118" width="140" height="96" rx="12" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2.5"/>
+  <text x="670" y="38" text-anchor="middle" font-size="12" fill="#2E7D46" font-weight="bold" font-style="normal">Artefact</text>
+  <text x="670" y="152" text-anchor="middle" font-size="14" fill="#1F2937" font-weight="bold" font-style="normal">Elicitation</text>
+  <text x="670" y="173" text-anchor="middle" font-size="14" fill="#1F2937" font-weight="bold" font-style="normal">record</text>
+  <text x="670" y="200" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="normal" font-style="italic">3 survived</text>
+  <line x1="176" y1="166" x2="214" y2="166" stroke="#2563EB" stroke-width="3" marker-end="url(#arrB)"/>
+  <line x1="366" y1="166" x2="404" y2="166" stroke="#6D3FA8" stroke-width="3" marker-end="url(#arrV)"/>
+  <line x1="556" y1="166" x2="594" y2="166" stroke="#2563EB" stroke-width="3" marker-end="url(#arrB)"/>
+  <line x1="290" y1="214" x2="290" y2="268" stroke="#DC2626" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arrR)"/>
+  <rect x="210" y="272" width="160" height="44" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <text x="290" y="299" text-anchor="middle" font-size="13" fill="#DC2626" font-weight="bold" font-style="normal">No quote — deleted</text>
+  <path d="M 550,118 C 550,76 300,76 300,118" fill="none" stroke="#6D3FA8" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrV)"/>
+  <text x="425" y="110" text-anchor="middle" font-size="12" fill="#6D3FA8" font-weight="normal" font-style="italic">every candidate needs a supporting quote</text>
+  <text x="380" y="356" text-anchor="middle" font-size="13" fill="#6B7280" font-weight="normal" font-style="italic">AI handles the volume. The human supplies the judgement, and the record only accepts sourced rows.</text></svg>

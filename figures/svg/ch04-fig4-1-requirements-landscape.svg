@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker></defs>
+  <rect x="0" y="0" width="760" height="470" fill="#FFFFFF"/>
+<rect x="50" y="16" width="300" height="46" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="200" y="45" text-anchor="middle" font-size="17" fill="#1F2937" font-weight="bold" font-style="normal">Inception</text>
+  <text x="370" y="45" text-anchor="start" font-size="13" fill="#6B7280" font-weight="normal" font-style="normal">problem statement</text>
+  <line x1="200" y1="62" x2="200" y2="76" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrB)"/>
+  <rect x="50" y="76" width="300" height="46" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="200" y="105" text-anchor="middle" font-size="17" fill="#1F2937" font-weight="bold" font-style="normal">Elicitation</text>
+  <text x="370" y="105" text-anchor="start" font-size="13" fill="#6B7280" font-weight="normal" font-style="normal">raw statements and sources</text>
+  <line x1="200" y1="122" x2="200" y2="136" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrB)"/>
+  <rect x="50" y="136" width="300" height="46" rx="10" fill="#F5F6F7" stroke="#C9D4E2" stroke-width="2"/>
+  <text x="200" y="165" text-anchor="middle" font-size="17" fill="#6B7280" font-weight="bold" font-style="normal">Elaboration</text>
+  <text x="370" y="165" text-anchor="start" font-size="13" fill="#6B7280" font-weight="normal" font-style="normal">scenarios and models</text>
+  <line x1="200" y1="182" x2="200" y2="196" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrB)"/>
+  <rect x="50" y="196" width="300" height="46" rx="10" fill="#F5F6F7" stroke="#C9D4E2" stroke-width="2"/>
+  <text x="200" y="225" text-anchor="middle" font-size="17" fill="#6B7280" font-weight="bold" font-style="normal">Negotiation</text>
+  <text x="370" y="225" text-anchor="start" font-size="13" fill="#6B7280" font-weight="normal" font-style="normal">agreed priorities</text>
+  <line x1="200" y1="242" x2="200" y2="256" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrB)"/>
+  <rect x="50" y="256" width="300" height="46" rx="10" fill="#F5F6F7" stroke="#C9D4E2" stroke-width="2"/>
+  <text x="200" y="285" text-anchor="middle" font-size="17" fill="#6B7280" font-weight="bold" font-style="normal">Specification</text>
+  <text x="370" y="285" text-anchor="start" font-size="13" fill="#6B7280" font-weight="normal" font-style="normal">the SRS</text>
+  <line x1="200" y1="302" x2="200" y2="316" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrB)"/>
+  <rect x="50" y="316" width="300" height="46" rx="10" fill="#F5F6F7" stroke="#C9D4E2" stroke-width="2"/>
+  <text x="200" y="345" text-anchor="middle" font-size="17" fill="#6B7280" font-weight="bold" font-style="normal">Validation</text>
+  <text x="370" y="345" text-anchor="start" font-size="13" fill="#6B7280" font-weight="normal" font-style="normal">confirmed requirements</text>
+  <rect x="30" y="16" width="8" height="106" rx="4" fill="#2563EB" stroke="#2563EB" stroke-width="0"/>
+  <text x="20" y="74" text-anchor="middle" font-size="12" fill="#2563EB" font-weight="bold" font-style="italic">Chapter 4</text>
+  <rect x="50" y="400" width="660" height="48" rx="10" fill="#F5F6F7" stroke="#C9D4E2" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="380" y="430" text-anchor="middle" font-size="14" fill="#6B7280" font-weight="normal" font-style="normal">Requirements management:  identity · status · priority · change</text>
+  <line x1="200" y1="362" x2="200" y2="400" stroke="#6B7280" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrG)"/></svg>

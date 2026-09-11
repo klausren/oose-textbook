@@ -1,2 +1,6 @@
 .DS_Store
-build/
+
+# Build output only — the scripts themselves are source and must stay tracked:
+# README.md tells readers to run `build/sync-figures.sh`.
+build/*.docx
+build/.*.clean.md

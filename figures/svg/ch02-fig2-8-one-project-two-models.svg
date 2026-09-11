@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 426" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
+  <rect x="0" y="0" width="760" height="426" fill="#FFFFFF"/>
+<line x1="70" y1="60" x2="700" y2="60" stroke="#C9D4E2" stroke-width="2"/>
+  <line x1="70" y1="55" x2="70" y2="65" stroke="#C9D4E2" stroke-width="1.5"/>
+  <text x="70" y="48" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">W1</text>
+  <line x1="196" y1="55" x2="196" y2="65" stroke="#C9D4E2" stroke-width="1.5"/>
+  <text x="196" y="48" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">W4</text>
+  <line x1="364" y1="55" x2="364" y2="65" stroke="#C9D4E2" stroke-width="1.5"/>
+  <text x="364" y="48" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">W8</text>
+  <line x1="532" y1="55" x2="532" y2="65" stroke="#C9D4E2" stroke-width="1.5"/>
+  <text x="532" y="48" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">W12</text>
+  <line x1="700" y1="55" x2="700" y2="65" stroke="#C9D4E2" stroke-width="1.5"/>
+  <text x="700" y="48" text-anchor="end" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">W16</text>
+  <text x="70" y="92" text-anchor="start" font-size="13" fill="#DC2626" font-weight="bold" font-style="normal">Waterfall: the user first sees something in week 15</text>
+  <rect x="70" y="104" width="157.5" height="52" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="148.75" y="136" text-anchor="middle" font-size="12" fill="#1F2937" font-weight="bold" font-style="normal">Requirements</text>
+  <rect x="227.5" y="104" width="157.5" height="52" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/>
+  <text x="306.25" y="136" text-anchor="middle" font-size="12" fill="#1F2937" font-weight="bold" font-style="normal">Design</text>
+  <rect x="385" y="104" width="157.5" height="52" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <text x="463.75" y="136" text-anchor="middle" font-size="12" fill="#1F2937" font-weight="bold" font-style="normal">Construction</text>
+  <rect x="542.5" y="104" width="157.5" height="52" rx="8" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <text x="621.25" y="136" text-anchor="middle" font-size="12" fill="#1F2937" font-weight="bold" font-style="normal">Test and acceptance</text>
+  <circle cx="658" cy="92" r="7" fill="#DC2626"/>
+  <line x1="658" y1="99" x2="658" y2="104" stroke="#DC2626" stroke-width="2"/>
+  <text x="694" y="180" text-anchor="end" font-size="11.5" fill="#DC2626" font-weight="normal" font-style="normal">first user feedback arrives here — and it is expensive to act on</text>
+  <text x="70" y="232" text-anchor="start" font-size="13" fill="#2E7D46" font-weight="bold" font-style="normal">Incremental: working software every four weeks, feedback from week 4</text>
+  <rect x="70" y="244" width="157.5" height="52" rx="8" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2"/>
+  <text x="148.75" y="268" text-anchor="middle" font-size="12" fill="#1F2937" font-weight="bold" font-style="normal">Increment 1</text>
+  <text x="148.75" y="286" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">monitor</text>
+  <line x1="148.75" y1="300" x2="148.75" y2="314" stroke="#2E7D46" stroke-width="2" marker-end="url(#arrGr)"/>
+  <text x="148.75" y="332" text-anchor="middle" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="italic">feedback</text>
+  <rect x="227.5" y="244" width="157.5" height="52" rx="8" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2"/>
+  <text x="306.25" y="268" text-anchor="middle" font-size="12" fill="#1F2937" font-weight="bold" font-style="normal">Increment 2</text>
+  <text x="306.25" y="286" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">alert</text>
+  <line x1="306.25" y1="300" x2="306.25" y2="314" stroke="#2E7D46" stroke-width="2" marker-end="url(#arrGr)"/>
+  <text x="306.25" y="332" text-anchor="middle" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="italic">feedback</text>
+  <rect x="385" y="244" width="157.5" height="52" rx="8" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2"/>
+  <text x="463.75" y="268" text-anchor="middle" font-size="12" fill="#1F2937" font-weight="bold" font-style="normal">Increment 3</text>
+  <text x="463.75" y="286" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">escalate</text>
+  <line x1="463.75" y1="300" x2="463.75" y2="314" stroke="#2E7D46" stroke-width="2" marker-end="url(#arrGr)"/>
+  <text x="463.75" y="332" text-anchor="middle" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="italic">feedback</text>
+  <rect x="542.5" y="244" width="157.5" height="52" rx="8" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2"/>
+  <text x="621.25" y="268" text-anchor="middle" font-size="12" fill="#1F2937" font-weight="bold" font-style="normal">Increment 4</text>
+  <text x="621.25" y="286" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">harden</text>
+  <line x1="621.25" y1="300" x2="621.25" y2="314" stroke="#2E7D46" stroke-width="2" marker-end="url(#arrGr)"/>
+  <text x="621.25" y="332" text-anchor="middle" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="italic">feedback</text>
+  <text x="380" y="384" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="italic">Same requirements, same team, same sixteen weeks.</text>
+  <text x="380" y="404" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="italic">The model decides when reality is allowed to talk back.</text></svg>

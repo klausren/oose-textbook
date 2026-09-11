@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 364" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
+  <rect x="0" y="0" width="760" height="364" fill="#FFFFFF"/>
+<rect x="70" y="56" width="656" height="50" rx="10" fill="#F5F6F7" stroke="#C9D4E2" stroke-width="2"/>
+  <text x="398" y="78" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Umbrella activities run the whole length of the process</text>
+  <text x="398" y="97" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">tracking  ·  risk management  ·  quality assurance  ·  reviews  ·  measurement</text>
+  <rect x="74" y="146" width="116" height="76" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
+  <text x="132" y="182" text-anchor="middle" font-size="13" fill="#1F2937" font-weight="bold" font-style="normal">Communication</text>
+  <text x="132" y="254" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">needs and</text>
+<text x="132" y="270" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">requirements</text>
+  <line x1="190" y1="184" x2="204" y2="184" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrB)"/>
+  <rect x="208" y="146" width="116" height="76" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
+  <text x="266" y="182" text-anchor="middle" font-size="13" fill="#1F2937" font-weight="bold" font-style="normal">Planning</text>
+  <text x="266" y="254" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">plan, schedule,</text>
+<text x="266" y="270" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">risks</text>
+  <line x1="324" y1="184" x2="338" y2="184" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrB)"/>
+  <rect x="342" y="146" width="116" height="76" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
+  <text x="400" y="182" text-anchor="middle" font-size="13" fill="#1F2937" font-weight="bold" font-style="normal">Modeling</text>
+  <text x="400" y="254" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">analysis and</text>
+<text x="400" y="270" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">design models</text>
+  <line x1="458" y1="184" x2="472" y2="184" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrB)"/>
+  <rect x="476" y="146" width="116" height="76" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
+  <text x="534" y="182" text-anchor="middle" font-size="13" fill="#1F2937" font-weight="bold" font-style="normal">Construction</text>
+  <text x="534" y="254" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">code, tests,</text>
+<text x="534" y="270" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">builds</text>
+  <line x1="592" y1="184" x2="606" y2="184" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrB)"/>
+  <rect x="610" y="146" width="116" height="76" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
+  <text x="668" y="182" text-anchor="middle" font-size="13" fill="#1F2937" font-weight="bold" font-style="normal">Deployment</text>
+  <text x="668" y="254" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">working</text>
+<text x="668" y="270" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">increment,</text>
+<text x="668" y="286" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">feedback</text>
+  <path d="M 668,222 L 668,320 L 46,320 L 46,184 L 70,184" fill="none" stroke="#2563EB" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrB)"/>
+  <text x="400" y="342" text-anchor="middle" font-size="12" fill="#2563EB" font-weight="normal" font-style="italic">Every deployment produces feedback that reopens communication.</text></svg>

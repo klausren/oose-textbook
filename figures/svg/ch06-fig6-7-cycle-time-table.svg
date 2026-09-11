@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 538" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
+  <rect x="0" y="0" width="760" height="538" fill="#FFFFFF"/>
+<rect x="30" y="46" width="680" height="26" rx="6" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+  <text x="40" y="64" text-anchor="start" font-size="11" fill="#2563EB" font-weight="bold" font-style="normal">AS-IS   ·   7 steps</text>
+  <text x="465" y="64" text-anchor="middle" font-size="10" fill="#2563EB" font-weight="bold" font-style="normal">Elapsed</text>
+  <text x="535" y="64" text-anchor="middle" font-size="10" fill="#2563EB" font-weight="bold" font-style="normal">Touch</text>
+  <text x="605" y="64" text-anchor="middle" font-size="10" fill="#2563EB" font-weight="bold" font-style="normal">Waiting</text>
+  <text x="675" y="64" text-anchor="middle" font-size="10" fill="#2563EB" font-weight="bold" font-style="normal">Travel</text>
+  <text x="310" y="64" text-anchor="start" font-size="10" fill="#2563EB" font-weight="bold" font-style="normal">Actor</text>
+  <text x="40" y="64" text-anchor="start" font-size="11" fill="#2563EB" font-weight="bold" font-style="normal">AS-IS   ·   7 steps</text>
+  <text x="40" y="87.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Fall detected; pendant dials the centre</text>
+  <text x="310" y="88" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Elder / centre</text>
+  <text x="465" y="88" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">2</text>
+  <text x="535" y="88" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">2</text>
+  <text x="605" y="88" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <text x="675" y="88" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <line x1="34" y1="96" x2="706" y2="96" stroke="#F5F6F7" stroke-width="1.3"/>
+  <text x="40" y="111.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Centre rings the landline, three attempts</text>
+  <text x="310" y="112" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Monitoring centre</text>
+  <text x="465" y="112" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">5</text>
+  <text x="535" y="112" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">1</text>
+  <text x="605" y="112" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">4</text>
+  <text x="675" y="112" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <line x1="34" y1="120" x2="706" y2="120" stroke="#F5F6F7" stroke-width="1.3"/>
+  <text x="40" y="135.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Centre leaves a message; Wei returns it</text>
+  <text x="310" y="136" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Monitoring centre</text>
+  <text x="465" y="136" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">26</text>
+  <text x="535" y="136" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">4</text>
+  <text x="605" y="136" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">22</text>
+  <text x="675" y="136" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <line x1="34" y1="144" x2="706" y2="144" stroke="#F5F6F7" stroke-width="1.3"/>
+  <text x="40" y="159.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Wei rings the landline, then the neighbour</text>
+  <text x="310" y="160" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Wei</text>
+  <text x="465" y="160" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">13</text>
+  <text x="535" y="160" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">3</text>
+  <text x="605" y="160" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">10</text>
+  <text x="675" y="160" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <line x1="34" y1="168" x2="706" y2="168" stroke="#F5F6F7" stroke-width="1.3"/>
+  <text x="40" y="183.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Neighbour crosses the corridor, finds her</text>
+  <text x="310" y="184" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Neighbour</text>
+  <text x="465" y="184" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">9</text>
+  <text x="535" y="184" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">3</text>
+  <text x="605" y="184" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">3</text>
+  <text x="675" y="184" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">3</text>
+  <line x1="34" y1="192" x2="706" y2="192" stroke="#F5F6F7" stroke-width="1.3"/>
+  <text x="40" y="207.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Neighbour rings the care centre; dispatch</text>
+  <text x="310" y="208" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Care centre</text>
+  <text x="465" y="208" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">12</text>
+  <text x="535" y="208" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">5</text>
+  <text x="605" y="208" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">7</text>
+  <text x="675" y="208" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <line x1="34" y1="216" x2="706" y2="216" stroke="#F5F6F7" stroke-width="1.3"/>
+  <text x="40" y="231.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Caregiver drives to the flat</text>
+  <text x="310" y="232" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Caregiver</text>
+  <text x="465" y="232" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">45</text>
+  <text x="535" y="232" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">3</text>
+  <text x="605" y="232" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <text x="675" y="232" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">42</text>
+  <rect x="30" y="240" width="680" height="28" rx="6" fill="#FAFAFA" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="40" y="259" text-anchor="start" font-size="11" fill="#2563EB" font-weight="bold" font-style="normal">Cycle time, as-is</text>
+  <text x="465" y="259" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">112</text>
+  <text x="535" y="259" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">21</text>
+  <text x="605" y="259" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">46</text>
+  <text x="675" y="259" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">45</text>
+  <rect x="30" y="292" width="680" height="26" rx="6" fill="#DCFCE7" stroke="#2E7D46" stroke-width="1.6"/>
+  <text x="40" y="310" text-anchor="start" font-size="11" fill="#2E7D46" font-weight="bold" font-style="normal">TO-BE   ·   6 steps</text>
+  <text x="465" y="310" text-anchor="middle" font-size="10" fill="#2E7D46" font-weight="bold" font-style="normal">Elapsed</text>
+  <text x="535" y="310" text-anchor="middle" font-size="10" fill="#2E7D46" font-weight="bold" font-style="normal">Touch</text>
+  <text x="605" y="310" text-anchor="middle" font-size="10" fill="#2E7D46" font-weight="bold" font-style="normal">Waiting</text>
+  <text x="675" y="310" text-anchor="middle" font-size="10" fill="#2E7D46" font-weight="bold" font-style="normal">Travel</text>
+  <text x="310" y="310" text-anchor="start" font-size="10" fill="#2E7D46" font-weight="bold" font-style="normal">Actor</text>
+  <text x="40" y="310" text-anchor="start" font-size="11" fill="#2E7D46" font-weight="bold" font-style="normal">TO-BE   ·   6 steps</text>
+  <text x="40" y="333.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Fall detected; alert raised</text>
+  <text x="310" y="334" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">System</text>
+  <text x="465" y="334" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">1</text>
+  <text x="535" y="334" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <text x="605" y="334" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">1</text>
+  <text x="675" y="334" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <line x1="34" y1="342" x2="706" y2="342" stroke="#F5F6F7" stroke-width="1.3"/>
+  <text x="40" y="357.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Family and nurse notified in parallel</text>
+  <text x="310" y="358" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">System</text>
+  <text x="465" y="358" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">1</text>
+  <text x="535" y="358" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">1</text>
+  <text x="605" y="358" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <text x="675" y="358" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <line x1="34" y1="366" x2="706" y2="366" stroke="#F5F6F7" stroke-width="1.3"/>
+  <text x="40" y="381.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Family acknowledges within the timer</text>
+  <text x="310" y="382" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Family</text>
+  <text x="465" y="382" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">2</text>
+  <text x="535" y="382" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">1</text>
+  <text x="605" y="382" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">1</text>
+  <text x="675" y="382" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <line x1="34" y1="390" x2="706" y2="390" stroke="#F5F6F7" stroke-width="1.3"/>
+  <text x="40" y="405.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Nurse opens the case and dispatches</text>
+  <text x="310" y="406" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">On-call nurse</text>
+  <text x="465" y="406" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">2</text>
+  <text x="535" y="406" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">2</text>
+  <text x="605" y="406" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <text x="675" y="406" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <line x1="34" y1="414" x2="706" y2="414" stroke="#F5F6F7" stroke-width="1.3"/>
+  <text x="40" y="429.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Caregiver accepts on the app</text>
+  <text x="310" y="430" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Caregiver</text>
+  <text x="465" y="430" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">1</text>
+  <text x="535" y="430" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">1</text>
+  <text x="605" y="430" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <text x="675" y="430" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <line x1="34" y1="438" x2="706" y2="438" stroke="#F5F6F7" stroke-width="1.3"/>
+  <text x="40" y="453.78" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Caregiver drives to the flat</text>
+  <text x="310" y="454" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Caregiver</text>
+  <text x="465" y="454" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">45</text>
+  <text x="535" y="454" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">3</text>
+  <text x="605" y="454" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">–</text>
+  <text x="675" y="454" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">42</text>
+  <rect x="30" y="462" width="680" height="28" rx="6" fill="#FAFAFA" stroke="#2E7D46" stroke-width="1.8"/>
+  <text x="40" y="481" text-anchor="start" font-size="11" fill="#2E7D46" font-weight="bold" font-style="normal">Cycle time, to-be</text>
+  <text x="465" y="481" text-anchor="middle" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">52</text>
+  <text x="535" y="481" text-anchor="middle" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">8</text>
+  <text x="605" y="481" text-anchor="middle" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">2</text>
+  <text x="675" y="481" text-anchor="middle" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">42</text>
+  <text x="380" y="514" text-anchor="middle" font-size="12" fill="#DC2626" font-weight="normal" font-style="normal">After the change, 81 % of what remains is a drive. No further software work can reach it.</text></svg>

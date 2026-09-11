@@ -37,29 +37,123 @@ rendered to PNG by `figures/render.js`.
 - Captions live **in the manuscript, not inside the image**:
 
   ```markdown
-  ![Alt text](../figures/chNN-figN-M-slug.png){width=15cm}
+  ![Alt text](images/chNN-figN-M-slug.png){width=15cm}
 
   *Fig. N-M. One-sentence English caption.*
   ```
 
 - Every figure must be **referenced in body text** before it appears.
-- Budget: **2–4 figures per chapter**; reuse lecture-deck vector art by
-  re-exporting SVG when geometry fits this palette.
+- Budget: **9 figures per chapter** (minimum 8) — see the per-chapter figure
+  plan in `figures/PLAN-part2-requirements.md` and `templates/figure-system.md`.
+- Path rule: chapter sources reference `images/...`, because that single path
+  works for both pandoc and Leanpub. Run `build/sync-figures.sh` after
+  rendering so `manuscript/images/` stays in sync with this folder.
 
-## Canonical figure types 六类标准图
+## Canonical figure types 七类标准图
 
-1. **Curve/chart** — axes + labeled curves (e.g., Fig. 1-1 failure curves).
-2. **Layered stack** — horizontal layers (e.g., Fig. 1-2 the three essentials).
-3. **Context diagram** — actors and system boundary with labeled arrows
-   (e.g., Fig. 1-3 CareLink at a glance).
-4. **Process/flow** — rounded rects + directed arrows (UML-adjacent).
-5. **Comparison panel** — two panels sharing one axis system.
-6. **Annotated artifact** — a document/screen mock with callouts.
+Type codes follow `templates/figure-system.md` §2:
+
+| # | Type | Used for |
+|---|---|---|
+| T1 | Concept map | how ideas relate |
+| T2 | Process / lifecycle | steps, phases, iterations |
+| T3 | Model diagram | UML: use case, class, sequence, state, activity |
+| T4 | Before / after | pitfall versus corrected artifact |
+| T5 | UI sketch | screens, wireframes, storyboards |
+| T6 | Data & table | estimates, matrices, metric tables |
+| T7 | **AI workflow** | human → AI → verify → artifact (violet `#6D3FA8`) |
+
+Every chapter carries **exactly one T7** and **at least one T4**.
 
 ## Re-render after editing SVG
 
 ```zsh
 NODE_PATH=/Users/renzheng/.workbuddy/binaries/node/workspace/node_modules \
-  /Users/renzheng/.workbuddy/binaries/node/versions/22.22.2/bin/node \
+  /Users/renzheng/.workbuddy/binaries/node/versions/22.22.2-2/bin/node \
   figures/render.js
 ```
+
+## Figure index 图索引
+
+### Chapter 1 — Software and Software Engineering
+| # | Type | File | Caption |
+|---|---|---|---|
+| 1-1 | T6 | `ch01-fig1-1-failure-curves` | Hardware bathtub curve versus software deterioration curve |
+| 1-2 | T1 | `ch01-fig1-2-layered-technology` | The three essentials of software engineering |
+| 1-3 | T3 | `ch01-fig1-3-carelink-context` | CareLink system context diagram |
+| 1-4 | T1 | `ch01-fig1-4-product-anatomy` | Programs, data and documents; generic versus customized products |
+| 1-5 | T2 | `ch01-fig1-5-crisis-timeline` | From the 1968 software crisis to AI-assisted engineering |
+| 1-6 | T4 | `ch01-fig1-6-program-vs-product` | A program that works versus a product that ships |
+| 1-7 | T6 | `ch01-fig1-7-four-changes` | The four kinds of change and where maintenance effort goes |
+| 1-8 | T2 | `ch01-fig1-8-framework-activities` | The five framework activities under the umbrella activities |
+| 1-9 | T7 | `ch01-fig1-9-ai-classification` | AI-assisted classification, with a verification step |
+
+### Chapter 2 — Software Process Models
+| # | Type | File | Caption |
+|---|---|---|---|
+| 2-1 | T2 | `ch02-fig2-1-waterfall` | The waterfall model: five sequential phases |
+| 2-2 | T2 | `ch02-fig2-2-incremental` | The incremental model: three full-process passes |
+| 2-3 | T2 | `ch02-fig2-3-spiral` | The spiral model: four quadrants per loop |
+| 2-4 | T1 | `ch02-fig2-4-process-vocabulary` | Process model, framework activity and process frame |
+| 2-5 | T2 | `ch02-fig2-5-v-model` | The V model and its artefact-to-test pairings |
+| 2-6 | T2 | `ch02-fig2-6-prototyping` | The prototyping loop and the two roads out of it |
+| 2-7 | T6 | `ch02-fig2-7-model-selection` | Choosing a model: fit, cost and verdict |
+| 2-8 | T4 | `ch02-fig2-8-one-project-two-models` | One project under waterfall and under incremental |
+| 2-9 | T7 | `ch02-fig2-9-ai-model-selection` | AI-assisted process selection, with ceremony costing |
+
+### Chapter 3 — Agile Development and Scrum
+| # | Type | File | Caption |
+|---|---|---|---|
+| 3-1 | T1 | `ch03-fig3-1-manifesto` | The four values of the Agile Manifesto |
+| 3-2 | T2 | `ch03-fig3-2-sprint-cycle` | The Scrum sprint cycle |
+| 3-3 | T6 | `ch03-fig3-3-burndown` | A sprint burndown chart: ideal versus actual |
+| 3-4 | T1 | `ch03-fig3-4-values-principles-practices` | Values, principles and practices as three levels |
+| 3-5 | T2 | `ch03-fig3-5-three-artifacts` | The three Scrum artefacts inside one sprint |
+| 3-6 | T5 | `ch03-fig3-6-sprint-board` | The sprint board on day 6 |
+| 3-7 | T6 | `ch03-fig3-7-velocity` | Velocity across six sprints against the average |
+| 3-8 | T4 | `ch03-fig3-8-theatre-vs-agility` | Agile theatre versus real agility |
+| 3-9 | T7 | `ch03-fig3-9-ai-backlog-refinement` | AI-assisted backlog refinement, with grounding |
+
+### Chapter 4 — Requirements Inception and Elicitation
+| # | Type | File | Caption |
+|---|---|---|---|
+| 4-1 | T1 | `ch04-fig4-1-requirements-landscape` | The requirements landscape: six activities, with management beneath |
+| 4-2 | T2 | `ch04-fig4-2-elicitation-cycle` | The elicitation cycle: prepare, ask, listen, record, confirm, repeat |
+| 4-3 | T1 | `ch04-fig4-3-stakeholder-map` | Stakeholder map for CareLink: served, operated, constrained |
+| 4-4 | T2 | `ch04-fig4-4-interview-arc` | The interview arc: warm-up, context, problems, wish list, wrap-up |
+| 4-5 | T4 | `ch04-fig4-5-three-questions` | The same request asked three ways: closed, leading, open |
+| 4-6 | T4 | `ch04-fig4-6-vague-vs-testable` | Vague requirement versus testable requirement |
+| 4-7 | T6 | `ch04-fig4-7-stakeholder-grid` | Stakeholder influence and interest grid for CareLink |
+| 4-8 | T7 | `ch04-fig4-8-ai-transcript-analysis` | AI-assisted interview transcript analysis, with verification |
+| 4-9 | T1 | `ch04-fig4-9-statement-to-requirement` | From raw stakeholder statement to a numbered requirement |
+
+### Chapter 5 — Requirements Analysis and Specification
+| # | Type | File | Caption |
+|---|---|---|---|
+| 5-1 | T1 | `ch05-fig5-1-analysis-views` | The analysis model and its three views |
+| 5-2 | T2 | `ch05-fig5-2-analysis-pipeline` | From raw candidates to a checked requirement set |
+| 5-3 | T4 | `ch05-fig5-3-overspecified-vs-correct` | Over-specified versus correctly specified requirement |
+| 5-4 | T3 | `ch05-fig5-4-srs-outline` | Structured specification outline, with its three readers |
+| 5-5 | T6 | `ch05-fig5-5-moscow` | MoSCoW for CareLink's first release |
+| 5-6 | T4 | `ch05-fig5-6-vague-vs-bounded` | Unmeasurable words versus a bounded requirement |
+| 5-7 | T2 | `ch05-fig5-7-negotiation-loop` | The requirements negotiation loop |
+| 5-8 | T7 | `ch05-fig5-8-ai-requirement-rewrite` | AI-assisted requirement rewriting, with a meaning check |
+| 5-9 | T5 | `ch05-fig5-9-need-intake-form` | CareLink need-intake form |
+
+
+### Chapter 6 — Business Process Modelling
+| # | Type | File | Caption |
+|---|---|---|---|
+| 6-1 | T1 | `ch06-fig6-1-why-model-process` | Why model the business before the software |
+| 6-2 | T2 | `ch06-fig6-2-as-is-to-be-gap` | As-is, to-be, and the gap between them |
+| 6-3 | T3 | `ch06-fig6-3-as-is-alarm-call` | CareLink as-is: how an alarm call is handled today |
+| 6-4 | T3 | `ch06-fig6-4-to-be-alarm-call` | CareLink to-be: the same call with the system |
+| 6-5 | T3 | `ch06-fig6-5-swimlane-alarm-call` | Swimlane view across elder, care centre and caregiver |
+| 6-6 | T4 | `ch06-fig6-6-evidence-labels` | Documented process versus observed process, with evidence labels |
+| 6-7 | T6 | `ch06-fig6-7-cycle-time-table` | Cycle-time table: as-is versus to-be |
+| 6-8 | T7 | `ch06-fig6-8-ai-process-extraction` | AI-assisted process extraction from policy documents |
+| 6-9 | T1 | `ch06-fig6-9-process-vs-requirements` | Process model and specification: what each answers |
+
+**Running total: 54 figures.** Chapters 1–6 are all at quota (9 each).
+Type coverage per chapter: ≥4 of 7, with exactly one T7 and at least one T4.
+Next batch: Chapter 7, Use Case Modelling (see `PLAN-part2-requirements.md`).

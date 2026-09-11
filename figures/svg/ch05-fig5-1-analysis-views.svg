@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 424" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
+  <rect x="0" y="0" width="760" height="424" fill="#FFFFFF"/>
+<rect x="268" y="30" width="224" height="56" rx="10" fill="#FFFFFF" stroke="#1F2937" stroke-width="2.4"/>
+  <text x="380" y="65" text-anchor="middle" font-size="15" fill="#1F2937" font-weight="bold" font-style="normal">The analysis model</text>
+  <line x1="380" y1="86" x2="380" y2="118" stroke="#6B7280" stroke-width="2.4"/>
+  <line x1="140" y1="118" x2="620" y2="118" stroke="#6B7280" stroke-width="2.4"/>
+  <line x1="140" y1="118" x2="140" y2="148" stroke="#2563EB" stroke-width="2.4" marker-end="url(#arrK)"/>
+  <rect x="30" y="152" width="220" height="218" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+  <rect x="30" y="152" width="220" height="44" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
+  <text x="140" y="181" text-anchor="middle" font-size="14" fill="#2563EB" font-weight="bold" font-style="normal">Data view</text>
+  <text x="46" y="222" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It asks</text>
+  <text x="46" y="242" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="italic">what must the system remember?</text>
+  <text x="46" y="278" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It exposes</text>
+  <text x="46" y="300" text-anchor="start" font-size="11" fill="#2563EB" font-weight="normal" font-style="normal">undefined terms · one word used</text>
+<text x="46" y="316" text-anchor="start" font-size="11" fill="#2563EB" font-weight="normal" font-style="normal">for two things · missing</text>
+<text x="46" y="332" text-anchor="start" font-size="11" fill="#2563EB" font-weight="normal" font-style="normal">relationships</text>
+  <line x1="380" y1="118" x2="380" y2="148" stroke="#0D9488" stroke-width="2.4" marker-end="url(#arrK)"/>
+  <rect x="270" y="152" width="220" height="218" rx="10" fill="#FFFFFF" stroke="#0D9488" stroke-width="2.2"/>
+  <rect x="270" y="152" width="220" height="44" rx="10" fill="#CCFBF1" stroke="#0D9488" stroke-width="2.2"/>
+  <text x="380" y="181" text-anchor="middle" font-size="14" fill="#0D9488" font-weight="bold" font-style="normal">Function view</text>
+  <text x="286" y="222" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It asks</text>
+  <text x="286" y="242" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="italic">what must the system transform?</text>
+  <text x="286" y="278" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It exposes</text>
+  <text x="286" y="300" text-anchor="start" font-size="11" fill="#0D9488" font-weight="normal" font-style="normal">requirements with no input ·</text>
+<text x="286" y="316" text-anchor="start" font-size="11" fill="#0D9488" font-weight="normal" font-style="normal">requirements with no output</text>
+  <line x1="620" y1="118" x2="620" y2="148" stroke="#D97706" stroke-width="2.4" marker-end="url(#arrK)"/>
+  <rect x="510" y="152" width="220" height="218" rx="10" fill="#FFFFFF" stroke="#D97706" stroke-width="2.2"/>
+  <rect x="510" y="152" width="220" height="44" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="2.2"/>
+  <text x="620" y="181" text-anchor="middle" font-size="14" fill="#D97706" font-weight="bold" font-style="normal">Behaviour view</text>
+  <text x="526" y="222" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It asks</text>
+  <text x="526" y="242" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="italic">how does it respond over time?</text>
+  <text x="526" y="278" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It exposes</text>
+  <text x="526" y="300" text-anchor="start" font-size="11" fill="#D97706" font-weight="normal" font-style="normal">states nobody specified · events</text>
+<text x="526" y="316" text-anchor="start" font-size="11" fill="#D97706" font-weight="normal" font-style="normal">with no rule attached</text>
+  <text x="380" y="404" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="italic">Build all three roughly. Forty minutes of a rough model beats a week of rework.</text></svg>
