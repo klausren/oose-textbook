@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
+  <rect x="0" y="0" width="760" height="420" fill="#FFFFFF"/>
+<rect x="150" y="80" width="470" height="280" rx="12" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2" stroke-dasharray="7 5"/>
+  <text x="164" y="100" text-anchor="start" font-size="13" fill="#2563EB" font-weight="bold" font-style="normal">CareLink</text>
+  <text x="164" y="116" text-anchor="start" font-size="9.5" fill="#6B7280" font-weight="normal" font-style="normal">system boundary</text>
+  <line x1="84" y1="158" x2="214" y2="146" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="84" y1="158" x2="214" y2="226" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="84" y1="158" x2="271.0" y2="306" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="84" y1="298" x2="328" y2="146" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="84" y1="298" x2="328" y2="226" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="84" y1="298" x2="442" y2="146" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="84" y1="298" x2="271.0" y2="306" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="676" y1="158" x2="328" y2="146" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="676" y1="158" x2="442" y2="226" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="676" y1="158" x2="385.0" y2="306" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="676" y1="298" x2="556" y2="146" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="676" y1="298" x2="556" y2="226" stroke="#C9D4E2" stroke-width="1.6"/>
+  <line x1="676" y1="298" x2="499.0" y2="306" stroke="#C9D4E2" stroke-width="1.6"/>
+  <ellipse cx="214" cy="146" rx="52" ry="26" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="214" y="149.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">Request help</text>
+  <ellipse cx="328" cy="146" rx="52" ry="26" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="328" y="143.1" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">Acknowledge an</text>
+<text x="328" y="156.1" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">alert</text>
+  <ellipse cx="442" cy="146" rx="52" ry="26" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="442" y="149.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">Log a visit</text>
+  <ellipse cx="556" cy="146" rx="52" ry="26" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="556" y="143.1" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">Register a</text>
+<text x="556" y="156.1" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">resident</text>
+  <ellipse cx="214" cy="226" rx="52" ry="26" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="214" y="216.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">Request a</text>
+<text x="214" y="229.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">routine</text>
+<text x="214" y="242.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">check-in</text>
+  <ellipse cx="328" cy="226" rx="52" ry="26" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="328" y="216.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">Confirm the</text>
+<text x="328" y="229.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">resident is</text>
+<text x="328" y="242.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">safe</text>
+  <ellipse cx="442" cy="226" rx="52" ry="26" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="442" y="223.1" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">Review the</text>
+<text x="442" y="236.1" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">alert history</text>
+  <ellipse cx="556" cy="226" rx="52" ry="26" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="556" y="216.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">Configure the</text>
+<text x="556" y="229.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">escalation</text>
+<text x="556" y="242.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">policy</text>
+  <ellipse cx="271.0" cy="306" rx="52" ry="26" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="271.0" y="303.1" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">Report a device</text>
+<text x="271.0" y="316.1" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">fault</text>
+  <ellipse cx="385.0" cy="306" rx="52" ry="26" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="385.0" y="303.1" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">Maintain</text>
+<text x="385.0" y="316.1" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">contact records</text>
+  <ellipse cx="499.0" cy="306" rx="52" ry="26" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="499.0" y="296.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">Update the</text>
+<text x="499.0" y="309.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">caregiver</text>
+<text x="499.0" y="322.6" text-anchor="middle" font-size="10" fill="#1F2937" font-weight="normal" font-style="normal">roster</text>
+  <circle cx="84" cy="134" r="7" fill="#FFFFFF" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="84" y1="141" x2="84" y2="156" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="73" y1="146" x2="95" y2="146" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="84" y1="156" x2="76" y2="171" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="84" y1="156" x2="92" y2="171" stroke="#1F2937" stroke-width="1.9"/>
+<text x="84" y="190" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="bold" font-style="normal">Elder</text>
+  <circle cx="84" cy="274" r="7" fill="#FFFFFF" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="84" y1="281" x2="84" y2="296" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="73" y1="286" x2="95" y2="286" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="84" y1="296" x2="76" y2="311" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="84" y1="296" x2="92" y2="311" stroke="#1F2937" stroke-width="1.9"/>
+<text x="84" y="330" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="bold" font-style="normal">Caregiver</text>
+  <circle cx="676" cy="134" r="7" fill="#FFFFFF" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="676" y1="141" x2="676" y2="156" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="665" y1="146" x2="687" y2="146" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="676" y1="156" x2="668" y2="171" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="676" y1="156" x2="684" y2="171" stroke="#1F2937" stroke-width="1.9"/>
+<text x="676" y="190" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="bold" font-style="normal">Family</text>
+<text x="676" y="203" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="bold" font-style="normal">contact</text>
+  <circle cx="676" cy="274" r="7" fill="#FFFFFF" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="676" y1="281" x2="676" y2="296" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="665" y1="286" x2="687" y2="286" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="676" y1="296" x2="668" y2="311" stroke="#1F2937" stroke-width="1.9"/>
+<line x1="676" y1="296" x2="684" y2="311" stroke="#1F2937" stroke-width="1.9"/>
+<text x="676" y="330" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="bold" font-style="normal">Care-centre</text>
+<text x="676" y="343" text-anchor="middle" font-size="10.5" fill="#1F2937" font-weight="bold" font-style="normal">supervisor</text>
+  <text x="380" y="396" text-anchor="middle" font-size="12" fill="#6B7280" font-weight="normal" font-style="italic">Eleven goals · four actors · one boundary. Every oval can be read aloud as “the actor is trying to …”.</text></svg>

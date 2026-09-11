@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-layered--see%20LICENSE.md-blueviolet)](./LICENSE.md)
 [![Figures](https://img.shields.io/badge/figures-CC%20BY%204.0-2EA043)](./LICENSE.md)
 [![Language](https://img.shields.io/badge/language-English-blue)]()
-[![Chapters](https://img.shields.io/badge/chapters%20drafted-6%2F20-orange)]()
+[![Chapters](https://img.shields.io/badge/chapters%20drafted-7%2F20-orange)]()
 [![AI](https://img.shields.io/badge/AI--augmented-every%20chapter-6D3FA8)]()
 [![Status](https://img.shields.io/badge/status-writing%20in%20progress-yellow)]()
 
@@ -47,8 +47,7 @@ An open, project-driven English textbook on object-oriented software engineering
 | 4 | Requirements Inception and Elicitation | ✅ draft · 9 figures |
 | 5 | Requirements Analysis and Specification | ✅ draft · 9 figures |
 | 6 | Business Process Modelling | ✅ draft · 9 figures |
-| 6 | Business Process Modelling | ⏳ planned |
-| 7 | Use Case Modelling | ⏳ planned |
+| 7 | Use Case Modelling | ✅ draft · 9 figures |
 | 8 | Domain Modelling | ⏳ planned |
 | 9 | Behavioural Modelling | ⏳ planned |
 | 10 | Requirements Validation and Management | ⏳ planned |

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 664" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
+  <rect x="0" y="0" width="760" height="664" fill="#FFFFFF"/>
+<rect x="30" y="30" width="700" height="32" rx="6" fill="#1F2937" stroke="#1F2937" stroke-width="1.6"/>
+  <text x="42" y="51" text-anchor="start" font-size="11" fill="#FFFFFF" font-weight="bold" font-style="normal">Field</text>
+  <text x="212" y="51" text-anchor="start" font-size="11" fill="#FFFFFF" font-weight="bold" font-style="normal">CareLink — Acknowledge an alert</text>
+  <rect x="30" y="62" width="170" height="34" rx="0" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <rect x="200" y="62" width="530" height="34" rx="0" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.4"/>
+  <text x="40" y="83.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Name</text>
+  <text x="212" y="83.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Acknowledge an alert</text>
+  <rect x="30" y="96" width="170" height="34" rx="0" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <rect x="200" y="96" width="530" height="34" rx="0" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.4"/>
+  <text x="40" y="117.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Primary actor</text>
+  <text x="212" y="117.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Caregiver</text>
+  <rect x="30" y="130" width="170" height="34" rx="0" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <rect x="200" y="130" width="530" height="34" rx="0" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.4"/>
+  <text x="40" y="151.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Supporting actors</text>
+  <text x="212" y="151.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Family contact · the monitoring centre</text>
+  <rect x="30" y="164" width="170" height="34" rx="0" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <rect x="200" y="164" width="530" height="34" rx="0" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.4"/>
+  <text x="40" y="185.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Trigger</text>
+  <text x="212" y="185.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">The caregiver opens the list of open alerts</text>
+  <rect x="30" y="198" width="170" height="34" rx="0" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <rect x="200" y="198" width="530" height="34" rx="0" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.4"/>
+  <text x="40" y="219.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Preconditions</text>
+  <text x="212" y="219.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">The caregiver is authenticated · the alert is still open</text>
+  <rect x="30" y="232" width="170" height="118" rx="0" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <rect x="200" y="232" width="530" height="118" rx="0" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.4"/>
+  <text x="40" y="254" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Main flow</text>
+  <text x="40" y="272" text-anchor="start" font-size="9" fill="#D97706" font-weight="normal" font-style="normal">shortest complete path</text>
+  <text x="212" y="256" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">1. The caregiver opens the list of open alerts.</text>
+  <text x="212" y="273" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">2. The system lists open alerts with address and key-box code.</text>
+  <text x="212" y="290" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">3. The caregiver selects the alert.</text>
+  <text x="212" y="307" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">4. The system shows the profile, the alert type and the time since the trigger.</text>
+  <text x="212" y="324" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">5. The caregiver taps Acknowledge.</text>
+  <text x="212" y="341" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">6. The system records it, stops the escalation timer and confirms the time.</text>
+  <rect x="30" y="350" width="170" height="178" rx="0" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <rect x="200" y="350" width="530" height="178" rx="0" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.4"/>
+  <text x="40" y="372" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Alternative flows</text>
+  <text x="40" y="390" text-anchor="start" font-size="9" fill="#D97706" font-weight="normal" font-style="normal">where the requirements live</text>
+  <text x="212" y="381" text-anchor="start" font-size="10.5" fill="#D97706" font-weight="bold" font-style="normal">A1</text>
+  <text x="240" y="381" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">no coverage at the tap</text>
+  <text x="468" y="381" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">→ queued locally</text>
+  <text x="628" y="381" text-anchor="start" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="normal">→ returns to 6</text>
+  <text x="212" y="408" text-anchor="start" font-size="10.5" fill="#D97706" font-weight="bold" font-style="normal">A2</text>
+  <text x="240" y="408" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">already acknowledged</text>
+  <text x="468" y="408" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">→ shows who and when</text>
+  <text x="628" y="408" text-anchor="start" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="normal">→ partial outcome</text>
+  <text x="212" y="435" text-anchor="start" font-size="10.5" fill="#D97706" font-weight="bold" font-style="normal">A3</text>
+  <text x="240" y="435" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">session expired</text>
+  <text x="468" y="435" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">→ re-authenticate</text>
+  <text x="628" y="435" text-anchor="start" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="normal">→ returns to 5</text>
+  <text x="212" y="462" text-anchor="start" font-size="10.5" fill="#D97706" font-weight="bold" font-style="normal">A4</text>
+  <text x="240" y="462" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">nothing acknowledged in the interval</text>
+  <text x="468" y="462" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">→ escalates</text>
+  <text x="628" y="462" text-anchor="start" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="normal">→ partial outcome</text>
+  <text x="212" y="489" text-anchor="start" font-size="10.5" fill="#D97706" font-weight="bold" font-style="normal">A5</text>
+  <text x="240" y="489" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">attended, no response</text>
+  <text x="468" y="489" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">→ record and offer next step</text>
+  <text x="628" y="489" text-anchor="start" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="normal">→ partial outcome</text>
+  <rect x="202" y="499" width="526" height="24" rx="4" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.4"/>
+  <text x="212" y="516" text-anchor="start" font-size="10.5" fill="#DC2626" font-weight="bold" font-style="normal">A6</text>
+  <text x="240" y="516" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">closed without attending</text>
+  <text x="468" y="516" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">→ no safety confirmation</text>
+  <text x="628" y="516" text-anchor="start" font-size="10.5" fill="#DC2626" font-weight="normal" font-style="normal">→ partial outcome</text>
+  <rect x="30" y="528" width="170" height="52" rx="0" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <rect x="200" y="528" width="530" height="52" rx="0" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.4"/>
+  <text x="40" y="558.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Success</text>
+<text x="40" y="572.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">postcondition</text>
+  <text x="212" y="550" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">The alert is acknowledged by a named caregiver and the escalation timer is</text>
+<text x="212" y="564" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">cancelled.</text>
+  <rect x="30" y="580" width="170" height="52" rx="0" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <rect x="200" y="580" width="530" height="52" rx="0" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.4"/>
+  <text x="40" y="610.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Failure</text>
+<text x="40" y="624.0" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">postcondition</text>
+  <text x="212" y="602" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">The alert remains open and the escalation timer is still running.</text></svg>

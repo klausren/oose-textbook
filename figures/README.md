@@ -68,10 +68,14 @@ Every chapter carries **exactly one T7** and **at least one T4**.
 ## Re-render after editing SVG
 
 ```zsh
+NODE="/Users/renzheng/.workbuddy/binaries/node/versions/$(cat /Users/renzheng/.workbuddy/binaries/node/versions/current)/bin/node"
 NODE_PATH=/Users/renzheng/.workbuddy/binaries/node/workspace/node_modules \
-  /Users/renzheng/.workbuddy/binaries/node/versions/22.22.2-2/bin/node \
-  figures/render.js
+  "$NODE" figures/render.js
 ```
+
+`versions/current` is a plain text file holding the version string, not a symlink —
+hence the `$(cat ...)`. Do not pin a version number: the managed runtime is replaced
+on upgrade and a pinned path silently disappears.
 
 ## Figure index 图索引
 
@@ -154,6 +158,20 @@ NODE_PATH=/Users/renzheng/.workbuddy/binaries/node/workspace/node_modules \
 | 6-8 | T7 | `ch06-fig6-8-ai-process-extraction` | AI-assisted process extraction from policy documents |
 | 6-9 | T1 | `ch06-fig6-9-process-vs-requirements` | Process model and specification: what each answers |
 
-**Running total: 54 figures.** Chapters 1–6 are all at quota (9 each).
+
+### Chapter 7 — Use Case Modelling
+| # | Type | File | Caption |
+|---|---|---|---|
+| 7-1 | T3 | `ch07-fig7-1-usecase-diagram-carelink` | CareLink use case diagram: eleven goals, four actors |
+| 7-2 | T4 | `ch07-fig7-2-goal-vs-feature` | Use case versus function: the same feature described both ways |
+| 7-3 | T3 | `ch07-fig7-3-usecase-anatomy` | The anatomy of a use case diagram |
+| 7-4 | T3 | `ch07-fig7-4-usecase-description` | The description template, filled for Acknowledge an alert |
+| 7-5 | T2 | `ch07-fig7-5-usecase-workflow` | Writing a use case: four steps and what each prevents |
+| 7-6 | T3 | `ch07-fig7-6-include-and-extend` | Include and extend on one base case |
+| 7-7 | T4 | `ch07-fig7-7-feature-vs-goal-sorting` | The same work sorted by feature and by actor goal |
+| 7-8 | T7 | `ch07-fig7-8-ai-usecase-drafting` | AI-assisted use case drafting, with verification |
+| 7-9 | T5 | `ch07-fig7-9-alarm-screen-wireframe` | CareLink alarm screen, used as a use case prop |
+
+**Running total: 63 figures.** Chapters 1–7 are all at quota (9 each).
 Type coverage per chapter: ≥4 of 7, with exactly one T7 and at least one T4.
-Next batch: Chapter 7, Use Case Modelling (see `PLAN-part2-requirements.md`).
+Next batch: Chapter 8, Domain Modelling (see `PLAN-part2-requirements.md`).

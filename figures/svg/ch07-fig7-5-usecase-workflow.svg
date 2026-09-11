@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 396" font-family="Arial">
+  <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
+  <rect x="0" y="0" width="760" height="396" fill="#FFFFFF"/>
+<text x="380" y="40" text-anchor="middle" font-size="14" fill="#1F2937" font-weight="bold" font-style="normal">Four steps, in this order</text>
+  <rect x="20" y="84" width="165" height="258" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+  <rect x="20" y="84" width="165" height="56" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
+  <text x="34" y="106" text-anchor="start" font-size="12.5" fill="#2563EB" font-weight="bold" font-style="normal">1</text>
+  <text x="34" y="128" text-anchor="start" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">Name the actors</text>
+  <text x="32" y="172" text-anchor="start" font-size="9" fill="#2563EB" font-weight="bold" font-style="normal">YOU PRODUCE</text>
+  <text x="32" y="192" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">A role list with the</text>
+<text x="32" y="207" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">named human who speaks</text>
+<text x="32" y="222" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">for each role</text>
+  <rect x="32" y="268" width="141" height="60" rx="6" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.4"/>
+  <text x="42" y="288" text-anchor="start" font-size="9" fill="#2563EB" font-weight="normal" font-style="normal">Prevents:</text>
+  <text x="42" y="302" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Actors you invented</text>
+  <line x1="188" y1="205" x2="202" y2="205" stroke="#1F2937" stroke-width="2.4" marker-end="url(#arrK)"/>
+  <rect x="205" y="84" width="165" height="258" rx="10" fill="#FFFFFF" stroke="#0D9488" stroke-width="2.2"/>
+  <rect x="205" y="84" width="165" height="56" rx="10" fill="#CCFBF1" stroke="#0D9488" stroke-width="2.2"/>
+  <text x="219" y="106" text-anchor="start" font-size="12.5" fill="#0D9488" font-weight="bold" font-style="normal">2</text>
+  <text x="219" y="128" text-anchor="start" font-size="11.5" fill="#0D9488" font-weight="bold" font-style="normal">Name the goals</text>
+  <text x="217" y="172" text-anchor="start" font-size="9" fill="#0D9488" font-weight="bold" font-style="normal">YOU PRODUCE</text>
+  <text x="217" y="192" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">A goal-tested use case</text>
+<text x="217" y="207" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">list, sorted by the</text>
+<text x="217" y="222" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">actor who wants it</text>
+  <rect x="217" y="268" width="141" height="60" rx="6" fill="#CCFBF1" stroke="#0D9488" stroke-width="1.4"/>
+  <text x="227" y="288" text-anchor="start" font-size="9" fill="#0D9488" font-weight="normal" font-style="normal">Prevents:</text>
+  <text x="227" y="302" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Ovals named after screens</text>
+  <line x1="373" y1="205" x2="387" y2="205" stroke="#1F2937" stroke-width="2.4" marker-end="url(#arrK)"/>
+  <rect x="390" y="84" width="165" height="258" rx="10" fill="#FFFFFF" stroke="#D97706" stroke-width="2.2"/>
+  <rect x="390" y="84" width="165" height="56" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="2.2"/>
+  <text x="404" y="106" text-anchor="start" font-size="12.5" fill="#D97706" font-weight="bold" font-style="normal">3</text>
+  <text x="404" y="128" text-anchor="start" font-size="11.5" fill="#D97706" font-weight="bold" font-style="normal">Write the main flow</text>
+  <text x="402" y="172" text-anchor="start" font-size="9" fill="#D97706" font-weight="bold" font-style="normal">YOU PRODUCE</text>
+  <text x="402" y="192" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">The shortest complete</text>
+<text x="402" y="207" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">path, numbered, actor</text>
+<text x="402" y="222" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">and system turns</text>
+<text x="402" y="237" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">alternating</text>
+  <rect x="402" y="268" width="141" height="60" rx="6" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <text x="412" y="288" text-anchor="start" font-size="9" fill="#D97706" font-weight="normal" font-style="normal">Prevents:</text>
+  <text x="412" y="302" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">Exceptions hidden inside</text>
+<text x="412" y="315" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">the happy path</text>
+  <line x1="558" y1="205" x2="572" y2="205" stroke="#1F2937" stroke-width="2.4" marker-end="url(#arrK)"/>
+  <rect x="575" y="84" width="165" height="258" rx="10" fill="#FFFFFF" stroke="#2E7D46" stroke-width="2.2"/>
+  <rect x="575" y="84" width="165" height="56" rx="10" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2.2"/>
+  <text x="589" y="106" text-anchor="start" font-size="12.5" fill="#2E7D46" font-weight="bold" font-style="normal">4</text>
+  <text x="589" y="128" text-anchor="start" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">Add the alternatives</text>
+  <text x="587" y="172" text-anchor="start" font-size="9" fill="#2E7D46" font-weight="bold" font-style="normal">YOU PRODUCE</text>
+  <text x="587" y="192" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Six families, every flow</text>
+<text x="587" y="207" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">given one of the three</text>
+<text x="587" y="222" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">legal endings</text>
+  <rect x="587" y="268" width="141" height="60" rx="6" fill="#DCFCE7" stroke="#2E7D46" stroke-width="1.4"/>
+  <text x="597" y="288" text-anchor="start" font-size="9" fill="#2E7D46" font-weight="normal" font-style="normal">Prevents:</text>
+  <text x="597" y="302" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">A specification with no</text>
+<text x="597" y="315" text-anchor="start" font-size="10.5" fill="#1F2937" font-weight="normal" font-style="normal">exceptions in it</text>
+  <text x="380" y="372" text-anchor="middle" font-size="12" fill="#6B7280" font-weight="normal" font-style="italic">Steps 1 and 2 decide what the list is. Steps 3 and 4 decide what is in it. Swap 3 and 4 and you document the happy path.</text></svg>
