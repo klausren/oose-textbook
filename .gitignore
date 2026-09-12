@@ -4,3 +4,6 @@
 # README.md tells readers to run `build/sync-figures.sh`.
 build/*.docx
 build/.*.clean.md
+
+# fitvbox.py writes a scratch copy of figures/svg/ here on every --apply run:
+figures/.svg-prefit-backup/

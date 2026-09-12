@@ -36,20 +36,20 @@ depth in *AI Companion*.
 | 1 | Software & SE | AI as a force that changed software's economics; why "faster code" did not remove the software crisis |
 | 2 | Process models | Where AI assistance fits in waterfall / incremental / spiral; AI-augmented spiral risk analysis |
 | 3 | Agile & Scrum | AI in stand-ups, backlog refinement, estimation; velocity inflation risk |
-| 4 | Requirements inception | AI-assisted stakeholder interview analysis; hallucinated stakeholder needs |
-| 5 | Elicitation | AI-generated interview scripts and persona drafts; bias amplification |
-| 6 | Use case modeling | Generating candidate use cases from transcripts; missing actors and wrong boundaries |
-| 7 | Requirements specification | AI-drafted SRS; ambiguity that reads as precision |
-| 8 | Requirements validation | Using AI as an adversarial reviewer; traceability faking |
-| 9 | Domain modeling | Candidate concept extraction from text; attribute-vs-concept errors |
-| 10 | Behavior modeling | Sequence/state diagram generation; impossible transitions |
+| 4 | Requirements inception & elicitation | AI-assisted stakeholder interview analysis; hallucinated stakeholder needs |
+| 5 | Requirements analysis & specification | AI-drafted SRS; ambiguity that reads as precision |
+| 6 | Business process modelling | AI extraction of a process from policy documents; the documented process mistaken for the real one |
+| 7 | Use case modelling | Generating candidate use cases from transcripts; missing actors and wrong boundaries |
+| 8 | Domain modelling | Candidate concept extraction from text; attribute-versus-concept errors |
+| 9 | Behavioural modelling | Sequence and state diagram generation; impossible transitions |
+| 10 | Requirements validation & management | Using AI as an adversarial reviewer; traceability faking |
 | 11 | Design concepts | AI-suggested patterns; over-engineering by suggestion |
 | 12 | Architecture | AI-proposed architectures without quality-attribute rationale |
 | 13 | Class design | Generated class diagrams; responsibility misassignment |
 | 14 | UI design | AI-generated wireframes; accessibility and i18n blind spots |
 | 15 | Implementation | Pair programming with AI; code review of AI output; license and provenance |
 | 16 | Testing | AI-generated tests that pass but assert nothing; mutation testing |
-| 17 | Quality assurance | **AI-augmented SE (new chapter)** — verification discipline, prompt as spec, evidence trails |
+| 17 | **AI-augmented SE (new chapter)** | Verification discipline, prompt as specification, evidence trails, when not to use AI, licensing and data-protection basics |
 | 18 | Project management | AI estimation; planning fallacy with confident AI numbers |
 | 19 | Risk & configuration | Model/API dependency as a supply-chain risk; versioning prompts |
 | 20 | Evolution & delivery | AI-assisted refactoring and legacy comprehension; telemetry-driven evolution |
@@ -67,7 +67,7 @@ Every chapter carries an AI Companion (~1.5 pages) with the same four parts:
 1. **What AI is good at here** — 2–3 bullets, specific to the chapter's artifact.
 2. **Prompt pattern** — a copy-paste template (≤8 lines) with `{{slots}}`.
 3. **Verify before you trust** — 3–5 checklist items that catch the *chapter's own*
-   failure mode (e.g. Ch 9: "every concept must appear in the glossary; reject
+   failure mode (e.g. Ch 8: "every concept must appear in the inventory; reject
    concepts that are really attributes").
 4. **Typical AI failure in this chapter** — one short worked example:
    AI output → what's wrong → the repair. Students learn the shape of the mistake.

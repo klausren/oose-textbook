@@ -73,7 +73,7 @@ Numbering: `chNN-figN-M-topic` where N = chapter number, M = sequence in chapter
    then all T3 model figures for Part II, etc. Style stays consistent and speed rises.
 2. **Author draws, tool renders.** Write the figure as SVG (text → versionable →
    diff-able in Git), render PNG with a headless renderer; never hand-draw bitmaps.
-3. **Reuse the case.** CareLink artifacts cascade: the domain model of Ch 9 becomes
+3. **Reuse the case.** CareLink artifacts cascade: the domain model of Ch 8 becomes
    the class diagram of Ch 13 becomes the test fixture of Ch 16 — draw the *variation*,
    not a new picture each time.
 4. **Student-sourced (optional).** With permission, adapted student artifacts make

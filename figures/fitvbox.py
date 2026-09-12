@@ -73,13 +73,18 @@ def main():
             print("SKIP (blank): %s" % stem)
             continue
         sx, sy = W / g.shape[1], H / g.shape[0]
-        x0, x1 = cols[0] * sx, (cols[-1] + 1) * sx
-        y0, y1 = rows[0] * sy, (rows[-1] + 1) * sy
+        # Ink extents in FIGURE coordinates. The PNG is a rendering of the
+        # current viewBox, so the origin has to be added back. Omitting it made
+        # the tool non-idempotent: on a figure whose viewBox origin is not
+        # (0,0) a second run slid the crop up-left, clipped the right and
+        # bottom edges, and qc.py reported margin 0.0 on 63 figures.
+        x0, x1 = vx + cols[0] * sx, vx + (cols[-1] + 1) * sx
+        y0, y1 = vy + rows[0] * sy, vy + (rows[-1] + 1) * sy
 
         nW = min(W, max(MIN_W, (x1 - x0) + 2 * PAD))
         nH = min(H, max(MIN_H, (y1 - y0) + 2 * PAD))
-        ncx = max(0.0, min(W - nW, (x0 + x1) / 2 - nW / 2))
-        ncy = max(0.0, min(H - nH, (y0 + y1) / 2 - nH / 2))
+        ncx = max(vx, min(vx + W - nW, (x0 + x1) / 2 - nW / 2))
+        ncy = max(vy, min(vy + H - nH, (y0 + y1) / 2 - nH / 2))
         ncx, ncy, nW, nH = round(ncx), round(ncy), round(nW), round(nH)
         plan.append((stem, W, H, nW, nH, W / nW))
 

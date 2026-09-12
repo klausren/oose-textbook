@@ -230,6 +230,30 @@ on upgrade and a pinned path silently disappears.
 | 7-8 | T7 | `ch07-fig7-8-ai-usecase-drafting` | AI-assisted use case drafting, with verification |
 | 7-9 | T5 | `ch07-fig7-9-alarm-screen-wireframe` | CareLink alarm screen, used as a use case prop |
 
-**Running total: 63 figures.** Chapters 1–7 are all at quota (9 each).
+### Chapter 8 — Domain Modelling
+| # | Type | File | Caption |
+|---|---|---|---|
+| 8-1 | T1 | `ch08-fig8-1-three-artefacts` | Domain model, design class diagram and database schema: three different artefacts |
+| 8-2 | T2 | `ch08-fig8-2-noun-to-concept` | Finding concepts: collect noun phrases, discard five families, then name |
+| 8-3 | T3 | `ch08-fig8-3-domain-model-first-pass` | CareLink domain model, first pass: thirteen concepts, no attributes |
+| 8-4 | T3 | `ch08-fig8-4-domain-model-refined` | CareLink domain model with attributes, multiplicities and named ends |
+| 8-5 | T4 | `ch08-fig8-5-attribute-vs-concept` | Attribute mistaken for a concept: the key-box code |
+| 8-6 | T3 | `ch08-fig8-6-association-class` | Association classes and why CareLink needs one |
+| 8-7 | T1 | `ch08-fig8-7-usecases-to-concepts` | The domain model links back to the use case list |
+| 8-8 | T7 | `ch08-fig8-8-ai-concept-extraction` | AI-assisted concept extraction, with verification |
+| 8-9 | T6 | `ch08-fig8-9-concept-inventory` | Concept inventory: name, evidence, verdict |
+
+**Running total: 72 figures.** Chapters 1–8 are all at quota (9 each).
 Type coverage per chapter: ≥4 of 7, with exactly one T7 and at least one T4.
-Next batch: Chapter 8, Domain Modelling (see `PLAN-part2-requirements.md`).
+Next batch: Chapter 9, Behavioural Modelling (see `PLAN-part2-requirements.md`).
+
+### Regenerating a chapter's figures
+Chapter 8's nine figures are produced by three scripts under `figures/gen/`
+(`common.py` holds the palette and the layout assertions, `figs_cards.py` the
+four comparison/table figures, `figs_flow.py` the two diagrams and the AI
+workflow, `figs_model.py` the two domain-model diagrams with its layout
+solver). Figure 8-3's node placement is **solved**, not hand-placed: nodes are
+assigned to distinct slots of an aligned grid and the assignment is improved by
+swapping slots while a cost function watches line crossings,
+line-through-box and total line length. Re-run the flow
+(generate → `fitvbox.py --apply` → `qc.py` → `render.js`) after any edit.
