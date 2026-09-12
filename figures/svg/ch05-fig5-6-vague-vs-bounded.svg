@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 474" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="23 29 715 440" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
-  <rect x="0" y="0" width="760" height="474" fill="#FFFFFF"/>
+  <rect x="23" y="29" width="715" height="440" fill="#FFFFFF"/>
 <rect x="40" y="46" width="320" height="330" rx="10" fill="#FFFFFF" stroke="#DC2626" stroke-width="2.2"/>
   <rect x="40" y="46" width="320" height="54" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2.2"/>
   <text x="200" y="70" text-anchor="middle" font-size="15" fill="#DC2626" font-weight="bold" font-style="normal">Unmeasurable words</text>
-  <text x="200" y="90" text-anchor="middle" font-size="10.5" fill="#DC2626" font-weight="normal" font-style="italic">a direction, not a destination</text>
+  <text x="200" y="90" text-anchor="middle" font-size="11.5" fill="#DC2626" font-weight="normal" font-style="italic">a direction, not a destination</text>
   <circle cx="66" cy="132" r="9" fill="#DC2626"/><path d="M 62,128 l 8,8 M 70,128 l -8,8" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
   <text x="88" y="137" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">The app must be fast</text>
   <circle cx="66" cy="180" r="9" fill="#DC2626"/><path d="M 62,176 l 8,8 M 70,176 l -8,8" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
@@ -18,22 +18,22 @@
   <rect x="400" y="46" width="320" height="330" rx="10" fill="#FFFFFF" stroke="#2E7D46" stroke-width="2.2"/>
   <rect x="400" y="46" width="320" height="54" rx="10" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2.2"/>
   <text x="560" y="70" text-anchor="middle" font-size="15" fill="#2E7D46" font-weight="bold" font-style="normal">A bounded requirement</text>
-  <text x="560" y="90" text-anchor="middle" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="italic">four parts, each one checkable</text>
+  <text x="560" y="90" text-anchor="middle" font-size="11.5" fill="#2E7D46" font-weight="normal" font-style="italic">four parts, each one checkable</text>
   <rect x="418" y="122" width="284" height="48" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
   <text x="560" y="143" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="bold" font-style="normal">When the app opens</text>
-  <text x="560" y="160" text-anchor="middle" font-size="10" fill="#6B7280" font-weight="normal" font-style="italic">condition</text>
+  <text x="560" y="160" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="italic">condition</text>
   <line x1="560" y1="170" x2="560" y2="178" stroke="#2563EB" stroke-width="2.2" marker-end="url(#arrK)"/>
   <rect x="418" y="180" width="284" height="48" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/>
   <text x="560" y="201" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="bold" font-style="normal">the system shall display the latest reading</text>
-  <text x="560" y="218" text-anchor="middle" font-size="10" fill="#6B7280" font-weight="normal" font-style="italic">capability</text>
+  <text x="560" y="218" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="italic">capability</text>
   <line x1="560" y1="228" x2="560" y2="236" stroke="#0D9488" stroke-width="2.2" marker-end="url(#arrK)"/>
   <rect x="418" y="238" width="284" height="48" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
   <text x="560" y="259" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="bold" font-style="normal">within 2 s at p95</text>
-  <text x="560" y="276" text-anchor="middle" font-size="10" fill="#6B7280" font-weight="normal" font-style="italic">bounded metric</text>
+  <text x="560" y="276" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="italic">bounded metric</text>
   <line x1="560" y1="286" x2="560" y2="294" stroke="#D97706" stroke-width="2.2" marker-end="url(#arrK)"/>
   <rect x="418" y="296" width="284" height="48" rx="8" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2"/>
   <text x="560" y="317" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="bold" font-style="normal">measured on a mid-range phone over 4G</text>
-  <text x="560" y="334" text-anchor="middle" font-size="10" fill="#6B7280" font-weight="normal" font-style="italic">measurement method</text>
+  <text x="560" y="334" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="italic">measurement method</text>
   <rect x="40" y="398" width="680" height="54" rx="10" fill="#F5F6F7" stroke="#C9D4E2" stroke-width="2"/>
   <text x="380" y="420" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="normal" font-style="normal">The right-hand requirement is longer, harder to agree on,</text>
   <text x="380" y="439" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="normal" font-style="normal">and the only one a tester can act on.</text></svg>

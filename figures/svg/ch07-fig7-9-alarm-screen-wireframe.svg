@@ -1,45 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="23 23 688 448" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
-  <rect x="0" y="0" width="760" height="480" fill="#FFFFFF"/>
+  <rect x="23" y="23" width="688" height="448" fill="#FFFFFF"/>
 <rect x="40" y="40" width="400" height="380" rx="14" fill="#FFFFFF" stroke="#1F2937" stroke-width="2.4"/>
   <rect x="40" y="40" width="400" height="46" rx="14" fill="#1F2937" stroke="#1F2937" stroke-width="2.4"/>
   <text x="58" y="69" text-anchor="start" font-size="14" fill="#FFFFFF" font-weight="bold" font-style="normal">Open alerts</text>
   <text x="422" y="69" text-anchor="end" font-size="11.5" fill="#CBD5E1" font-weight="normal" font-style="normal">2 open</text>
   <rect x="58" y="102" width="364" height="116" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
 <text x="72" y="126" text-anchor="start" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Flat 12B — Grandma Lin</text>
-<text x="72" y="146" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Alert 22:40 · 6 min ago</text>
-<text x="72" y="166" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Building 3, east wing · key-box 4-4-1-2</text>
+<text x="72" y="146" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Alert 22:40 · 6 min ago</text>
+<text x="72" y="166" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Building 3, east wing · key-box 4-4-1-2</text>
 <rect x="300" y="180" width="108" height="26" rx="6" fill="#2563EB" stroke="#2563EB" stroke-width="1.6"/>
-<text x="354" y="197" text-anchor="middle" font-size="10.5" fill="#FFFFFF" font-weight="bold" font-style="normal">Acknowledge</text>
+<text x="354" y="197" text-anchor="middle" font-size="11.5" fill="#FFFFFF" font-weight="bold" font-style="normal">Acknowledge</text>
   <rect x="58" y="228" width="364" height="116" rx="10" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.6"/>
 <text x="72" y="252" text-anchor="start" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Flat 7A — Mr Zhou</text>
-<text x="72" y="272" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Alert 21:05 · 1 h 41 min ago</text>
-<text x="72" y="292" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Building 1, west wing · key-box 2-1-0-8</text>
+<text x="72" y="272" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Alert 21:05 · 1 h 41 min ago</text>
+<text x="72" y="292" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Building 1, west wing · key-box 2-1-0-8</text>
 <rect x="300" y="306" width="108" height="26" rx="6" fill="#2563EB" stroke="#2563EB" stroke-width="1.6"/>
-<text x="354" y="323" text-anchor="middle" font-size="10.5" fill="#FFFFFF" font-weight="bold" font-style="normal">Acknowledge</text>
+<text x="354" y="323" text-anchor="middle" font-size="11.5" fill="#FFFFFF" font-weight="bold" font-style="normal">Acknowledge</text>
   <rect x="58" y="356" width="364" height="30" rx="8" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.6"/>
-  <text x="240" y="376" text-anchor="middle" font-size="11" fill="#DC2626" font-weight="normal" font-style="normal">Close without attending</text>
+  <text x="240" y="376" text-anchor="middle" font-size="11.5" fill="#DC2626" font-weight="normal" font-style="normal">Close without attending</text>
   <circle cx="478" cy="112" r="11" fill="#D97706"/>
-  <text x="478" y="116" text-anchor="middle" font-size="9.5" fill="#FFFFFF" font-weight="bold" font-style="normal">A1</text>
-  <text x="498" y="106" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">No coverage at the tap. The button</text>
-<text x="498" y="120" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">shows “not yet confirmed” and the</text>
-<text x="498" y="134" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">tap is queued.</text>
+  <text x="478" y="116" text-anchor="middle" font-size="11.5" fill="#FFFFFF" font-weight="bold" font-style="normal">A1</text>
+  <text x="498" y="106" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">No coverage at the tap. The button</text>
+<text x="498" y="120" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">shows “not yet confirmed” and the</text>
+<text x="498" y="134" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">tap is queued.</text>
   <line x1="466" y1="112" x2="434" y2="112" stroke="#D97706" stroke-width="1.6" stroke-dasharray="4 3"/>
   <circle cx="478" cy="232" r="11" fill="#0D9488"/>
-  <text x="478" y="236" text-anchor="middle" font-size="9.5" fill="#FFFFFF" font-weight="bold" font-style="normal">A2</text>
-  <text x="498" y="226" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Already acknowledged. Show who and</text>
-<text x="498" y="240" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">when, and offer no action.</text>
+  <text x="478" y="236" text-anchor="middle" font-size="11.5" fill="#FFFFFF" font-weight="bold" font-style="normal">A2</text>
+  <text x="498" y="226" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Already acknowledged. Show who and</text>
+<text x="498" y="240" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">when, and offer no action.</text>
   <line x1="466" y1="232" x2="434" y2="232" stroke="#0D9488" stroke-width="1.6" stroke-dasharray="4 3"/>
   <circle cx="478" cy="272" r="11" fill="#2563EB"/>
-  <text x="478" y="276" text-anchor="middle" font-size="9.5" fill="#FFFFFF" font-weight="bold" font-style="normal">A5</text>
-  <text x="498" y="266" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Attended, no response. Record it</text>
-<text x="498" y="280" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">and offer the next escalation</text>
-<text x="498" y="294" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">step.</text>
+  <text x="478" y="276" text-anchor="middle" font-size="11.5" fill="#FFFFFF" font-weight="bold" font-style="normal">A5</text>
+  <text x="498" y="266" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Attended, no response. Record it</text>
+<text x="498" y="280" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">and offer the next escalation</text>
+<text x="498" y="294" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">step.</text>
   <line x1="466" y1="272" x2="434" y2="272" stroke="#2563EB" stroke-width="1.6" stroke-dasharray="4 3"/>
   <circle cx="478" cy="372" r="11" fill="#DC2626"/>
-  <text x="478" y="376" text-anchor="middle" font-size="9.5" fill="#FFFFFF" font-weight="bold" font-style="normal">A6</text>
-  <text x="498" y="366" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Closing an alert with no safety</text>
-<text x="498" y="380" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">confirmation. This is the row</text>
-<text x="498" y="394" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Deng's question was about.</text>
+  <text x="478" y="376" text-anchor="middle" font-size="11.5" fill="#FFFFFF" font-weight="bold" font-style="normal">A6</text>
+  <text x="498" y="366" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Closing an alert with no safety</text>
+<text x="498" y="380" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">confirmation. This is the row</text>
+<text x="498" y="394" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Deng's question was about.</text>
   <line x1="466" y1="372" x2="434" y2="372" stroke="#DC2626" stroke-width="1.6" stroke-dasharray="4 3"/>
   <text x="380" y="452" text-anchor="middle" font-size="12" fill="#6B7280" font-weight="normal" font-style="normal">The wireframe is the prop. The alternative flows it exposes are the finding.</text></svg>

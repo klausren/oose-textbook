@@ -1,30 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 730" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="73 9 644 717" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
-  <rect x="0" y="0" width="760" height="730" fill="#FFFFFF"/>
+  <rect x="73" y="9" width="644" height="717" fill="#FFFFFF"/>
 <circle cx="280" cy="34" r="9" fill="#1F2937"/>
-  <text x="302" y="38" text-anchor="start" font-size="11" fill="#1F2937" font-weight="bold" font-style="normal">22:40  fall detected</text>
+  <text x="302" y="38" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="bold" font-style="normal">22:40  fall detected</text>
   <line x1="280" y1="43" x2="280" y2="58" stroke="#6B7280" stroke-width="2.4" marker-end="url(#arrG)"/>
   <rect x="90" y="58" width="380" height="56" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
 <text x="280.0" y="82" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Pendant dials the monitoring centre</text>
-<text x="280.0" y="105" text-anchor="middle" font-size="10.5" fill="#2563EB" font-weight="normal" font-style="normal">2 min</text>
+<text x="280.0" y="105" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="normal" font-style="normal">2 min</text>
   <rect x="90" y="134" width="380" height="56" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
 <text x="280.0" y="158" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Centre rings the landline three times</text>
-<text x="280.0" y="181" text-anchor="middle" font-size="10.5" fill="#2563EB" font-weight="normal" font-style="normal">5 min</text>
+<text x="280.0" y="181" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="normal" font-style="normal">5 min</text>
   <rect x="90" y="304" width="380" height="56" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
 <text x="280.0" y="328" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Voicemail; Wei returns the call</text>
-<text x="280.0" y="351" text-anchor="middle" font-size="10.5" fill="#2563EB" font-weight="normal" font-style="normal">26 min</text>
+<text x="280.0" y="351" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="normal" font-style="normal">26 min</text>
   <rect x="90" y="380" width="380" height="56" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
 <text x="280.0" y="404" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Wei rings the neighbour</text>
-<text x="280.0" y="427" text-anchor="middle" font-size="10.5" fill="#2563EB" font-weight="normal" font-style="normal">13 min</text>
+<text x="280.0" y="427" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="normal" font-style="normal">13 min</text>
   <rect x="90" y="456" width="380" height="56" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
 <text x="280.0" y="480" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Neighbour crosses the corridor</text>
-<text x="280.0" y="503" text-anchor="middle" font-size="10.5" fill="#2563EB" font-weight="normal" font-style="normal">9 min</text>
+<text x="280.0" y="503" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="normal" font-style="normal">9 min</text>
   <rect x="90" y="532" width="380" height="56" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
 <text x="280.0" y="556" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Neighbour rings the care centre</text>
-<text x="280.0" y="579" text-anchor="middle" font-size="10.5" fill="#2563EB" font-weight="normal" font-style="normal">12 min</text>
+<text x="280.0" y="579" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="normal" font-style="normal">12 min</text>
   <rect x="90" y="608" width="380" height="56" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="2.2"/>
 <text x="280.0" y="632" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Caregiver drives to the flat</text>
-<text x="280.0" y="655" text-anchor="middle" font-size="10.5" fill="#D97706" font-weight="normal" font-style="normal">45 min</text>
+<text x="280.0" y="655" text-anchor="middle" font-size="11.5" fill="#D97706" font-weight="normal" font-style="normal">45 min</text>
   <line x1="280" y1="114" x2="280" y2="134" stroke="#6B7280" stroke-width="2.4" marker-end="url(#arrG)"/>
   <line x1="280" y1="190" x2="280" y2="210" stroke="#6B7280" stroke-width="2.4" marker-end="url(#arrG)"/>
   <line x1="280" y1="360" x2="280" y2="380" stroke="#6B7280" stroke-width="2.4" marker-end="url(#arrG)"/>
@@ -36,22 +36,22 @@
   <path d="M 280,214 L 380,246 L 280,278 L 180,246 Z" fill="#FFFFFF" stroke="#D97706" stroke-width="2.3"/>
   <text x="280" y="251" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="bold" font-style="normal">Resident answers?</text>
   <line x1="280" y1="278" x2="280" y2="304" stroke="#D97706" stroke-width="2.4" marker-end="url(#arrA)"/>
-  <text x="292" y="296" text-anchor="start" font-size="10" fill="#D97706" font-weight="bold" font-style="normal">[no answer]</text>
+  <text x="292" y="296" text-anchor="start" font-size="11.5" fill="#D97706" font-weight="bold" font-style="normal">[no answer]</text>
   <line x1="380" y1="246" x2="494" y2="246" stroke="#2E7D46" stroke-width="2.4" marker-end="url(#arrGr)"/>
   <rect x="500" y="220" width="200" height="52" rx="10" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2.2"/>
   <text x="600" y="243" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="bold" font-style="normal">Handled by phone</text>
-  <text x="600" y="260" text-anchor="middle" font-size="10" fill="#2E7D46" font-weight="normal" font-style="normal">guard: [answered]</text>
+  <text x="600" y="260" text-anchor="middle" font-size="11.5" fill="#2E7D46" font-weight="normal" font-style="normal">guard: [answered]</text>
   <path d="M 470,152 L 502,152 L 502,176 L 476,176" fill="none" stroke="#6B7280" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#arrG)"/>
-  <text x="508" y="156" text-anchor="start" font-size="9.5" fill="#6B7280" font-weight="normal" font-style="normal">repeat × 3</text>
+  <text x="508" y="156" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">repeat × 3</text>
   <line x1="280" y1="664" x2="280" y2="684" stroke="#6B7280" stroke-width="2.4" marker-end="url(#arrK)"/>
   <circle cx="280" cy="698" r="11" fill="#FFFFFF" stroke="#1F2937" stroke-width="2.6"/>
   <circle cx="280" cy="698" r="6" fill="#1F2937"/>
   <text x="304" y="703" text-anchor="start" font-size="11.5" fill="#DC2626" font-weight="bold" font-style="normal">caregiver on site at 00:32  —  112 minutes</text>
   <rect x="500" y="300" width="200" height="96" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
   <text x="600" y="326" text-anchor="middle" font-size="12.5" fill="#DC2626" font-weight="bold" font-style="normal">cycle 112 min</text>
-  <text x="600" y="348" text-anchor="middle" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">touch 21</text>
-  <text x="600" y="366" text-anchor="middle" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">waiting 46</text>
-  <text x="600" y="384" text-anchor="middle" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">travel 45</text>
-  <text x="600" y="440" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="normal" font-style="normal">Four of the six actors sit</text>
-<text x="600" y="456" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="normal" font-style="normal">outside the care centre's</text>
-<text x="600" y="472" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="normal" font-style="normal">authority.</text></svg>
+  <text x="600" y="348" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">touch 21</text>
+  <text x="600" y="366" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">waiting 46</text>
+  <text x="600" y="384" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">travel 45</text>
+  <text x="600" y="440" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Four of the six actors sit</text>
+<text x="600" y="456" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">outside the care centre's</text>
+<text x="600" y="472" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">authority.</text></svg>

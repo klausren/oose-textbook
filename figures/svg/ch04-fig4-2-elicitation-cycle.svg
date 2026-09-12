@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="71 42 620 457" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker></defs>
-  <rect x="0" y="0" width="760" height="520" fill="#FFFFFF"/>
+  <rect x="71" y="42" width="620" height="457" fill="#FFFFFF"/>
 <line x1="437.15767664977295" y1="104.0" x2="461.4063879557372" y2="142.0" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrB)"/>
   <line x1="525.4922678357857" y1="210.0" x2="525.4922678357857" y2="286.0" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arrG)"/>
   <line x1="468.33459118601274" y1="356.0" x2="444.0858798800485" y2="394.0" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arrG)"/>

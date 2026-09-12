@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 426" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="23 9 715 412" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
-  <rect x="0" y="0" width="760" height="426" fill="#FFFFFF"/>
+  <rect x="23" y="9" width="715" height="412" fill="#FFFFFF"/>
 <rect x="250" y="26" width="260" height="52" rx="10" fill="#FFFFFF" stroke="#1F2937" stroke-width="2.4"/>
   <text x="380" y="57" text-anchor="middle" font-size="15" fill="#1F2937" font-weight="bold" font-style="normal">The same brief</text>
   <line x1="380" y1="78" x2="380" y2="100" stroke="#6B7280" stroke-width="2.4"/>
@@ -10,23 +10,23 @@
   <rect x="40" y="134" width="290" height="242" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
   <rect x="40" y="134" width="290" height="46" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
   <text x="185" y="163" text-anchor="middle" font-size="14" fill="#2563EB" font-weight="bold" font-style="normal">Screen-first</text>
-  <text x="56" y="200" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It asks</text>
+  <text x="56" y="200" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="bold" font-style="normal">It asks</text>
   <text x="56" y="220" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">What should the app do?</text>
-  <text x="56" y="252" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It produces</text>
+  <text x="56" y="252" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="bold" font-style="normal">It produces</text>
   <text x="56" y="272" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">A feature list, ordered by volume</text>
-  <text x="56" y="304" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It measures</text>
+  <text x="56" y="304" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="bold" font-style="normal">It measures</text>
   <text x="56" y="324" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">response time · tap count · screen flow</text>
-  <rect x="56" y="336" width="258" height="30" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
-  <text x="185" y="355" text-anchor="middle" font-size="10.5" fill="#2563EB" font-weight="bold" font-style="normal">Every number improves; the outcome stays flat</text>
+  <rect x="54" y="336" width="272" height="30" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="190" y="355" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">Every number improves; the outcome stays flat</text>
   <rect x="430" y="134" width="290" height="242" rx="10" fill="#FFFFFF" stroke="#0D9488" stroke-width="2.2"/>
   <rect x="430" y="134" width="290" height="46" rx="10" fill="#CCFBF1" stroke="#0D9488" stroke-width="2.2"/>
   <text x="575" y="163" text-anchor="middle" font-size="14" fill="#0D9488" font-weight="bold" font-style="normal">Process-first</text>
-  <text x="446" y="200" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It asks</text>
+  <text x="446" y="200" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="bold" font-style="normal">It asks</text>
   <text x="446" y="220" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">How the work happens, and where it stalls</text>
-  <text x="446" y="252" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It produces</text>
+  <text x="446" y="252" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="bold" font-style="normal">It produces</text>
   <text x="446" y="272" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">A before, an after, a measured difference</text>
-  <text x="446" y="304" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="bold" font-style="normal">It measures</text>
+  <text x="446" y="304" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="bold" font-style="normal">It measures</text>
   <text x="446" y="324" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">elapsed time · handoffs · rework</text>
-  <rect x="446" y="336" width="258" height="30" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="1.8"/>
-  <text x="575" y="355" text-anchor="middle" font-size="10.5" fill="#0D9488" font-weight="bold" font-style="normal">Every number is one the customer can feel</text>
+  <rect x="444" y="336" width="272" height="30" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="1.8"/>
+  <text x="580" y="355" text-anchor="middle" font-size="11.5" fill="#0D9488" font-weight="bold" font-style="normal">Every number is one the customer can feel</text>
   <text x="380" y="402" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="italic">Both teams are competent. Only one of them can state the improvement in a sentence the sponsor can repeat.</text></svg>

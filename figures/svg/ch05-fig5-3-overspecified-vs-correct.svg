@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 444" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="23 29 715 410" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
-  <rect x="0" y="0" width="760" height="444" fill="#FFFFFF"/>
+  <rect x="23" y="29" width="715" height="410" fill="#FFFFFF"/>
 <rect x="40" y="46" width="320" height="300" rx="10" fill="#FFFFFF" stroke="#DC2626" stroke-width="2.2"/>
   <rect x="40" y="46" width="320" height="54" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2.2"/>
   <text x="200" y="70" text-anchor="middle" font-size="15" fill="#DC2626" font-weight="bold" font-style="normal">Over-specified</text>
-  <text x="200" y="90" text-anchor="middle" font-size="10.5" fill="#DC2626" font-weight="normal" font-style="italic">a design decision in a requirement's clothes</text>
+  <text x="200" y="90" text-anchor="middle" font-size="11.5" fill="#DC2626" font-weight="normal" font-style="italic">a design decision in a requirement's clothes</text>
   <circle cx="66" cy="132" r="9" fill="#DC2626"/><path d="M 62,128 l 8,8 M 70,128 l -8,8" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
   <text x="88" y="128.64" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">shall use a Redis cache with a</text>
 <text x="88" y="143.64" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">60-second TTL</text>
@@ -17,7 +17,7 @@
   <rect x="400" y="46" width="320" height="300" rx="10" fill="#FFFFFF" stroke="#2E7D46" stroke-width="2.2"/>
   <rect x="400" y="46" width="320" height="54" rx="10" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2.2"/>
   <text x="560" y="70" text-anchor="middle" font-size="15" fill="#2E7D46" font-weight="bold" font-style="normal">Correctly specified</text>
-  <text x="560" y="90" text-anchor="middle" font-size="10.5" fill="#2E7D46" font-weight="normal" font-style="italic">an observable outcome, and nothing more</text>
+  <text x="560" y="90" text-anchor="middle" font-size="11.5" fill="#2E7D46" font-weight="normal" font-style="italic">an observable outcome, and nothing more</text>
   <circle cx="426" cy="132" r="9" fill="#2E7D46"/><path d="M 422,132 l 3,3.5 l 5,-6.5" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
   <text x="448" y="121.14" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">shall show the most recent</text>
 <text x="448" y="136.14" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">reading within 2 s at p95 when</text>

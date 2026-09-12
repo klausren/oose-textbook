@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 444" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="13 47 734 394" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
-  <rect x="0" y="0" width="760" height="444" fill="#FFFFFF"/>
+  <rect x="13" y="47" width="734" height="394" fill="#FFFFFF"/>
 <ellipse cx="330" cy="172" rx="84" ry="30" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
 <text x="330" y="175.6" text-anchor="middle" font-size="12" fill="#1F2937" font-weight="normal" font-style="normal">Log a visit</text>
-  <text x="330" y="220" text-anchor="middle" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">base case · caregiver</text>
+  <text x="330" y="220" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">base case · caregiver</text>
   <line x1="272" y1="194" x2="208" y2="296" stroke="#D97706" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrA)"/>
-  <text x="196" y="236" text-anchor="middle" font-size="11" fill="#D97706" font-weight="bold" font-style="normal">«include»</text>
+  <text x="196" y="236" text-anchor="middle" font-size="11.5" fill="#D97706" font-weight="bold" font-style="normal">«include»</text>
   <ellipse cx="150" cy="322" rx="82" ry="28" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
 <text x="150" y="325.6" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Record the event</text>
-  <text x="252" y="308" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">always runs · shared by four</text>
-<text x="252" y="322" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">use cases · the base is</text>
-<text x="252" y="336" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">incomplete without it</text>
+  <text x="252" y="308" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">always runs · shared by four</text>
+<text x="252" y="322" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">use cases · the base is</text>
+<text x="252" y="336" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">incomplete without it</text>
   <line x1="556" y1="108" x2="416" y2="158" stroke="#0D9488" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrT)"/>
-  <text x="492" y="114" text-anchor="middle" font-size="11" fill="#0D9488" font-weight="bold" font-style="normal">«extend»</text>
+  <text x="492" y="114" text-anchor="middle" font-size="11.5" fill="#0D9488" font-weight="bold" font-style="normal">«extend»</text>
   <ellipse cx="620" cy="92" rx="78" ry="28" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/>
 <text x="620" y="95.6" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Attach a photo</text>
-  <text x="516" y="138" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">runs only if a photo is taken ·</text>
-<text x="516" y="152" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">the base is complete without it</text>
+  <text x="516" y="138" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">runs only if a photo is taken ·</text>
+<text x="516" y="152" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">the base is complete without it</text>
   <rect x="30" y="372" width="700" height="52" rx="10" fill="#FAFAFA" stroke="#C9D4E2" stroke-width="1.6"/>
   <text x="380" y="394" text-anchor="middle" font-size="12" fill="#1F2937" font-weight="normal" font-style="normal">Include: always runs. Extend: only under a condition. Extract for shared meaning — never</text>
 <text x="380" y="411" text-anchor="middle" font-size="12" fill="#1F2937" font-weight="normal" font-style="normal">for repeated text.</text></svg>

@@ -1,62 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 466" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="13 47 734 414" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
-  <rect x="0" y="0" width="760" height="466" fill="#FFFFFF"/>
+  <rect x="13" y="47" width="734" height="414" fill="#FFFFFF"/>
 <rect x="30" y="64" width="310" height="328" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
   <rect x="30" y="64" width="310" height="44" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
   <text x="185" y="92" text-anchor="middle" font-size="12.5" fill="#2563EB" font-weight="bold" font-style="normal">AS-IS  —  today</text>
   <circle cx="54" cy="131" r="5" fill="#2563EB"/>
-  <text x="70" y="127.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Fall detected; pendant dials</text>
-<text x="70" y="141.95999999999998" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">the centre</text>
-  <text x="326" y="135" text-anchor="end" font-size="10.5" fill="#2563EB" font-weight="bold" font-style="normal">2 min</text>
+  <text x="70" y="127.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Fall detected; pendant dials</text>
+<text x="70" y="141.95999999999998" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">the centre</text>
+  <text x="326" y="135" text-anchor="end" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">2 min</text>
   <line x1="38" y1="154" x2="332" y2="154" stroke="#F5F6F7" stroke-width="1.4"/>
   <circle cx="54" cy="177" r="5" fill="#2563EB"/>
-  <text x="70" y="173.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Centre rings the landline,</text>
-<text x="70" y="187.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">three attempts</text>
-  <text x="326" y="181" text-anchor="end" font-size="10.5" fill="#2563EB" font-weight="bold" font-style="normal">5 min</text>
+  <text x="70" y="173.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Centre rings the landline,</text>
+<text x="70" y="187.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">three attempts</text>
+  <text x="326" y="181" text-anchor="end" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">5 min</text>
   <line x1="38" y1="200" x2="332" y2="200" stroke="#F5F6F7" stroke-width="1.4"/>
   <circle cx="54" cy="223" r="5" fill="#2563EB"/>
-  <text x="70" y="226.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Voicemail; Wei returns the call</text>
-  <text x="326" y="227" text-anchor="end" font-size="10.5" fill="#2563EB" font-weight="bold" font-style="normal">26 min</text>
+  <text x="70" y="226.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Voicemail; Wei returns the call</text>
+  <text x="326" y="227" text-anchor="end" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">26 min</text>
   <line x1="38" y1="246" x2="332" y2="246" stroke="#F5F6F7" stroke-width="1.4"/>
   <circle cx="54" cy="269" r="5" fill="#2563EB"/>
-  <text x="70" y="272.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Wei rings the neighbour</text>
-  <text x="326" y="273" text-anchor="end" font-size="10.5" fill="#2563EB" font-weight="bold" font-style="normal">13 min</text>
+  <text x="70" y="272.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Wei rings the neighbour</text>
+  <text x="326" y="273" text-anchor="end" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">13 min</text>
   <line x1="38" y1="292" x2="332" y2="292" stroke="#F5F6F7" stroke-width="1.4"/>
   <circle cx="54" cy="315" r="5" fill="#2563EB"/>
-  <text x="70" y="318.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">… three further steps</text>
-  <text x="326" y="319" text-anchor="end" font-size="10.5" fill="#2563EB" font-weight="bold" font-style="normal">66 min</text>
+  <text x="70" y="318.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">… three further steps</text>
+  <text x="326" y="319" text-anchor="end" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">66 min</text>
   <line x1="38" y1="338" x2="332" y2="338" stroke="#2563EB" stroke-width="1.8"/>
   <text x="185" y="362" text-anchor="middle" font-size="12" fill="#2563EB" font-weight="bold" font-style="normal">112 min total</text>
-  <text x="185" y="380" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">21 touch · 46 waiting · 45 travel</text>
+  <text x="185" y="380" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">21 touch · 46 waiting · 45 travel</text>
   <rect x="420" y="64" width="310" height="328" rx="10" fill="#FFFFFF" stroke="#2E7D46" stroke-width="2.2"/>
   <rect x="420" y="64" width="310" height="44" rx="10" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2.2"/>
   <text x="575" y="92" text-anchor="middle" font-size="12.5" fill="#2E7D46" font-weight="bold" font-style="normal">TO-BE  —  after the change</text>
   <circle cx="444" cy="131" r="5" fill="#2E7D46"/>
-  <text x="460" y="134.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Fall detected; alert raised</text>
-  <text x="716" y="135" text-anchor="end" font-size="10.5" fill="#2E7D46" font-weight="bold" font-style="normal">1 min</text>
+  <text x="460" y="134.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Fall detected; alert raised</text>
+  <text x="716" y="135" text-anchor="end" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">1 min</text>
   <line x1="428" y1="154" x2="722" y2="154" stroke="#F5F6F7" stroke-width="1.4"/>
   <circle cx="444" cy="177" r="5" fill="#2E7D46"/>
-  <text x="460" y="173.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Family and nurse notified in</text>
-<text x="460" y="187.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">parallel</text>
-  <text x="716" y="181" text-anchor="end" font-size="10.5" fill="#2E7D46" font-weight="bold" font-style="normal">1 min</text>
+  <text x="460" y="173.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Family and nurse notified in</text>
+<text x="460" y="187.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">parallel</text>
+  <text x="716" y="181" text-anchor="end" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">1 min</text>
   <line x1="428" y1="200" x2="722" y2="200" stroke="#F5F6F7" stroke-width="1.4"/>
   <circle cx="444" cy="223" r="5" fill="#2E7D46"/>
-  <text x="460" y="219.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Family acknowledges within the</text>
-<text x="460" y="233.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">timer</text>
-  <text x="716" y="227" text-anchor="end" font-size="10.5" fill="#2E7D46" font-weight="bold" font-style="normal">2 min</text>
+  <text x="460" y="219.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Family acknowledges within the</text>
+<text x="460" y="233.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">timer</text>
+  <text x="716" y="227" text-anchor="end" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">2 min</text>
   <line x1="428" y1="246" x2="722" y2="246" stroke="#F5F6F7" stroke-width="1.4"/>
   <circle cx="444" cy="269" r="5" fill="#2E7D46"/>
-  <text x="460" y="265.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Nurse opens the case and</text>
-<text x="460" y="279.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">dispatches</text>
-  <text x="716" y="273" text-anchor="end" font-size="10.5" fill="#2E7D46" font-weight="bold" font-style="normal">3 min</text>
+  <text x="460" y="265.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Nurse opens the case and</text>
+<text x="460" y="279.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">dispatches</text>
+  <text x="716" y="273" text-anchor="end" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">3 min</text>
   <line x1="428" y1="292" x2="722" y2="292" stroke="#F5F6F7" stroke-width="1.4"/>
   <circle cx="444" cy="315" r="5" fill="#2E7D46"/>
-  <text x="460" y="318.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Caregiver accepts, then drives</text>
-  <text x="716" y="319" text-anchor="end" font-size="10.5" fill="#2E7D46" font-weight="bold" font-style="normal">45 min</text>
+  <text x="460" y="318.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Caregiver accepts, then drives</text>
+  <text x="716" y="319" text-anchor="end" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">45 min</text>
   <line x1="428" y1="338" x2="722" y2="338" stroke="#2E7D46" stroke-width="1.8"/>
   <text x="575" y="362" text-anchor="middle" font-size="12" fill="#2E7D46" font-weight="bold" font-style="normal">52 min total</text>
-  <text x="575" y="380" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">8 touch · 2 waiting · 42 travel</text>
+  <text x="575" y="380" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">8 touch · 2 waiting · 42 travel</text>
   <line x1="346" y1="224" x2="404" y2="224" stroke="#1F2937" stroke-width="2.6" marker-end="url(#arrK)"/>
-  <text x="375" y="214" text-anchor="middle" font-size="11" fill="#1F2937" font-weight="bold" font-style="normal">the gap</text>
+  <text x="375" y="214" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="bold" font-style="normal">the gap</text>
   <rect x="30" y="400" width="700" height="44" rx="10" fill="#FAFAFA" stroke="#C9D4E2" stroke-width="1.6"/>
   <text x="380" y="428" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="normal" font-style="normal">An as-is model without a to-be model is a complaint. A to-be model without an as-is model is a wish.</text></svg>

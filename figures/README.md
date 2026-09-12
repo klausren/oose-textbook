@@ -20,9 +20,67 @@ rendered to PNG by `figures/render.js`.
 ## Typography 排版
 
 - Font: **Arial** (rendered via system font file; safe in Word/print).
-- Panel titles: 20px bold; box titles: 19px bold; annotations: 14–15px regular.
+- **Hard floor: no `<text>` smaller than 11.5 units.** Measured across all 63
+  figures — the current distribution is 11.5 (47), 12 (7), 13 (6), 13.5–15 (3).
+- Panel titles 18–20; box/card titles 13.5–15 bold; body and annotations 11.5–12.
 - Text in figures is **English only** (Chinese key terms stay in body text).
 - All labels use `text-anchor` centering; never rely on manual spacing.
+
+### Why 11.5 is the floor 字号下限的来历
+
+Figures are placed at `{width=15cm}` in the manuscript, so printed type size is
+
+    printed_pt  =  15 cm x font_size / viewBox_width  x  28.35 pt/cm
+
+At a 760-unit canvas, 11.5 units prints at **6.4 pt** — the low end of what is
+acceptable in a textbook. Two consequences follow, and both are enforced:
+
+1. **Do not add text to a figure until you have checked what it costs.** Adding a
+   fourth bullet to a card either shrinks the type or overflows the box.
+2. **Cropping the canvas is a free type-size increase.** A narrower `viewBox`
+   at the same font-size prints bigger. Two figures are wired the same way only
+   if they are cropped the same way — see below.
+
+## Legibility standard 可读性标准
+
+Seven defect classes have shipped in this book at least once. `figures/qc.py`
+checks all of them, on every figure, in one command:
+
+```sh
+python3 figures/qc.py          # exit 0 = clean, exit 1 = findings
+```
+
+| # | Check | Rule | Why it shipped before |
+|---|---|---|---|
+| 1 | `overflow` | text must fit its containing box (±3 units padding) | a widened label silently ran past the card edge |
+| 2 | `gap` | two labels on one baseline need ≥ 6 units between them | `Customer`/`Developer` column heads touched |
+| 3 | `overlap` | no two label boxes may intersect | same bug, worse |
+| 4 | `leading` | stacked baselines ≥ 1.12 x font-size apart | 11.5 px type on 12-unit leading read as one smudge |
+| 5 | `duplicate` | no string drawn twice at the same spot | ghost text (`font-size="0.1"` white, and a doubled row) |
+| 6 | `margin` | ink ≥ 6 units from the canvas edge | a crop clipped the "Chapter 4" tab |
+| 7 | `tiny` | no font-size below 11.5 | 48 of 63 figures were under 12 before this was enforced |
+
+The checker measures real Arial advance widths through PIL rather than estimating
+characters x 0.55, so its numbers match what the renderer actually draws.
+**Run it after every SVG edit, before `render.js` is considered done.**
+
+## Canvas fitting 画布贴合
+
+`svg/` viewBoxes are fitted to the real ink bounding box (measured from the
+rendered PNG, not from the source coordinates) plus **16 units of padding**,
+with a **620-unit floor on width**. The floor keeps a narrow diagram from being
+blown up 2.9x and printing at a size no other figure uses.
+
+Re-fit after any content change — it is what keeps an 8-word figure from
+occupying a full page:
+
+```sh
+# dry run first, then --apply; back up svg/ before applying
+python3 figures/fitvbox.py --apply
+python3 figures/qc.py && node figures/render.js && bash build/sync-figures.sh
+```
+
+If a figure genuinely cannot fit its text, **cut text, do not shrink type**.
 
 ## Canvas & rendering 画布与渲染
 

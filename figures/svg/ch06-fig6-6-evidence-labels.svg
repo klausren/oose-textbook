@@ -1,56 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 448" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="13 43 734 396" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
-  <rect x="0" y="0" width="760" height="448" fill="#FFFFFF"/>
+  <rect x="13" y="43" width="734" height="396" fill="#FFFFFF"/>
 <rect x="30" y="60" width="320" height="332" rx="10" fill="#FFFFFF" stroke="#6B7280" stroke-width="2.2"/>
   <rect x="30" y="60" width="320" height="44" rx="10" fill="#FAFAFA" stroke="#6B7280" stroke-width="2.2"/>
   <text x="190" y="88" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="bold" font-style="normal">Modelled from documents</text>
-  <text x="46" y="128.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Resident triggers the pendant</text>
+  <text x="46" y="128.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Resident triggers the pendant</text>
   <rect x="306" y="115" width="30" height="20" rx="5" fill="#FAFAFA" stroke="#6B7280" stroke-width="1.6"/>
-  <text x="321" y="129" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="bold" font-style="normal">D</text>
+  <text x="321" y="129" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="bold" font-style="normal">D</text>
   <line x1="40" y1="146" x2="340" y2="146" stroke="#F5F6F7" stroke-width="1.4"/>
-  <text x="46" y="170.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Centre attempts contact with the resident</text>
+  <text x="46" y="170.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Centre attempts contact with the resident</text>
   <rect x="306" y="157" width="30" height="20" rx="5" fill="#FAFAFA" stroke="#6B7280" stroke-width="1.6"/>
-  <text x="321" y="171" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="bold" font-style="normal">D</text>
+  <text x="321" y="171" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="bold" font-style="normal">D</text>
   <line x1="40" y1="188" x2="340" y2="188" stroke="#F5F6F7" stroke-width="1.4"/>
-  <text x="46" y="212.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Centre notifies the family contact</text>
+  <text x="46" y="212.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Centre notifies the family contact</text>
   <rect x="306" y="199" width="30" height="20" rx="5" fill="#FAFAFA" stroke="#6B7280" stroke-width="1.6"/>
-  <text x="321" y="213" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="bold" font-style="normal">D</text>
+  <text x="321" y="213" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="bold" font-style="normal">D</text>
   <line x1="40" y1="230" x2="340" y2="230" stroke="#F5F6F7" stroke-width="1.4"/>
-  <text x="46" y="254.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Family contact attends or escalates</text>
+  <text x="46" y="254.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Family contact attends or escalates</text>
   <rect x="306" y="241" width="30" height="20" rx="5" fill="#FAFAFA" stroke="#6B7280" stroke-width="1.6"/>
-  <text x="321" y="255" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="bold" font-style="normal">D</text>
+  <text x="321" y="255" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="bold" font-style="normal">D</text>
   <line x1="40" y1="356" x2="340" y2="356" stroke="#6B7280" stroke-width="1.8"/>
-  <text x="190" y="378" text-anchor="middle" font-size="11" fill="#6B7280" font-weight="bold" font-style="normal">4 steps · no times recorded anywhere</text>
+  <text x="190" y="378" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="bold" font-style="normal">4 steps · no times recorded anywhere</text>
   <rect x="410" y="60" width="320" height="332" rx="10" fill="#FFFFFF" stroke="#0D9488" stroke-width="2.2"/>
   <rect x="410" y="60" width="320" height="44" rx="10" fill="#CCFBF1" stroke="#0D9488" stroke-width="2.2"/>
   <text x="570" y="88" text-anchor="middle" font-size="12.5" fill="#0D9488" font-weight="bold" font-style="normal">Modelled from the floor</text>
-  <text x="426" y="128.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Resident triggers the pendant</text>
+  <text x="426" y="128.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Resident triggers the pendant</text>
   <rect x="686" y="115" width="30" height="20" rx="5" fill="#DCFCE7" stroke="#2E7D46" stroke-width="1.6"/>
-  <text x="701" y="129" text-anchor="middle" font-size="11" fill="#2E7D46" font-weight="bold" font-style="normal">O</text>
+  <text x="701" y="129" text-anchor="middle" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">O</text>
   <line x1="420" y1="146" x2="720" y2="146" stroke="#F5F6F7" stroke-width="1.4"/>
-  <text x="426" y="170.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Centre rings the landline three times</text>
+  <text x="426" y="170.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Centre rings the landline three times</text>
   <rect x="686" y="157" width="30" height="20" rx="5" fill="#DCFCE7" stroke="#2E7D46" stroke-width="1.6"/>
-  <text x="701" y="171" text-anchor="middle" font-size="11" fill="#2E7D46" font-weight="bold" font-style="normal">O</text>
+  <text x="701" y="171" text-anchor="middle" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">O</text>
   <line x1="420" y1="188" x2="720" y2="188" stroke="#F5F6F7" stroke-width="1.4"/>
-  <text x="426" y="212.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Centre reaches the family after 26 min</text>
+  <text x="426" y="212.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Centre reaches the family after 26 min</text>
   <rect x="686" y="199" width="30" height="20" rx="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
-  <text x="701" y="213" text-anchor="middle" font-size="11" fill="#2563EB" font-weight="bold" font-style="normal">S</text>
+  <text x="701" y="213" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">S</text>
   <line x1="420" y1="230" x2="720" y2="230" stroke="#F5F6F7" stroke-width="1.4"/>
-  <text x="426" y="254.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Family rings the neighbour</text>
+  <text x="426" y="254.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Family rings the neighbour</text>
   <rect x="686" y="241" width="30" height="20" rx="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
-  <text x="701" y="255" text-anchor="middle" font-size="11" fill="#2563EB" font-weight="bold" font-style="normal">S</text>
+  <text x="701" y="255" text-anchor="middle" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">S</text>
   <line x1="420" y1="272" x2="720" y2="272" stroke="#F5F6F7" stroke-width="1.4"/>
-  <text x="426" y="296.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Neighbour attends — in no document</text>
+  <text x="426" y="296.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Neighbour attends — in no document</text>
   <rect x="686" y="283" width="30" height="20" rx="5" fill="#DCFCE7" stroke="#2E7D46" stroke-width="1.6"/>
-  <text x="701" y="297" text-anchor="middle" font-size="11" fill="#2E7D46" font-weight="bold" font-style="normal">O</text>
+  <text x="701" y="297" text-anchor="middle" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">O</text>
   <line x1="420" y1="314" x2="720" y2="314" stroke="#F5F6F7" stroke-width="1.4"/>
-  <text x="426" y="338.96" text-anchor="start" font-size="11" fill="#1F2937" font-weight="normal" font-style="normal">Care centre dispatches; 45-min drive</text>
+  <text x="426" y="338.96" text-anchor="start" font-size="11.5" fill="#1F2937" font-weight="normal" font-style="normal">Care centre dispatches; 45-min drive</text>
   <rect x="686" y="325" width="30" height="20" rx="5" fill="#DCFCE7" stroke="#2E7D46" stroke-width="1.6"/>
-  <text x="701" y="339" text-anchor="middle" font-size="11" fill="#2E7D46" font-weight="bold" font-style="normal">O</text>
+  <text x="701" y="339" text-anchor="middle" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">O</text>
   <line x1="420" y1="356" x2="720" y2="356" stroke="#0D9488" stroke-width="1.8"/>
-  <text x="570" y="378" text-anchor="middle" font-size="11" fill="#0D9488" font-weight="bold" font-style="normal">6 steps · 112 min elapsed</text>
+  <text x="570" y="378" text-anchor="middle" font-size="11.5" fill="#0D9488" font-weight="bold" font-style="normal">6 steps · 112 min elapsed</text>
   <line x1="356" y1="224" x2="404" y2="224" stroke="#1F2937" stroke-width="2.6" marker-end="url(#arrK)"/>
-  <text x="380" y="210" text-anchor="middle" font-size="11" fill="#1F2937" font-weight="bold" font-style="normal">the gap</text>
-  <text x="380" y="240" text-anchor="middle" font-size="0.1" fill="#FFFFFF" font-weight="normal" font-style="normal">the gap
-is real</text>
+  <text x="380" y="210" text-anchor="middle" font-size="11.5" fill="#1F2937" font-weight="bold" font-style="normal">the gap</text>
   <text x="380" y="420" text-anchor="middle" font-size="12" fill="#6B7280" font-weight="normal" font-style="italic">Label every element. A step that moves after the software has been built around it is the expensive kind of change.</text></svg>

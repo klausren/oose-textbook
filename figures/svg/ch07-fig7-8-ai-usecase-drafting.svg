@@ -1,34 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 424" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 45 691 363" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
-  <rect x="0" y="0" width="760" height="424" fill="#FFFFFF"/>
+  <rect x="28" y="45" width="691" height="363" fill="#FFFFFF"/>
 <rect x="45" y="118" width="146" height="112" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2"/>
-  <text x="57" y="104" text-anchor="start" font-size="10.5" fill="#2563EB" font-weight="bold" font-style="normal">HUMAN</text>
+  <text x="57" y="104" text-anchor="start" font-size="11.5" fill="#2563EB" font-weight="bold" font-style="normal">HUMAN</text>
   <text x="118" y="140" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">You paste the</text>
   <text x="118" y="157" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">feature titles</text>
-  <text x="118" y="188" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">thirty-four backlog</text>
-<text x="118" y="204" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">names, with no goal</text>
-<text x="118" y="220" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">attached to any of them</text>
+  <text x="118" y="188" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">thirty-four backlog</text>
+<text x="118" y="204" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">names, with no goal</text>
+<text x="118" y="220" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">attached to any of them</text>
   <rect x="215" y="118" width="146" height="112" rx="10" fill="#EDE7F6" stroke="#6D3FA8" stroke-width="2.2"/>
-  <text x="227" y="104" text-anchor="start" font-size="10.5" fill="#6D3FA8" font-weight="bold" font-style="normal">AI</text>
+  <text x="227" y="104" text-anchor="start" font-size="11.5" fill="#6D3FA8" font-weight="bold" font-style="normal">AI</text>
   <text x="288" y="140" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">It drafts a goal</text>
   <text x="288" y="157" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">for each one</text>
-  <text x="288" y="188" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">a full template per</text>
-<text x="288" y="204" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">feature: actor, trigger,</text>
-<text x="288" y="220" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">flow, postcondition</text>
+  <text x="288" y="188" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">a full template per</text>
+<text x="288" y="204" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">feature: actor, trigger,</text>
+<text x="288" y="220" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">flow, postcondition</text>
   <rect x="385" y="118" width="146" height="112" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="2.2"/>
-  <text x="397" y="104" text-anchor="start" font-size="10.5" fill="#D97706" font-weight="bold" font-style="normal">CHECK</text>
+  <text x="397" y="104" text-anchor="start" font-size="11.5" fill="#D97706" font-weight="bold" font-style="normal">CHECK</text>
   <text x="458" y="140" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">You apply the goal</text>
   <text x="458" y="157" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">test aloud</text>
-  <text x="458" y="188" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">would a person say this?</text>
-<text x="458" y="204" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">twenty-two of</text>
-<text x="458" y="220" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">thirty-four would not</text>
+  <text x="458" y="188" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">would a person say this?</text>
+<text x="458" y="204" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">twenty-two of</text>
+<text x="458" y="220" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">thirty-four would not</text>
   <rect x="555" y="118" width="146" height="112" rx="10" fill="#DCFCE7" stroke="#2E7D46" stroke-width="2.2"/>
-  <text x="567" y="104" text-anchor="start" font-size="10.5" fill="#2E7D46" font-weight="bold" font-style="normal">ARTEFACT</text>
+  <text x="567" y="104" text-anchor="start" font-size="11.5" fill="#2E7D46" font-weight="bold" font-style="normal">ARTEFACT</text>
   <text x="628" y="140" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">Eleven goals, and</text>
   <text x="628" y="157" text-anchor="middle" font-size="12.5" fill="#1F2937" font-weight="bold" font-style="normal">the holes</text>
-  <text x="628" y="188" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">nine from the list —</text>
-<text x="628" y="204" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">plus two no feature had</text>
-<text x="628" y="220" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">suggested</text>
+  <text x="628" y="188" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">nine from the list —</text>
+<text x="628" y="204" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">plus two no feature had</text>
+<text x="628" y="220" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">suggested</text>
   <line x1="191" y1="174" x2="211" y2="174" stroke="#1F2937" stroke-width="2.5" marker-end="url(#arrK)"/>
   <line x1="361" y1="174" x2="381" y2="174" stroke="#1F2937" stroke-width="2.5" marker-end="url(#arrK)"/>
   <line x1="531" y1="174" x2="551" y2="174" stroke="#1F2937" stroke-width="2.5" marker-end="url(#arrK)"/>
@@ -36,7 +36,7 @@
   <text x="373" y="70" text-anchor="middle" font-size="11.5" fill="#6D3FA8" font-weight="normal" font-style="italic">writes a goal to justify the feature</text>
   <path d="M 458,230 L 458,268" fill="none" stroke="#DC2626" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arrR)"/>
   <rect x="340" y="272" width="236" height="56" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
-  <text x="458" y="294" text-anchor="middle" font-size="11" fill="#DC2626" font-weight="normal" font-style="normal">NO GOAL — this is a step, or a</text>
-<text x="458" y="309" text-anchor="middle" font-size="11" fill="#DC2626" font-weight="normal" font-style="normal">property of the system</text>
+  <text x="458" y="294" text-anchor="middle" font-size="11.5" fill="#DC2626" font-weight="normal" font-style="normal">NO GOAL — this is a step, or a</text>
+<text x="458" y="309" text-anchor="middle" font-size="11.5" fill="#DC2626" font-weight="normal" font-style="normal">property of the system</text>
   <text x="380" y="372" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="normal">An assistant will write a goal sentence for anything you hand it. The scarce answer is</text>
 <text x="380" y="390" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="normal">NO GOAL, and it is the answer that carries the information.</text></svg>

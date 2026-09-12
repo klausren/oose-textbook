@@ -1,48 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 454" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="49 17 699 436" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
-  <rect x="0" y="0" width="760" height="454" fill="#FFFFFF"/>
+  <rect x="49" y="17" width="699" height="436" fill="#FFFFFF"/>
 <rect x="66" y="34" width="286" height="376" rx="16" fill="#FFFFFF" stroke="#1F2937" stroke-width="2.4"/>
   <rect x="78" y="60" width="262" height="336" rx="10" fill="#FAFAFA" stroke="#C9D4E2" stroke-width="1.6"/>
   <rect x="78" y="60" width="262" height="42" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
   <text x="209" y="88" text-anchor="middle" font-size="12.5" fill="#2563EB" font-weight="bold" font-style="normal">Tell us what you need</text>
   <circle cx="88" cy="118" r="8" fill="#0D9488"/><text x="88" y="122.5" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold" font-style="normal">2</text>
-  <text x="102" y="122" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Your name or role</text>
+  <text x="102" y="122" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Your name or role</text>
   <rect x="94" y="130" width="230" height="28" rx="6" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.5"/>
   <circle cx="88" cy="172" r="8" fill="#2563EB"/><text x="88" y="176.5" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold" font-style="normal">1</text>
-  <text x="102" y="176" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">What should happen? Be specific.</text>
+  <text x="102" y="176" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">What should happen? Be specific.</text>
   <rect x="94" y="184" width="230" height="58" rx="6" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.5"/>
   <circle cx="88" cy="258" r="8" fill="#0D9488"/><text x="88" y="262.5" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold" font-style="normal">2</text>
-  <text x="102" y="262" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">Who does this affect?</text>
+  <text x="102" y="262" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Who does this affect?</text>
   <rect x="94" y="268" width="230" height="28" rx="6" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.5"/>
   <circle cx="88" cy="312" r="8" fill="#D97706"/><text x="88" y="316.5" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold" font-style="normal">3</text>
-  <text x="102" y="316" text-anchor="start" font-size="10" fill="#6B7280" font-weight="normal" font-style="normal">How urgent is it to you?</text>
+  <text x="102" y="316" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">How urgent is it to you?</text>
   <rect x="94" y="322" width="230" height="24" rx="6" fill="#FFFFFF" stroke="#C9D4E2" stroke-width="1.5"/>
   <line x1="104" y1="206" x2="314" y2="206" stroke="#C9D4E2" stroke-width="1.4"/>
   <line x1="104" y1="222" x2="260" y2="222" stroke="#C9D4E2" stroke-width="1.4"/>
   <rect x="94" y="322" width="70" height="24" rx="6" fill="#FFFFFF" stroke="#0D9488" stroke-width="1.5"/>
-  <text x="129" y="338" text-anchor="middle" font-size="10" fill="#0D9488" font-weight="normal" font-style="normal">Low</text>
+  <text x="129" y="338" text-anchor="middle" font-size="11.5" fill="#0D9488" font-weight="normal" font-style="normal">Low</text>
   <rect x="174" y="322" width="70" height="24" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5"/>
-  <text x="209" y="338" text-anchor="middle" font-size="10" fill="#D97706" font-weight="normal" font-style="normal">Medium</text>
+  <text x="209" y="338" text-anchor="middle" font-size="11.5" fill="#D97706" font-weight="normal" font-style="normal">Medium</text>
   <rect x="254" y="322" width="70" height="24" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.5"/>
-  <text x="289" y="338" text-anchor="middle" font-size="10" fill="#DC2626" font-weight="normal" font-style="normal">High</text>
+  <text x="289" y="338" text-anchor="middle" font-size="11.5" fill="#DC2626" font-weight="normal" font-style="normal">High</text>
   <rect x="94" y="360" width="230" height="30" rx="6" fill="#2563EB" stroke="#2563EB" stroke-width="1.6"/>
   <text x="209" y="380" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold" font-style="normal">Submit</text>
   <rect x="400" y="56" width="330" height="106" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
   <circle cx="422" cy="80" r="10" fill="#2563EB"/><text x="422" y="84.5" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold" font-style="normal">1</text>
   <text x="442" y="85" text-anchor="start" font-size="12.5" fill="#2563EB" font-weight="bold" font-style="normal">Needs arrive as stories</text>
-  <text x="418" y="112" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Free text is correct here. The rewrite into</text>
-<text x="418" y="127" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">condition, metric and method happens in analysis —</text>
-<text x="418" y="142" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">not in front of the reporter.</text>
+  <text x="418" y="112" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Free text is correct here. The rewrite into</text>
+<text x="418" y="127" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">condition, metric and method happens in analysis —</text>
+<text x="418" y="142" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">not in front of the reporter.</text>
   <rect x="400" y="176" width="330" height="106" rx="10" fill="#FFFFFF" stroke="#0D9488" stroke-width="2"/>
   <circle cx="422" cy="200" r="10" fill="#0D9488"/><text x="422" y="204.5" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold" font-style="normal">2</text>
   <text x="442" y="205" text-anchor="start" font-size="12.5" fill="#0D9488" font-weight="bold" font-style="normal">The source travels with the statement</text>
-  <text x="418" y="232" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Name, role and date are captured automatically. A</text>
-<text x="418" y="247" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">statement with no source cannot be checked later,</text>
-<text x="418" y="262" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">and nobody can be asked about it.</text>
+  <text x="418" y="232" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Name, role and date are captured automatically. A</text>
+<text x="418" y="247" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">statement with no source cannot be checked later,</text>
+<text x="418" y="262" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">and nobody can be asked about it.</text>
   <rect x="400" y="296" width="330" height="106" rx="10" fill="#FFFFFF" stroke="#D97706" stroke-width="2"/>
   <circle cx="422" cy="320" r="10" fill="#D97706"/><text x="422" y="324.5" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold" font-style="normal">3</text>
   <text x="442" y="325" text-anchor="start" font-size="12.5" fill="#D97706" font-weight="bold" font-style="normal">Urgency is a question, not a decision</text>
-  <text x="418" y="352" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">The reporter's urgency is evidence. Priority is</text>
-<text x="418" y="367" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">decided by the Product Owner, using the scheme in</text>
-<text x="418" y="382" text-anchor="start" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">§5.5.</text>
+  <text x="418" y="352" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">The reporter's urgency is evidence. Priority is</text>
+<text x="418" y="367" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">decided by the Product Owner, using the scheme in</text>
+<text x="418" y="382" text-anchor="start" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">§5.5.</text>
   <text x="380" y="434" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="italic">A funnel, not a backlog: nothing here enters a sprint until it has survived the five operations.</text></svg>

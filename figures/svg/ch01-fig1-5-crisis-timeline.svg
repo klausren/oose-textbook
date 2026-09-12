@@ -1,40 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 412" font-family="Arial">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="21 31 719 380" font-family="Arial">
   <defs><marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563EB"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker><marker id="arrV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D3FA8"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="arrT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0D9488"/></marker><marker id="arrK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker><marker id="arrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="arrGr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D46"/></marker></defs>
-  <rect x="0" y="0" width="760" height="412" fill="#FFFFFF"/>
+  <rect x="21" y="31" width="719" height="380" fill="#FFFFFF"/>
 <line x1="60" y1="200" x2="700" y2="200" stroke="#1F2937" stroke-width="2.5" marker-end="url(#arrK)"/>
   <line x1="100" y1="154" x2="100" y2="194" stroke="#D97706" stroke-width="2.5" marker-end="url(#arrK)"/>
   <rect x="38" y="48" width="124" height="104" rx="10" fill="#FFFFFF" stroke="#D97706" stroke-width="2"/>
   <text x="100" y="74" text-anchor="middle" font-size="13.5" fill="#D97706" font-weight="bold" font-style="normal">1968</text>
-  <text x="100" y="96" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">NATO conference names</text>
-<text x="100" y="111" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">the software crisis</text>
+  <text x="100" y="94" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">NATO conference</text>
+  <text x="100" y="109" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">names the software</text>
+  <text x="100" y="124" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">crisis</text>
   <circle cx="100" cy="200" r="6" fill="#D97706"/>
   <line x1="240" y1="200" x2="240" y2="246" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrK)"/>
   <rect x="178" y="252" width="124" height="104" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
   <text x="240" y="278" text-anchor="middle" font-size="13.5" fill="#2563EB" font-weight="bold" font-style="normal">1970s</text>
-  <text x="240" y="300" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Structured methods:</text>
-<text x="240" y="315" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">waterfall and</text>
-<text x="240" y="330" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">structured analysis</text>
+  <text x="240" y="300" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Structured methods:</text>
+<text x="240" y="315" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">waterfall and</text>
+<text x="240" y="330" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">structured analysis</text>
   <circle cx="240" cy="200" r="6" fill="#2563EB"/>
   <line x1="380" y1="154" x2="380" y2="194" stroke="#0D9488" stroke-width="2.5" marker-end="url(#arrK)"/>
   <rect x="318" y="48" width="124" height="104" rx="10" fill="#FFFFFF" stroke="#0D9488" stroke-width="2"/>
   <text x="380" y="74" text-anchor="middle" font-size="13.5" fill="#0D9488" font-weight="bold" font-style="normal">1990s</text>
-  <text x="380" y="96" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Object orientation,</text>
-<text x="380" y="111" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">UML and process</text>
-<text x="380" y="126" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">maturity models</text>
+  <text x="380" y="96" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Object orientation,</text>
+<text x="380" y="111" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">UML and process</text>
+<text x="380" y="126" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">maturity models</text>
   <circle cx="380" cy="200" r="6" fill="#0D9488"/>
   <line x1="520" y1="200" x2="520" y2="246" stroke="#2E7D46" stroke-width="2.5" marker-end="url(#arrK)"/>
   <rect x="458" y="252" width="124" height="104" rx="10" fill="#FFFFFF" stroke="#2E7D46" stroke-width="2"/>
   <text x="520" y="278" text-anchor="middle" font-size="13.5" fill="#2E7D46" font-weight="bold" font-style="normal">2001</text>
-  <text x="520" y="300" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">Agile Manifesto:</text>
-<text x="520" y="315" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">change is welcomed,</text>
-<text x="520" y="330" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">not managed away</text>
+  <text x="520" y="300" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">Agile Manifesto:</text>
+<text x="520" y="315" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">change is welcomed,</text>
+<text x="520" y="330" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">not managed away</text>
   <circle cx="520" cy="200" r="6" fill="#2E7D46"/>
   <line x1="660" y1="154" x2="660" y2="194" stroke="#6D3FA8" stroke-width="2.5" marker-end="url(#arrK)"/>
   <rect x="598" y="48" width="124" height="104" rx="10" fill="#FFFFFF" stroke="#6D3FA8" stroke-width="2"/>
   <text x="660" y="74" text-anchor="middle" font-size="13.5" fill="#6D3FA8" font-weight="bold" font-style="normal">2020s</text>
-  <text x="660" y="96" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">AI-assisted</text>
-<text x="660" y="111" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">engineering: cheaper</text>
-<text x="660" y="126" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">artefacts, same</text>
-<text x="660" y="141" text-anchor="middle" font-size="10.5" fill="#6B7280" font-weight="normal" font-style="normal">accountability</text>
+  <text x="660" y="96" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">AI-assisted</text>
+<text x="660" y="111" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">engineering: cheaper</text>
+<text x="660" y="126" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">artefacts, same</text>
+<text x="660" y="141" text-anchor="middle" font-size="11.5" fill="#6B7280" font-weight="normal" font-style="normal">accountability</text>
   <circle cx="660" cy="200" r="6" fill="#6D3FA8"/>
   <text x="380" y="392" text-anchor="middle" font-size="12.5" fill="#6B7280" font-weight="normal" font-style="italic">Each shift answered a failure of the practice before it, not a fashion cycle.</text></svg>
