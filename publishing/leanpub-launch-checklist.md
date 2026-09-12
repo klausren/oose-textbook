@@ -10,12 +10,14 @@
 
 | 项 | 路径 | 说明 |
 |---|---|---|
-| 章节清单 | `manuscript/Book.txt` | 按顺序列出全书 20 章；**未写的 Ch4–20 已用 `#` 注释**，写好一章就取消注释 |
+| 章节清单 | `manuscript/Book.txt` | 按顺序列出全书 20 章 + 3 个后置文件；**Ch1–9 已启用**，Ch10–20 仍用 `#` 注释，写好一章就取消注释 |
+| 后置内容 | `manuscript/appendix-a-carelink-models.md` `glossary.md`（手写）+ `index.md`（**生成物**） | 排在全书最后，顺序 = 附录 → 术语表 → 索引 |
+| 后置内容自检 | `build/make-backmatter.py` | `--check` 术语双向覆盖、`--audit` 核验每条 § 引用；**改章后必跑** |
 | 免费样章 | `manuscript/Sample.txt` | 列 Ch1–3 → Leanpub 自动生成免费样书 |
 | 书名 | `manuscript/title.txt` | `Object-Oriented Software Engineering` |
 | 副标题 | `manuscript/subtitle.txt` | 含 EMI + AI Companion 卖点 |
 | 作者 | `manuscript/author.txt` | `Ren Zheng` |
-| 插图 | `manuscript/images/` | 9 幅 PNG（Leanpub 只读此目录）；`manuscript/resources` 软链兼容 Markua 处理器 |
+| 插图 | `manuscript/images/` | **81 幅 PNG**（Leanpub 只读此目录）；`manuscript/resources` 软链兼容 Markua 处理器 |
 | 插图同步 | `build/sync-figures.sh` | `figures/`（开源 CC BY）→ `manuscript/images/` 一键同步 |
 | 书目文案 | `publishing/leanpub-book-description.md` | 书名/简介/长描述/适合谁读/定价，**逐段复制粘贴即可** |
 
@@ -90,26 +92,51 @@
 
 ## 第 5 步 · 预览 → 上架（10 分钟）
 
-1. 进 `Versions` 页 → 点 **Create Preview**
-2. 等进度条跑完，**下载 PDF 逐页检查**（这是唯一能发现排版问题的方式）：
+**先跑一遍机器自检（30 秒，不能跳）。** 索引与术语表是**生成物**：改过任何一章都可能让它们与正文脱节，
+而脱节的参考章节比没有更糟——读者会照着错引用去翻，然后不再信任书的任何一处交叉引用。
 
+```bash
+PY=~/.workbuddy/binaries/python/envs/default/bin/python
+$PY build/make-backmatter.py --check --strict   # 术语表 ↔ 各章 Key terms 双向对齐
+$PY build/make-backmatter.py --audit --strict   # 每条 § 引用都指向真实使用该术语的节
+$PY build/make-backmatter.py                    # 有改动就重生成索引，并一并提交
+```
+
+一条非零退出就是一条待修的问题，别带着它上架。
+
+1. 进 `Versions` 页 → 点 **Create Preview**
+2. 等进度条跑完，**下载 PDF 逐页检查**（这是唯一能发现排版问题的方式）。
+
+> **先对清单。** `manuscript/Book.txt` 决定**完整版**，`manuscript/Sample.txt` 决定**免费样章**，两者不同：
+> 当前完整版 = **Ch1–9 + 附录 A + 术语表 + 索引（12 个文件）**；免费样章 = **Ch1–3**。
+> 每加一章，这两处预期都要跟着改，否则"看到的内容比预期多/少"会被误判成构建事故。
+
+- [ ] **完整版**目录含 9 章 + 3 个后置文件（Appendix A / Glossary / Index），且三者排在**全书最后**
+- [ ] **免费样章**只含 Ch1–3
 - [ ] 书名页 / 副标题正确
-- [ ] 目录出现 **3 章**（Ch1–3）
 - [ ] **9 幅图全部显示**，不是空白框、不是"missing image"
+- [ ] **附录 A 的 14 幅图全部显示**（这是全书图最密的一处，最容易漏）
+- [ ] 术语表按字母分节，中文对照没有变成乱码或方框
+- [ ] 索引条目引用的是**节号**（`5.4`）而不是页码，加粗项可读
 - [ ] 图题（caption）在图的**下方**、居中
-- [ ] 表格没有溢出页面
+- [ ] 表格没有溢出页面（附录 A 有 3 张宽表，重点看）
 - [ ] `> **In this chapter:**` 引用块渲染正常
 - [ ] 代码/术语的内联格式正常
 
 3. 检查通过后点 **Publish**，填版本说明（建议）：
 
 ```
-Early Access v0.1 — Chapters 1–3 complete.
-Part I (Foundations) is final-draft quality: twelve-part chapter structure,
-AI Companion with verification checklist, four-tier exercises, and 9 figures.
+Early Access v0.2 — Chapters 1–9 complete, plus back matter.
 
-Coming next: Part II — Requirements Engineering (Chapters 4–10), releasing
-chapter by chapter through 2026 Q4. Buy once, get every future revision.
+Part I (Foundations) and Part II (Requirements Engineering, Ch 4–9) are
+final-draft quality: twelve-part chapter structure, 81 figures, an AI
+Companion with a verification checklist in every chapter, and four-tier
+exercises. Back matter is in: Appendix A collects the CareLink artefact
+set, and the glossary and index are generated from the chapter sources
+and checked mechanically.
+
+Coming next: Chapter 10 closes Part II, then Part III (Design) from
+2027 Q1. Buy once, get every future revision.
 ```
 
 4. 上架后把链接回填到两个地方：
