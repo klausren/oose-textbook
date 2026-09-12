@@ -30,7 +30,9 @@ build_chapter() {
 
 mkdir -p "$BOOK/build"
 if [ "$TARGET" = "all" ]; then
-  for f in "$BOOK"/manuscript/ch*.md; do build_chapter "$f"; done
+  # Every manuscript .md, not just ch*.md: the back matter (glossary,
+  # appendix, index) is built the same way and would otherwise be skipped.
+  for f in "$BOOK"/manuscript/*.md; do build_chapter "$f"; done
 else
   build_chapter "$BOOK/manuscript/$TARGET.md"
 fi
