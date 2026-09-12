@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-layered--see%20LICENSE.md-blueviolet)](./LICENSE.md)
 [![Figures](https://img.shields.io/badge/figures-CC%20BY%204.0-2EA043)](./LICENSE.md)
 [![Language](https://img.shields.io/badge/language-English-blue)]()
-[![Chapters](https://img.shields.io/badge/chapters%20drafted-8%2F20-orange)]()
+[![Chapters](https://img.shields.io/badge/chapters%20drafted-9%2F20-orange)]()
 [![AI](https://img.shields.io/badge/AI--augmented-every%20chapter-6D3FA8)]()
 [![Status](https://img.shields.io/badge/status-writing%20in%20progress-yellow)]()
 
@@ -49,7 +49,7 @@ An open, project-driven English textbook on object-oriented software engineering
 | 6 | Business Process Modelling | ✅ draft · 9 figures |
 | 7 | Use Case Modelling | ✅ draft · 9 figures |
 | 8 | Domain Modelling | ✅ draft · 9 figures |
-| 9 | Behavioural Modelling | ⏳ planned |
+| 9 | Behavioural Modelling | ✅ draft · 9 figures |
 | 10 | Requirements Validation and Management | ⏳ planned |
 
 Full figure plan for Part II (63 figures): [`figures/PLAN-part2-requirements.md`](figures/PLAN-part2-requirements.md)

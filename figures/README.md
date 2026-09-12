@@ -243,7 +243,20 @@ on upgrade and a pinned path silently disappears.
 | 8-8 | T7 | `ch08-fig8-8-ai-concept-extraction` | AI-assisted concept extraction, with verification |
 | 8-9 | T6 | `ch08-fig8-9-concept-inventory` | Concept inventory: name, evidence, verdict |
 
-**Running total: 72 figures.** Chapters 1–8 are all at quota (9 each).
+### Chapter 9 — Behavioural Modelling
+| # | Type | File | Caption |
+|---|---|---|---|
+| 9-1 | T1 | `ch09-fig9-1-three-models-three-questions` | Which behavioural model answers which question |
+| 9-2 | T3 | `ch09-fig9-2-sequence-alarm-escalation` | CareLink sequence diagram for the alarm-escalation scenario |
+| 9-3 | T3 | `ch09-fig9-3-state-machine-alert` | CareLink state machine for the alert object |
+| 9-4 | T3 | `ch09-fig9-4-activity-shift-handover` | CareLink activity diagram for the caregiver shift hand-over |
+| 9-5 | T4 | `ch09-fig9-5-missing-alternative` | Before and after: the same sequence diagram with a missing alternative path |
+| 9-6 | T3 | `ch09-fig9-6-scenario-to-message` | Traceability from the scenario narration to the messages |
+| 9-7 | T6 | `ch09-fig9-7-state-event-table` | State-event table for the alert object |
+| 9-8 | T7 | `ch09-fig9-8-ai-behavioural-draft` | AI-assisted behavioural model drafting, with verification |
+| 9-9 | T2 | `ch09-fig9-9-choosing-a-model` | Choosing a behavioural model: four questions, in order |
+
+**Running total: 81 figures.** Chapters 1–9 are all at quota (9 each).
 Type coverage per chapter: ≥4 of 7, with exactly one T7 and at least one T4.
 Next batch: Chapter 9, Behavioural Modelling (see `PLAN-part2-requirements.md`).
 
@@ -257,3 +270,10 @@ assigned to distinct slots of an aligned grid and the assignment is improved by
 swapping slots while a cost function watches line crossings,
 line-through-box and total line length. Re-run the flow
 (generate → `fitvbox.py --apply` → `qc.py` → `render.js`) after any edit.
+
+Chapter 9's nine figures all come from one script, `figures/gen/figs_behaviour.py`
+(`python3 figures/gen/figs_behaviour.py` regenerates all nine;
+`python3 figures/gen/figs_behaviour.py 9_4` regenerates one). The two diagrams
+whose numbers the chapter argues about — nine messages and thirty-six cells —
+are asserted inside the script, so a drift between the prose and the picture
+fails the build rather than reaching the page.
