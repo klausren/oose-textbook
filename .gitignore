@@ -3,6 +3,7 @@
 # Build output only — the scripts themselves are source and must stay tracked:
 # README.md tells readers to run `build/sync-figures.sh`.
 build/*.docx
+build/*.pdf
 build/.*.clean.md
 
 # fitvbox.py writes a scratch copy of figures/svg/ here on every --apply run:

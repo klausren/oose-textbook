@@ -136,7 +136,9 @@ case-study/    The CareLink running case: full specification and all models
 templates/     Chapter template (12 parts), EMI style guide,
                AI integration guide, figure system
 publishing/    Commercial plan, Leanpub book-page copy, 5-step launch checklist
-build/         build.sh (Markdown -> DOCX), sync-figures.sh, and
+build/         build.sh (Markdown -> DOCX, one file per chapter),
+               build-full.sh (the whole book as ONE file, in Book.txt order),
+               sync-figures.sh, and
                make-backmatter.py (glossary coverage, citation audit, index)
 instructor/    Instructor's manual (not part of the open release)
 ```
@@ -146,6 +148,13 @@ instructor/    Instructor's manual (not part of the open release)
 > pipeline reads. Chapters reference figures as `images/xxx.png` — one path
 > that works for both pandoc and Leanpub. Run `build/sync-figures.sh` after
 > changing anything in `figures/`.
+
+> **Two build scripts, on purpose.** `build.sh` writes one DOCX per chapter —
+> that is the unit a reviewer wants. `build-full.sh` concatenates every line
+> enabled in `Book.txt` into a single reading copy (`--pdf` also emits a PDF);
+> its order comes from `Book.txt`, never from a glob, so the appendix always
+> lands after the chapters it collects. Build output is gitignored — DOCX and
+> PDF are regenerated, the scripts are the source.
 
 ## Reading the Book
 
@@ -160,6 +169,17 @@ Three parts are EMI/AI-specific — **Before You Read** (term pre-teaching),
 **AI Companion** (working with and verifying AI) — and they are what
 distinguish this book from a shorter Pressman.
 其中 **Before You Read**（术语预热）、**Language Focus**（本章学术英语句型）与 **AI Companion**（AI 协同与验证）是本书特有部分。
+
+To read the whole book as a single document:
+
+```bash
+./build/build-full.sh          # -> build/oose-textbook-full.docx
+./build/build-full.sh --pdf     # also -> build/oose-textbook-full.pdf
+```
+
+The PDF step goes through headless LibreOffice rather than pandoc's LaTeX
+writer, because the glossary has a Chinese column that needs a CJK font at
+the rendering stage.
 
 ## Commercial Edition 商业版（面向全球学生）
 
