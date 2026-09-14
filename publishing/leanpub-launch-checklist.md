@@ -13,6 +13,7 @@
 | 章节清单 | `manuscript/Book.txt` | 按顺序列出全书 20 章 + 3 个后置文件；**Ch1–9 已启用**，Ch10–20 仍用 `#` 注释，写好一章就取消注释 |
 | 后置内容 | `manuscript/appendix-a-carelink-models.md` `glossary.md`（手写）+ `index.md`（**生成物**） | 排在全书最后，顺序 = 附录 → 术语表 → 索引 |
 | 后置内容自检 | `build/make-backmatter.py` | `--check` 术语双向覆盖、`--audit` 核验每条 § 引用；**改章后必跑** |
+| 英文版派生 | `build/strip-cjk.py` | 从双语母本派生出**去中文**的英文版；`--check` 保证结构零变化。**上架的是英文版**（见第 5 步） |
 | 免费样章 | `manuscript/Sample.txt` | 列 Ch1–3 → Leanpub 自动生成免费样书 |
 | 书名 | `manuscript/title.txt` | `Object-Oriented Software Engineering` |
 | 副标题 | `manuscript/subtitle.txt` | 含 EMI + AI Companion 卖点 |
@@ -100,9 +101,23 @@ PY=~/.workbuddy/binaries/python/envs/default/bin/python
 $PY build/make-backmatter.py --check --strict   # 术语表 ↔ 各章 Key terms 双向对齐
 $PY build/make-backmatter.py --audit --strict   # 每条 § 引用都指向真实使用该术语的节
 $PY build/make-backmatter.py                    # 有改动就重生成索引，并一并提交
+$PY build/strip-cjk.py --check --strict         # 英文版派生：结构零变化、0 汉字
 ```
 
 一条非零退出就是一条待修的问题，别带着它上架。
+
+> ⚠️ **上架的是英文版，不是 `manuscript/` 原样。**
+> `manuscript/` 是**双语母本**（每个术语带中文对照），而对外卖的这本书是英文教材，
+> 读者是拉美/中东欧/海湾/东南亚的英语授课项目学生——中文对照对他们是噪声，且与"英文教材"的定位相矛盾。
+>
+> 所以每次上架前**必须**跑一遍派生，确认 `build/en-only/` 是最新的：
+>
+> ```bash
+> ./build/build-full.sh --en-only --pdf    # 会先自检再构建，产出 -en 版供预览
+> ```
+>
+> 本次核验：双语版 240 页 / **2053 汉字**；英文版 233 页 / **0 汉字**；两版均绘出 95 张图。
+> 直接从 PDF 文本层复验（不依赖派生脚本本身）确认英文版确为 0。
 
 1. 进 `Versions` 页 → 点 **Create Preview**
 2. 等进度条跑完，**下载 PDF 逐页检查**（这是唯一能发现排版问题的方式）。

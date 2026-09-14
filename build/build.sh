@@ -1,6 +1,10 @@
 #!/bin/zsh
 # Build the open edition from manuscript/ Markdown sources.
-# Usage: ./build.sh [ch01|all]
+# Usage: ./build.sh [--en-only] [ch01|all]
+#
+#   --en-only  build from the derived English edition (build/strip-cjk.py)
+#              instead of from manuscript/, so the Chinese term glosses are
+#              absent. The derivation is verified before anything is built.
 #
 # Image paths: chapters reference figures as `images/xxx.png`, relative to
 # manuscript/. That one path works for BOTH pandoc (here) and Leanpub, whose
@@ -10,8 +14,29 @@
 # figures/ via ./sync-figures.sh
 set -e
 PANDOC="/Users/renzheng/.workbuddy/binaries/pandoc/conda_extract/bin/pandoc"
+PY="${PY:-/Users/renzheng/.workbuddy/binaries/python/envs/default/bin/python}"
 BOOK="$(cd "$(dirname "$0")/.." && pwd)"
-TARGET="${1:-all}"
+
+EN_ONLY=0
+TARGET=""
+for arg in "$@"; do
+  case "$arg" in
+    --en-only) EN_ONLY=1 ;;
+    -*) print -u2 "unknown option: $arg"; exit 2 ;;
+    *) TARGET="$arg" ;;
+  esac
+done
+TARGET="${TARGET:-all}"
+
+if [ "$EN_ONLY" = 1 ]; then
+  "$PY" "$BOOK/build/strip-cjk.py" --check --strict
+  "$PY" "$BOOK/build/strip-cjk.py"
+  SRC="$BOOK/build/en-only"
+  SUFFIX="-en"
+else
+  SRC="$BOOK/manuscript"
+  SUFFIX=""
+fi
 
 build_chapter() {
   local src="$1"
@@ -22,17 +47,17 @@ build_chapter() {
   local tmp="$BOOK/build/.$name.clean.md"
   awk '/^## Figure List/{exit} {print}' "$src" > "$tmp"
   "$PANDOC" "$tmp" \
-    --resource-path="$BOOK/manuscript:$BOOK/figures" \
-    -o "$BOOK/build/$name.docx"
+    --resource-path="$SRC:$BOOK/manuscript:$BOOK/figures" \
+    -o "$BOOK/build/$name$SUFFIX.docx"
   rm -f "$tmp"
-  echo "built: build/$name.docx"
+  echo "built: build/$name$SUFFIX.docx"
 }
 
 mkdir -p "$BOOK/build"
 if [ "$TARGET" = "all" ]; then
   # Every manuscript .md, not just ch*.md: the back matter (glossary,
   # appendix, index) is built the same way and would otherwise be skipped.
-  for f in "$BOOK"/manuscript/*.md; do build_chapter "$f"; done
+  for f in "$SRC"/*.md; do build_chapter "$f"; done
 else
-  build_chapter "$BOOK/manuscript/$TARGET.md"
+  build_chapter "$SRC/$TARGET.md"
 fi

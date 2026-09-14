@@ -6,5 +6,9 @@ build/*.docx
 build/*.pdf
 build/.*.clean.md
 
+# build/strip-cjk.py writes the derived English edition here. It is a build
+# artifact: manuscript/ is the source of record and keeps the Chinese glosses.
+build/en-only/
+
 # fitvbox.py writes a scratch copy of figures/svg/ here on every --apply run:
 figures/.svg-prefit-backup/
