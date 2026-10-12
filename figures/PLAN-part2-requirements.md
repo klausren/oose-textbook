@@ -3,7 +3,7 @@
 > Per `templates/figure-system.md` §6: *a chapter without a filled plan is not
 > ready to write.* This file is the plan for the seven chapters of Part II.
 > Fill order: plan → write prose → draw SVG → render PNG → append to `figures/README.md`.
-> Part II 需求工程七章的插图规划，共 **63 幅**（每章 9 幅）。
+> Part II 需求工程七章的插图规划，共 **72 幅**（每章 9 幅）。Ch 4–10 全部已产出。
 >
 > Naming: `figures/svg/chNN-figN-M-slug.svg` + `figures/chNN-figN-M-slug.png`
 > Type codes: T1 concept · T2 process · T3 model · T4 before/after · T5 UI · T6 data · T7 AI workflow
@@ -166,7 +166,7 @@ Per §5, produce by type so the visual language stays stable and speed rises:
 | Ch 8 | 9 | T1, T2, T3, T4, T6, T7 |
 | Ch 9 | 9 | T1, T2, T3, T4, T6, T7 |
 | Ch 10 | 9 | T1, T2, T4, T5, T6, T7 |
-| **Part II** | **63** | all seven types used |
+| **Part II** | **72** | all seven types used |
 
 Every chapter has **exactly one T7 AI-workflow figure** and **at least one T4
 before/after figure** — the two types that carry the book's argument.
@@ -176,7 +176,7 @@ before/after figure** — the two types that carry the book's argument.
 | Part | Chapters | Figures (at 9/ch) | Plan file |
 |---|---|---|---|
 | I Foundations | 1–3 | 27 (9 done, 18 to add) | ⏳ needs backfill |
-| II Requirements | 4–10 | 63 | ✅ this file |
+| II Requirements | 4–10 | 72 | ✅ all produced |
 | III Design | 11–14 | 36 | ⏳ to write |
 | IV Implementation & Quality | 15–17 | 27 | ⏳ to write |
 | V Management & Evolution | 18–20 | 27 | ⏳ to write |

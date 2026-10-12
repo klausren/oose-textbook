@@ -52,6 +52,7 @@ checked mechanically, so it is checked.
 ---
 
 ## A
+## A
 
 **acceptance criterion** 验收标准 — A statement of how a requirement will be
 judged satisfied, written so that a tester who did not write the requirement
@@ -94,6 +95,7 @@ runs. *§9.3*
 main flow: a failure, a recovery, a variation. The alternative flows are
 where the requirements live. *§7.4*
 
+**ambiguity** 歧义 — One sentence with two defensible readings. It is a property of the sentence rather than of the reader, which is why a review treats disagreement as a defect. *§10.4*
 **analysis** 分析 — The work that turns elicited statements into a decided,
 bounded, prioritised requirement set. Elicitation finds; analysis decides.
 *§5.1*
@@ -124,17 +126,18 @@ not shared. *§8.3*
 
 ## B
 
+**baseline** 基线 — A named, frozen version of the requirement set, which later versions refer back to and never overwrite. A baseline answers one question: which version did you agree to? *§10.5*
 **behavioural model** 行为模型 — A model that answers what is true at a given
 moment and what happens next — the question a use case and a domain model
 cannot answer. *§9.1*
 
-**bounded metric** 有界度量 — A measurable quantity with a range that makes
-the requirement checkable, such as "within 60 s at p95". A non-functional
-requirement with no bounded metric is a wish. *§5.6*
-
 **boundary list** 边界清单 — The written list of what the system is *not*
 responsible for, kept beside the model so that obligations handed to named
 humans stay outside it. *§8.4*
+
+**bounded metric** 有界度量 — A measurable quantity with a range that makes
+the requirement checkable, such as "within 60 s at p95". A non-functional
+requirement with no bounded metric is a wish. *§5.6*
 
 **burndown chart** 燃尽图 — A plot of work remaining against time inside a
 Sprint, used to see progress rather than to predict it. *§3.11*
@@ -145,6 +148,9 @@ process. *§6.1*
 
 ## C
 
+**chain of custody** 证据链 — The unbroken sequence of links from an interview record to a requirement, a model element, a design element and a test case. *§10.7*
+**change control** 变更控制 — The five steps between somebody wanting a change and the project committing to it: request, assess, decide, implement, re-baseline. *§10.6*
+**change request** 变更请求 — A numbered written request to alter an agreed baseline. It carries what should change and why now, and an unwritten one cannot be assessed, only obeyed. *Ch 10*
 **classification** 分类 — Operation 2 of the five analysis operations:
 deciding whether each candidate is a functional requirement, a non-functional
 requirement, a domain constraint, a design decision or a wish. *§5.3*
@@ -192,12 +198,12 @@ for one case. CareLink's alarm call is 112 minutes. *§6.5*
 
 ## D
 
+**Daily Scrum** 每日站会 — The fifteen-minute daily inspection of progress
+toward the Sprint Goal. *§3.10*
+
 **data / function / behaviour view** 数据 / 功能 / 行为视图 — The three
 complementary views of the analysis model. Each one exposes a class of gap
 the other two hide. *§5.2*
-
-**Daily Scrum** 每日站会 — The fifteen-minute daily inspection of progress
-toward the Sprint Goal. *§3.10*
 
 **decision node** 判定节点 — The diamond in an activity diagram whose
 outgoing edges carry exhaustive guards. *§6.3*
@@ -214,12 +220,12 @@ invites the reader to argue about arithmetic instead of about the world. *§8.5*
 kind, their owner and how they were settled — kept so that a decided conflict
 is not re-argued in the next meeting. *§5.4*
 
+**documentation** 文档 — The third part of software, beside instructions and
+data structures. All three are the product. *§1.1*
+
 **documented process** 文件化流程 — What the manual says happens. The point of
 Section 6.5: the documented process is precisely the one you must not model.
 *Ch 6*
-
-**documentation** 文档 — The third part of software, beside instructions and
-data structures. All three are the product. *§1.1*
 
 **domain constraint** 领域约束 — A requirement that is not negotiable because
 the world sets it, such as health data that may not leave the province. *§5.3*
@@ -265,6 +271,7 @@ the last one is a verdict about deletion. *§8.7*
 a process model: `[O]` observed, `[S]` stated, `[D]` documented, `[A]`
 assumed. *§6.7*
 
+**exit condition** 退出条件 — The statement that stops an activity. The validation exit condition is that every requirement is traced to a source, testable and agreed. *§10.2*
 **extend** 扩展 — The use case relationship for behaviour that runs only under
 a condition; the source use case is complete without it. *§7.6*
 
@@ -297,6 +304,7 @@ reasons. *§7.1*
 every candidate use case. A name that fails it is a function, not a goal.
 *§7.1*
 
+**gold-plating** 镀金 — A capability nobody asked for, carried at full cost because nobody costed the decision to include it. *§10.4*
 **guard** 守卫条件 — The condition attached to a transition or to a decision
 edge. Guards on a decision must be exhaustive; in Chapter 9, a case with no
 exit is a finding rather than an oversight. *§6.3, §9.4*
@@ -312,12 +320,13 @@ another. Handoffs are where queueing, lost context and travel time live.
 **identity** 标识 — The first of the three concept-or-attribute tests: can two
 instances of this thing be told apart, and must they be? *§8.3*
 
+**impact analysis** 影响分析 — The list of requirements, models, designs and tests a proposed change would touch, with an estimate attached and a decision at the end. *§10.8*
+**inception** 起始 — The first of the six requirements activities: agreeing on
+what the project is and who cares about it. *§4.2*
+
 **include** 包含 — The use case relationship for behaviour that always runs as
 part of the source and that has shared meaning. Extract for meaning, never for
 repeated text. *§7.6*
-
-**inception** 起始 — The first of the six requirements activities: agreeing on
-what the project is and who cares about it. *§4.2*
 
 **Increment** 增量 — The sum of the completed work of one Sprint, usable as a
 whole. The third Scrum artefact. *§3.9*
@@ -391,6 +400,7 @@ escalation, retention, archiving. It belongs in the requirements and in the
 alternative flow of the use case that failed — not as an oval of its own.
 *§7.9*
 
+**omission** 缺漏 — A requirement defect in which something that must happen is written down nowhere. It is found by the person who does the work. *§10.4*
 **open / leading / closed question** 开放式 / 诱导式 / 封闭式问题 — The three
 shapes a question can take. Ask open questions; leading questions feel
 productive and produce nothing. *§4.8*
@@ -460,6 +470,7 @@ in CareLink it is the largest single part of the cycle. *§6.5*
 
 ## R
 
+**re-baseline** 重新基线化 — To issue a new numbered baseline after an accepted change, leaving the previous version readable forever. *§10.6*
 **reachability** 可达性 — The check that every state of a state machine can be
 entered from the initial state. An unreachable state is a modelling error, not
 an unneeded one. *§9.4*
@@ -471,6 +482,8 @@ surrogate key does not, because it is a fact about the world. *§8.1*
 **requirement** 需求 — A checkable statement of what the system must do, or of
 how well it must do it. Not a need, and not a solution. *§4.1*
 
+**requirement defect** 需求缺陷 — A part of the specification that will cause the wrong system to be built, or the right one to be rejected. *Ch 10*
+**requirements review** 需求评审 — A small group reading one specification against a written checklist, in a scheduled meeting with a stated exit condition. *Ch 10*
 **residual** 不可压缩余量 — The part of a cycle time that no software change
 can reach. Forty-two of CareLink's 112 minutes are a car, and reporting that
 is what makes the rest of the claim credible. *§6.5*
@@ -478,6 +491,7 @@ is what makes the rest of the claim credible. *§6.5*
 **Retrospective** 回顾会 — The Sprint-closing event in which the team inspects
 how it worked and chooses one thing to change. *§3.10*
 
+**review checklist** 评审清单 — The six questions a review answers — complete, unambiguous, testable, traceable, consistent and bounded — filled in by two readers independently. *§10.3*
 **rework** 返工 — Work redone because the first attempt was wrong or
 incomplete. A form of waste that a process model makes visible. *§6.5*
 
@@ -494,6 +508,7 @@ milestones. *§2.10*
 **scenario** 场景 — One concrete path through a use case, carrying names and
 values: one beginning, one path, one ending. *§9.2*
 
+**scope change** 范围变更 — An accepted alteration to the boundary of what the project will deliver. It moves the schedule and is recorded against a baseline. *§10.8*
 **Scrum Master** 敏捷教练 — The Scrum role accountable for the team's use of
 Scrum. A servant-leader who removes obstacles, not a project manager. *§3.8*
 
@@ -516,6 +531,7 @@ approach to developing, operating and maintaining software. *§1.6*
 **software process** 软件过程 — The framework of activities, actions and tasks
 used to build software. See **process**. *§2.2*
 
+**source record** 来源记录 — The numbered interview record a requirement traces back to. A requirement whose source is just the team's discussion has no owner. *§10.7*
 **specification** 规格说明 — Two senses, and the book keeps them apart. In
 Chapter 4 it is the **activity** of writing requirements down; in Chapter 5 it
 is the **document** that results. *§4.2, §5.7*
@@ -571,6 +587,7 @@ main reason elicitation is hard, and why watching beats asking. *§4.10*
 **terminal state** 终态 — A state an object never leaves. In a state machine it
 is drawn as a bullseye. *§9.4*
 
+**testability** 可测性 — The property of a requirement that lets a tester who did not write it produce a pass or fail check from the sentence alone. *Ch 10*
 **timebox** 时间盒 — A fixed, non-extendable period within which work must
 finish. Scrum and XP use it to force a scope decision rather than a schedule
 slip. *§3.10*
@@ -589,6 +606,7 @@ minutes in touch time. *§6.5*
 design element that satisfies it and to the test that verifies it. It buys
 change impact analysis, visible coverage and evidence. *§5.8*
 
+**traceability matrix** 追溯矩阵 — A table with one row per requirement, reading left to right as a chain of custody from its source record to its test case. *§10.7*
 **transition** 迁移 — The move from one state to another on an event, possibly
 guarded and possibly carrying an action. *§9.4*
 
@@ -646,6 +664,8 @@ non-value-adding and waste. *Ch 6*
 **velocity** 速率 — The amount of work a team completes per Sprint, measured in
 story points. A planning input, never a target. *§3.11*
 
+**verification** 验证 — Checking that an artefact matches the specification it must satisfy, as distinct from validation, which checks the specification against what the customer needs. *§10.1*
+**version note** 版本说明 — The one line accompanying a baseline that says what moved and which change request moved it. A version number with no note cannot be acted on. *§10.5*
 **volatility** 易变性 — The rate at which requirements change. One of the five
 reasons elicitation is hard, and an input to the choice of process model.
 *§4.10*

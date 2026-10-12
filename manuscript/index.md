@@ -10,7 +10,7 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 ## A
 
-**acceptance criterion** 验收标准 — 5.7, 5.9
+**acceptance criterion** 验收标准 — 5.7, 5.9, 10.2, 10.10
 
 **action** 动作 — 6.3, 7.4, 7.5, 7.8, 9.1, 9.2, *+3 more*
 
@@ -26,7 +26,7 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **agility** 敏捷性 — 3.3, **3.4**, 3.5, 3.12
 
-**AI Companion** AI 协作环节 — Ch 1–9
+**AI Companion** AI 协作环节 — Ch 1–10
 
 **alarm call** 告警呼叫 — 6.2, 6.3, 6.4, 6.5, 6.7, 9.5
 
@@ -34,7 +34,9 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **alternative flow** 备选流程 — 7.2, 7.4, 7.5, 7.7, 7.8, 7.9, *+3 more*
 
-**analysis** 分析 — 1.4, 2.3, 2.9, 4.7, **5.1**, 5.2, *+7 more*
+**ambiguity** 歧义 — 10.3, 10.4
+
+**analysis** 分析 — 1.4, 2.3, 2.9, 4.7, **5.1**, 5.2, *+9 more*
 
 **analysis model** 分析模型 — **5.2**, 9.7
 
@@ -50,6 +52,8 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 ## B
 
+**baseline** 基线 — 1.3, **10.5**, 10.6, 10.8, 10.10
+
 **behavioural model** 行为模型 — 7.3, 8.9, 9.1, 9.2, **9.9**, 9.10
 
 **boundary list** 边界清单 — 8.4
@@ -62,7 +66,13 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 ## C
 
-**CareLink** 运行案例 — 1.4, 1.7, 1.9, 2.3, 2.11, 4.4, *+30 more*
+**CareLink** 运行案例 — 1.4, 1.7, 1.9, 2.3, 2.11, 4.4, *+33 more*
+
+**chain of custody** 证据链 — 10.7
+
+**change control** 变更控制 — **10.6**, 10.7
+
+**change request** 变更请求 — 10.5, 10.7, 10.8
 
 **classification** 分类 — Ch 5
 
@@ -78,7 +88,7 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **concurrent model** 并发模型 — 2.10
 
-**conflict** 冲突 — 3.2, 4.2, 4.7, 5.3, **5.4**, 5.7
+**conflict** 冲突 — 3.2, 4.2, 4.7, 5.3, **5.4**, 5.7, *+2 more*
 
 **consolidation** 归并 — 5.3
 
@@ -98,7 +108,7 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **Definition of Done** 完成的定义 — 3.11
 
-**Deng** 邓（护理中心主管） — 4.9, 7.4, 7.7, 8.1, 8.5, 8.6, *+4 more*
+**Deng** 邓（护理中心主管） — 4.9, 7.4, 7.7, 8.1, 8.5, 8.6, *+11 more*
 
 **derived attribute** 派生属性 — 8.5
 
@@ -126,13 +136,15 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **entry / exit criteria** 进入 / 退出准则 — Ch 2
 
-**escalation** 逐级升级 — 4.4, 5.2, 5.4, 5.8, 6.7, 6.8, *+19 more*
+**escalation** 逐级升级 — 4.4, 5.2, 5.4, 5.8, 6.7, 6.8, *+23 more*
 
 **event** 事件 — 2.10, **3.10**, 3.11, 3.12, 5.2, 5.6, *+11 more*
 
 **evidence** 证据 — 1.9, 2.4, 3.5, 4.1, 4.6, 5.3, *+9 more*
 
 **evidence label** 证据标签 — 6.3, 6.7
+
+**exit condition** 退出条件 — **10.2**, 10.10
 
 **extend** 扩展 — 7.3, **7.6**
 
@@ -154,6 +166,8 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **goal test** 目标测试 — 7.1, 7.5, 7.6
 
+**gold-plating** 镀金 — 10.4, 10.8
+
 **Grandma Lin** 林奶奶 — 1.5, 4.4, 4.5, 4.7
 
 **guard** 守卫条件 — 6.3, 8.9, 9.1, 9.2, 9.3, 9.4, *+4 more*
@@ -166,9 +180,11 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **identity** 标识 — 4.2, 8.3, 8.5, 8.6
 
+**impact analysis** 影响分析 — 5.8, 10.7, 10.8
+
 **inception** 起始 — 2.10, 4.2
 
-**include** 包含 — 7.3, **7.6**
+**include** 包含 — 7.3, **7.6**, 10.4
 
 **Increment** 增量 — 2.3, 2.8, 3.8, 3.9, 3.10, 3.12, *+1 more*
 
@@ -204,7 +220,7 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **necessary non-value-adding** 必要非增值 — Ch 6
 
-**need** 需要 — 2.3, 3.1, 3.3, 3.7, **4.1**, 4.9, *+16 more*
+**need** 需要 — 2.3, 3.1, 3.3, 3.7, **4.1**, 4.9, *+20 more*
 
 **negotiation** 协商 — 4.2, 5.4
 
@@ -214,6 +230,8 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **obligation** 义务 — 6.6, 7.2, 7.9
 
+**omission** 缺漏 — 9.4, 10.4
+
 **open / leading / closed question** 开放式 / 诱导式 / 封闭式问题 — Ch 4
 
 **open question** 待决问题 — 4.8, 5.7, 8.2
@@ -222,11 +240,13 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **over-specification** 过度规格化 — 5.6
 
-**owner** 归属人 — 3.8, 3.9, 3.10, 5.3, 5.4, 5.7, *+10 more*
+**owner** 归属人 — 3.8, 3.9, 3.10, 5.3, 5.4, 5.7, *+11 more*
 
 ## P
 
 **p95** 第 95 百分位 — 5.3, 5.6, 6.8
+
+**Piotr** 彼得（开发人员） — 10.2, 10.7
 
 **Planning Poker** 计划扑克 — 3.11
 
@@ -240,7 +260,7 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **prioritisation** 优先级排序 — **5.5**
 
-**process** 过程 — 1.6, **1.8**, 1.9, 2.1, 2.2, 2.3, *+30 more*
+**process** 过程 — 1.6, **1.8**, 1.9, 2.1, 2.2, 2.3, *+31 more*
 
 **process frame** 过程框架 — 2.5
 
@@ -260,27 +280,37 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 ## R
 
+**re-baseline** 重新基线化 — 10.5, **10.6**
+
 **reachability** 可达性 — 9.4
 
 **real-world identifier** 现实标识 — 8.1
 
-**requirement** 需求 — 1.1, 1.7, 1.8, 1.9, 2.3, 2.6, *+43 more*
+**requirement** 需求 — 1.1, 1.7, 1.8, 1.9, 2.3, 2.6, *+53 more*
+
+**requirement defect** 需求缺陷 — Ch 10
+
+**requirements review** 需求评审 — 10.3
 
 **residual** 不可压缩余量 — 6.5
 
 **Retrospective** 回顾会 — 3.10
 
+**review checklist** 评审清单 — 10.3
+
 **rework** 返工 — 2.1, 5.2, 6.1, 6.5
 
 **role** 角色 — 1.7, 2.5, 3.4, **3.8**, 3.9, 3.12, *+9 more*
 
-**Running Project Task** 课程项目任务 — Ch 1–9
+**Running Project Task** 课程项目任务 — Ch 1–10
 
 **RUP** 统一过程 — **2.10**, 2.11
 
 ## S
 
-**scenario** 场景 — 4.2, 8.3, 8.5, 9.1, **9.2**, 9.3, *+2 more*
+**scenario** 场景 — 4.2, 8.3, 8.5, 9.1, **9.2**, 9.3, *+4 more*
+
+**scope change** 范围变更 — 10.2, **10.8**
 
 **Scrum Master** 敏捷教练 — 3.8
 
@@ -296,7 +326,9 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **software process** 软件过程 — **2.2**, 2.3
 
-**specification** 规格说明 — 1.7, 3.5, 3.12, 4.2, 5.2, 5.6, *+13 more*
+**source record** 来源记录 — 10.7, 10.10
+
+**specification** 规格说明 — 1.7, 3.5, 3.12, 4.2, 5.2, 5.6, *+19 more*
 
 **spiral model** 螺旋模型 — 2.9
 
@@ -306,9 +338,9 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **Sprint Review** 冲刺评审 — 3.10
 
-**stakeholder** 利益相关者 — 3.4, 3.10, 4.1, 4.2, 4.4, **4.5**, *+6 more*
+**stakeholder** 利益相关者 — 3.4, 3.10, 4.1, 4.2, 4.4, **4.5**, *+7 more*
 
-**state** 状态 — 1.9, 2.10, 3.1, 3.7, 4.1, 5.2, *+18 more*
+**state** 状态 — 1.9, 2.10, 3.1, 3.7, 4.1, 5.2, *+20 more*
 
 **state machine** 状态机 — 2.10, 7.9, 9.1, **9.4**, 9.8, 9.9, *+1 more*
 
@@ -330,6 +362,8 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **terminal state** 终态 — 9.4, 9.8
 
+**testability** 可测性 — 4.10
+
 **timebox** 时间盒 — 3.9, 3.10
 
 **to-be model** 目标模型 — 6.2, 6.3, 6.6, 6.8
@@ -338,7 +372,9 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **touch time** 作业时间 — 6.5, 6.6
 
-**traceability** 可追溯性 — 5.7, **5.8**, 6.8, 9.7
+**traceability** 可追溯性 — 5.7, **5.8**, 6.8, 9.7, 10.1, 10.2, *+3 more*
+
+**traceability matrix** 追溯矩阵 — 10.1, 10.2, 10.6, **10.7**
 
 **transition** 迁移 — 2.10, 5.2, 8.9, 9.1, 9.4, 9.8, *+1 more*
 
@@ -356,7 +392,7 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **umbrella activity** 贯穿性活动 — 1.8, **2.4**
 
-**use case** 用例 — 1.8, 2.3, 5.2, **7.1**, 7.2, 7.3, *+14 more*
+**use case** 用例 — 1.8, 2.3, 5.2, **7.1**, 7.2, 7.3, *+16 more*
 
 **use case description** 用例描述 — 7.4, 8.2, 8.7, 9.1
 
@@ -368,11 +404,15 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **V model** V 模型 — **2.7**
 
-**validation** 验证 — 4.2
+**validation** 验证 — 4.2, **10.1**, 10.2, 10.9, 10.10
 
 **value-adding** 增值的 — Ch 6
 
 **velocity** 速率 — **3.11**
+
+**verification** 验证 — 8.6, **10.1**
+
+**version note** 版本说明 — 10.5
 
 **volatility** 易变性 — 4.10
 
@@ -388,13 +428,13 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 ## #
 
-**CR-001** 候选需求 — Ch 4
+**CR-001** 候选需求 — Ch 4, 10
 
 **CR-002** 候选需求 — Ch 4
 
 **CR-003** 候选需求 — Ch 4
 
-**CR-004** 候选需求 — Ch 4
+**CR-004** 候选需求 — Ch 4, 10
 
 **R-014** 需求 — Ch 5–6
 
@@ -412,21 +452,25 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 
 **R-052** 需求 — Ch 5
 
-**R-053** 需求 — Ch 7
+**R-053** 需求 — Ch 7, 10
 
-**R-054** 需求 — Ch 7, 9
+**R-054** 需求 — Ch 7, 9–10
 
-**R-055** 需求 — Ch 7
+**R-055** 需求 — Ch 7, 10
 
-**R-056** 需求 — Ch 7–9
+**R-056** 需求 — Ch 7–10
 
-**R-057** 需求 — Ch 8
+**R-057** 需求 — Ch 8, 10
 
 **R-058** 需求 — Ch 9
 
-**R-059** 需求 — Ch 9
+**R-059** 需求 — Ch 9–10
 
-**R-060** 需求 — Ch 9
+**R-060** 需求 — Ch 9–10
+
+**R-061** 需求 — Ch 10
+
+**R-062** 需求 — Ch 10
 
 **T-031** 测试用例 — Ch 5
 
@@ -439,3 +483,5 @@ This index is generated from the chapter sources by `build/make-backmatter.py` a
 **T-052** 测试用例 — Ch 5
 
 **T-053** 测试用例 — Ch 5
+
+**T-055** 测试用例 — Ch 10

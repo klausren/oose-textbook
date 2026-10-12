@@ -256,7 +256,7 @@ on upgrade and a pinned path silently disappears.
 | 9-8 | T7 | `ch09-fig9-8-ai-behavioural-draft` | AI-assisted behavioural model drafting, with verification |
 | 9-9 | T2 | `ch09-fig9-9-choosing-a-model` | Choosing a behavioural model: four questions, in order |
 
-**Running total: 81 figures.** Chapters 1–9 are all at quota (9 each).
+**Running total: 90 figures.** Chapters 1–10 are all at quota (9 each).
 Type coverage per chapter: ≥4 of 7, with exactly one T7 and at least one T4.
 Next batch: Chapter 9, Behavioural Modelling (see `PLAN-part2-requirements.md`).
 

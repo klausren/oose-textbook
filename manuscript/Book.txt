@@ -14,7 +14,7 @@ ch06.md
 ch07.md
 ch08.md
 ch09.md
-# ch10.md
+ch10.md
 # Part III - Design
 # ch11.md
 # ch12.md

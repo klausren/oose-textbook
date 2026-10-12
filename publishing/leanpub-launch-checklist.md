@@ -18,7 +18,7 @@
 | 书名 | `manuscript/title.txt` | `Object-Oriented Software Engineering` |
 | 副标题 | `manuscript/subtitle.txt` | 含 EMI + AI Companion 卖点 |
 | 作者 | `manuscript/author.txt` | `Ren Zheng` |
-| 插图 | `manuscript/images/` | **81 幅 PNG**（Leanpub 只读此目录）；`manuscript/resources` 软链兼容 Markua 处理器 |
+| 插图 | `manuscript/images/` | **90 幅 PNG**（Leanpub 只读此目录）；`manuscript/resources` 软链兼容 Markua 处理器 |
 | 插图同步 | `build/sync-figures.sh` | `figures/`（开源 CC BY）→ `manuscript/images/` 一键同步 |
 | 书目文案 | `publishing/leanpub-book-description.md` | 书名/简介/长描述/适合谁读/定价，**逐段复制粘贴即可** |
 
@@ -116,7 +116,8 @@ $PY build/strip-cjk.py --check --strict         # 英文版派生：结构零变
 > ./build/build-full.sh --en-only --pdf    # 会先自检再构建，产出 -en 版供预览
 > ```
 >
-> 本次核验：双语版 240 页 / **2053 汉字**；英文版 233 页 / **0 汉字**；两版均绘出 95 张图。
+> 本次核验（含 Ch10）：双语版 **265 页** / 英文版 **256 页** / 英文版 **0 汉字**；两版均绘出 104 张图（figures/ 目录 90 个 PNG）。
+> ⚠️ 已知遗留：双语版第 29、110 页为空白页（英文版 29、85、215），系 Ch4–5 转 PDF 的既有分页问题，非 Ch10 引入。
 > 直接从 PDF 文本层复验（不依赖派生脚本本身）确认英文版确为 0。
 
 1. 进 `Versions` 页 → 点 **Create Preview**
@@ -144,7 +145,7 @@ $PY build/strip-cjk.py --check --strict         # 英文版派生：结构零变
 Early Access v0.2 — Chapters 1–9 complete, plus back matter.
 
 Part I (Foundations) and Part II (Requirements Engineering, Ch 4–9) are
-final-draft quality: twelve-part chapter structure, 81 figures, an AI
+final-draft quality: twelve-part chapter structure, 90 figures, an AI
 Companion with a verification checklist in every chapter, and four-tier
 exercises. Back matter is in: Appendix A collects the CareLink artefact
 set, and the glossary and index are generated from the chapter sources
